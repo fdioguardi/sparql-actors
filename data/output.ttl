@@ -1,0 +1,3924 @@
+@prefix : <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#> .
+@prefix ns1: <https://schema.org/> .
+@prefix ns10: <http://purl.org/dc/terms/> .
+@prefix ns11: <http://www.w3.org/ns/prov#> .
+@prefix ns12: <http://wikiba.se/ontology#> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <http://dbpedia.org/ontology/> .
+@prefix ns4: <http://dbpedia.org/property/> .
+@prefix ns5: <http://www.wikidata.org/prop/direct/> .
+@prefix ns6: <http://www.wikidata.org/prop/> .
+@prefix ns7: <http://schema.org/> .
+@prefix ns8: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns9: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Robert_Pattinson> a <http://dbpedia.org/class/yago/Absentee109757653>,
+        <http://dbpedia.org/class/yago/Actor109765278>,
+        <http://dbpedia.org/class/yago/Artist109812338>,
+        <http://dbpedia.org/class/yago/Assistant109815790>,
+        <http://dbpedia.org/class/yago/CausalAgent100007347>,
+        <http://dbpedia.org/class/yago/Creator109614315>,
+        <http://dbpedia.org/class/yago/Entertainer109616922>,
+        <http://dbpedia.org/class/yago/Exile110071332>,
+        <http://dbpedia.org/class/yago/Guitarist110151760>,
+        <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Model110324560>,
+        <http://dbpedia.org/class/yago/Musician110339966>,
+        <http://dbpedia.org/class/yago/Musician110340312>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Organism100004475>,
+        <http://dbpedia.org/class/yago/Performer110415638>,
+        <http://dbpedia.org/class/yago/Person100007846>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Singer110599806>,
+        <http://dbpedia.org/class/yago/Traveler109629752>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/Wikicat21st-centuryActors>,
+        <http://dbpedia.org/class/yago/Wikicat21st-centuryEnglishMaleActors>,
+        <http://dbpedia.org/class/yago/WikicatActors>,
+        <http://dbpedia.org/class/yago/WikicatActorsFromLondon>,
+        <http://dbpedia.org/class/yago/WikicatBritishActors>,
+        <http://dbpedia.org/class/yago/WikicatBritishFilmActors>,
+        <http://dbpedia.org/class/yago/WikicatBritishMusicians>,
+        <http://dbpedia.org/class/yago/WikicatBritishStageActors>,
+        <http://dbpedia.org/class/yago/WikicatEnglishActors>,
+        <http://dbpedia.org/class/yago/WikicatEnglishChildActors>,
+        <http://dbpedia.org/class/yago/WikicatEnglishExpatriatesInTheUnitedStates>,
+        <http://dbpedia.org/class/yago/WikicatEnglishFilmActors>,
+        <http://dbpedia.org/class/yago/WikicatEnglishGuitarists>,
+        <http://dbpedia.org/class/yago/WikicatEnglishMaleChildActors>,
+        <http://dbpedia.org/class/yago/WikicatEnglishMaleFilmActors>,
+        <http://dbpedia.org/class/yago/WikicatEnglishMaleModels>,
+        <http://dbpedia.org/class/yago/WikicatEnglishMaleStageActors>,
+        <http://dbpedia.org/class/yago/WikicatEnglishMaleTelevisionActors>,
+        <http://dbpedia.org/class/yago/WikicatEnglishPeople>,
+        <http://dbpedia.org/class/yago/WikicatEnglishSingers>,
+        <http://dbpedia.org/class/yago/WikicatEnglishStageActors>,
+        <http://dbpedia.org/class/yago/WikicatEnglishTelevisionActors>,
+        <http://dbpedia.org/class/yago/WikicatLivingPeople>,
+        <http://dbpedia.org/class/yago/WikicatMaleActorsFromLondon>,
+        <http://dbpedia.org/class/yago/WikicatPeopleEducatedAtTheHarrodianSchool>,
+        <http://dbpedia.org/class/yago/WikicatPeopleEducatedAtTowerHouseSchool>,
+        <http://dbpedia.org/class/yago/WikicatPeopleFromBarnes,London>,
+        <http://dbpedia.org/class/yago/WikicatPeopleFromLondon>,
+        <http://dbpedia.org/class/yago/Worker109632518>,
+        <http://dbpedia.org/class/yago/YagoLegalActor>,
+        <http://dbpedia.org/class/yago/YagoLegalActorGeo>,
+        ns3:Agent,
+        ns3:Person,
+        ns7:Person,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson>,
+        owl:Thing,
+        <http://www.wikidata.org/entity/Q215627>,
+        <http://www.wikidata.org/entity/Q24229398>,
+        <http://www.wikidata.org/entity/Q5>,
+        ns2:Person ;
+    rdfs:label "روبرت باتينسون"@ar,
+        "Robert Thomas-Pattinson"@ca,
+        "Robert Pattinson"@cs,
+        "Robert Pattinson"@de,
+        "Ρόμπερτ Πάτινσον"@el,
+        "Robert Pattinson"@en,
+        "Robert Pattinson"@eo,
+        "Robert Pattinson"@es,
+        "Robert Pattinson"@eu,
+        "Robert Pattinson"@fr,
+        "Robert Pattinson"@ga,
+        "Robert Pattinson"@in,
+        "Robert Pattinson"@it,
+        "ロバート・パティンソン"@ja,
+        "로버트 패틴슨"@ko,
+        "Robert Pattinson"@nl,
+        "Robert Pattinson"@pl,
+        "Robert Pattinson"@pt,
+        "Паттинсон, Роберт"@ru,
+        "Robert Pattinson"@sv,
+        "Роберт Паттінсон"@uk,
+        "羅伯·派汀森"@zh ;
+    ns3:abstract "روبرت باتينسون (13 مايو 1986 -)، ممثل إنجليزي, اشتهر عالميا عندما شارك في بطولة سلسلة أفلام الغسق، وشارك في العديد من الأفلام مثل قمر جديد وماء للفيلة. الذي حاز ب41 جائزة وترشح ب27 جائزة أخرى."@ar,
+        "Robert Thomas-Pattinson (13 de maig de 1986) és un actor anglès, model i cantant. Va donar-se a conèixer fent el paper de Cedric Diggory, a Harry Potter i el calze de foc. Pattinson va néixer el 13 de maig del 1986 a Londres, (Anglaterra). La seva mare, Clare, treballava com a model en una agència, i el seu pare, Richard, importava cotxes vintage dels Estats Units. Es va convertir en un amateur del teatre amb la  als 15 anys. Després d'una mica d'experiència entre bastidors allà, va aconseguir papers temporals. Ell va agafar al vol l'atenció dels agents temporaris a la producció de Tess of the D'Urbervilles i començà a buscar papers més importants. Des d'aleshores va realitzar una versió amateur de Macbeth a Old Sorting Office Art Centre i també va intentar fer de model."@ca,
+        "Robert Pattinson (* 13. května 1986 Londýn) je britský herec, hudebník a model."@cs,
+        "Robert Douglas Thomas Pattinson (* 13. Mai 1986 in Barnes, London, England) ist ein britischer Schauspieler und Musiker. Bekannt wurde er durch seine Rollen als Cedric Diggory in den Verfilmungen der Harry-Potter-Romane und als Edward Cullen in den Verfilmungen der Bücher der Twilight-Saga (Bis(s) zum Morgengrauen) von Stephenie Meyer."@de,
+        "O Ρόμπερτ Ντάγκλας Τόμας Πάτινσον (Robert Douglas Thomas Pattinson, 13 Μαΐου 1986) είναι Άγγλος ηθοποιός, μουσικός και παραγωγός ενώ έχει εργαστεί και ως μοντέλο. Ο Ρόμπερτ ξεκίνησε την καριέρα του παίζοντας τον ρόλο του Cedric Diggory στην ταινία Harry Potter and the Goblet of Fire(Ο Χάρι Πότερ και το Κύπελλο της Φωτιάς). Αργότερα, κέρδισε τον ρόλο του Edward Cullen στην προσαρμογή των ταινιών του μυθιστορήματος Λυκόφως (μυθιστόρημα) / Λυκόφως (ταινία) από την Stephenie Meyer, αποκτώντας τεράστια φήμη. Ο Ρόμπερτ κατατάσσεται ως ένας από τους πιο καλοπληρωμένους ηθοποιούς στο Χόλιγουντ, σύμφωνα με τα κέρδη του το 2009. Το 2010, ο Ρόμπερτ αναγνωρίστηκε ως μία από τις πιο ισχυρές προσωπικότητες του κόσμου. Στις επερχόμενες ταινίες του περιλαμβάνεται οι ταινία Bel Ami"@el,
+        "Robert Douglas Thomas Pattinson (born 13 May 1986) is an English actor. After starting to act in a London theatre club at the age of 15, he began his film career by playing Cedric Diggory in the fantasy film Harry Potter and the Goblet of Fire (2005). He went on to star as Edward Cullen in the film adaptations of the Twilight novels, consisting of five films between 2008 and 2012, which earned a combined total of over $3.3 billion worldwide. It brought Pattinson worldwide fame and established him among the highest-paid actors in the world. In 2010, Time magazine named him one of the 100 most influential people in the world, and he was featured in the Forbes Celebrity 100 list. After starring in the romantic dramas Remember Me (2010) and Water for Elephants (2011), Pattinson eschewed roles in big-budget films in favour of independent productions helmed by auteurs, which have earned him critical acclaim. He played a manipulative billionaire in David Cronenberg's thriller Cosmopolis (2012), an aspiring actor in Cronenberg's satire Maps to the Stars (2014), an explorer in James Gray's adventure drama The Lost City of Z (2016), a bank robber in the Safdie Brothers' crime drama Good Time (2017), a criminal in a spaceship in Claire Denis' science-fiction drama High Life (2018), and a troubled lighthouse keeper in Robert Eggers' horror film The Lighthouse (2019). Pattinson composes and plays his own music. He sang songs for the Twilight film series and the 2008 independent comedy-drama film How to Be. Since 2015, Pattinson is the ambassador of the GO Campaign, a nonprofit organization that raises awareness and funds to help orphans and vulnerable children around the world. He is also a supporter of the End Child Prostitution and Trafficking (ECPAT) campaign, Parents and Abducted Children Together (PACT), is a member of International Medical Corps, and has shared details about cancer through PSAs to raise awareness about the disease."@en,
+        "Robert Thomas Pattinson (naskiĝis en Londono, la 13-an de majo 1986) estas brita aktoro, kiu estas konata pro siaj ludoj en la Twilight-filmoj en rolo de vampiro . Li ankaŭ ludis en la filmo Harry Potter and the Goblet of Fire, kiel ."@eo,
+        "Robert Thomas Pattinson​ (Londres, 13 de mayo de 1986) es un actor, modelo, productor y cantante británico.​ Comenzó su carrera actoral interpretando a Cedric Diggory en Harry Potter y el cáliz de fuego (2005) y luego alcanzó un reconocimiento mundial por interpretar a Edward Cullen en las adaptaciones cinematográficas de las novelas de La Saga Crepúsculo (2008-2012) de Stephenie Meyer,​​​ por lo tanto se establece entre los actores más estables y de mejor paga de Hollywood.​ En 2010, Pattinson fue nombrado entre las 100 personas más influyentes del mundo por la revista Time,​ y en el mismo año la revista Forbes nombró a Pattinson como una de las celebridades más poderosas del mundo en el Forbes Celebrity 100.​"@es,
+        "Robert Thomas-Pattinson (Londres, 1986ko maiatzaren 13a) Erresuma Batuko abeslari, aktorea eta modeloa da. Twilight Sagan Edward Cullen pertsonaia antzezteagatik bereziki ezaguna, baita Harry Potteren pelikula baten Cedric Diggoryrena egiteagatik ere."@eu,
+        "Robert Pattinson est un acteur, mannequin et musicien anglais, né le 13 mai 1986 à Barnes (Londres). Il est révélé durant les années 2000 par des productions destinées aux adolescents : la franchise Twilight (2008-2012), où il incarne Edward Cullen aux côtés de Kristen Stewart, mais aussi son rôle de Cedric Diggory dans le 4e opus de la saga Harry Potter, Harry Potter et la Coupe de feu (2005). Par la suite, il s'investit dans des films indépendants réalisés par des cinéastes reconnus : Cosmopolis (2012) et Maps to the Stars (2014), réalisés par David Cronenberg ; The Rover (2014) et The King (2019), de David Michôd ; Queen of the Desert (2014), de Werner Herzog ; Life (2015), d'Anton Corbijn ; L'Enfance d'un chef (2016), de Brady Corbet ; The Lost City of Z (2016), de James Gray ; Good Time (2017), de Ben et Josh Safdie ou encore High Life (2018), de Claire Denis. Il est choisi pour incarner Bruce Wayne/Batman dans le prochain film de Matt Reeves prévu pour 2021 sur le super-héros de DC Comics."@fr,
+        "Is aisteoir Sasanach é Robert Pattinson (13 Meitheamh 1986 a rugadh é)."@ga,
+        "Robert Douglas Thomas Pattinson (lahir di London, Inggris, 13 Mei 1986; umur 33 tahun) adalah pemeran, model dan musisi Inggris, terkenal dalam perannya sebagai Cedric Diggory dalam film Harry Potter and the Goblet of Fire. Ia bermain sebagai Edward Cullen dalam  dari Twilight, sebuah novel karya Stephenie Meyer. Ia merasa titik balik keseriusannya berakting dimulai ketika ia mendapat pengakuan sebagai Bast Actor di Stasbourg Internasional Film Festival, suatu ajang pernghargaan bergengsi tingkat internasional, melalui film  tahun 2008, Produksi Inggris. Ia juga menyanyi dan menggubah 2 buah lagu soundtrack Twilight, yaitu Never Think dan Let Me Sign. Ia pernah menjalin hubungan dengan Kristen Stewart, lawan mainnya di Twilight. Aktor ini memiliki tinggi badan 185 cm, menyukai spaghetti serta musik rap dan blues. Ia juga penyuka warna abu-abu. Sejak tahun 2015, ia berhubungan dengan penyanyi nyentrik asal inggris FKA Twigs."@in,
+        "Robert Pattinson, all'anagrafe Robert Douglas Thomas Pattinson (Londra, 13 maggio 1986), è un attore britannico. Ha raggiunto la fama mondiale per aver interpretato il ruolo del vampiro Edward Cullen nelle trasposizioni cinematografiche della saga letteraria Twilight."@it,
+        "ロバート・ダグラス・トーマス・パティンソン（Robert Douglas Thomas Pattinson、1986年5月13日 - ）は、イギリスの俳優、モデル、歌手。"@ja,
+        "로버트 더글라스 토머스 패틴슨(영어: Robert Douglas Thomas Pattinson, 1986년 5월 13일 ~ ) 은 잉글랜드의 배우, 모델, 가수, 영화 제작자이다. 패틴슨은 영화 《해리 포터와 불의 잔》에서 세드릭 디고리 역할을 연기하며 그의 연기 경력을 시작했다. 이후, 뱀파이어를 소재로 한 스테파니 마이어의 소설을 원작으로 하는 영화 《트와일라잇》시리즈의 에드워드 컬렌 역할을 연기해 세계적으로 명성을 얻으며 스타덤에 올랐다. 따라서 그는 헐리우드에서 높은 개런티를 받는 배우로 성장해, 영국에서는 '젊은 백만장자' 명단에 이름을 올리게 되었다. 패틴슨은 미국의 베니티 페어에서 선정한 '할리우드 40'에 선정되었고, 2010년에는 타임지에서 '가장 영향력있는 인물 100인'에 선정되었고, 같은 해 포브스의 '포브스 유명 인사 100'로 선정되며 세계에서 가장 강력한 유명 인사로 평가했다. 패틴슨은 영화 《리멤버 미》(2010)로 프로듀서에 처음으로 참여했고, 프란시스 로렌스 감독의 로맨스 영화인 《워터 포 엘리펀트》에 출연했다. 2012년에는 데이비드 크로넨버그 감독이 돈 드릴로의 소설을 원작으로 한 영화 《코스모폴리스》에 출연해 칸 국제 영화제 경쟁 부문에 초청 받았고, 패틴슨은 엄청난 재산을 소유한 20대의 자산 관리 전문가 에릭 패커 역할을 연기해 언론에 긍정적인 호평을 받았다. 2014년에는 영화 《맵스 투 더 스타즈》으로 데이비드 크로넨버그 감독과 다시 한번 호흡을 맞췄고, 같은 해 영화 《로버》와 《퀸 오브 더 데저트》, 《잃어버린 도시 Z》에 출연했다."@ko,
+        "Robert Douglas Thomas Pattinson (Londen, 13 mei 1986) is een Brits acteur en muzikant. Dit laatste onder het pseudoniem Bobby Dupea. Pattinson begon zijn carrière in het theater en maakte in 2004 zijn filmdebuut. Hij kreeg meer aandacht toen hij de rol van Carlo Kannewasser kreeg in Harry Potter and the Goblet of Fire (2005). Hij is het bekendst van zijn rol \"Edward Cullen\" in de Twilight-boekenreeks die later (mede dankzij zijn hulp) een filmserie werd."@nl,
+        "Robert „Rob” Douglas Thomas Pattinson (ur. 13 maja 1986 w Londynie) – brytyjski aktor filmowy i teatralny oraz muzyk i kompozytor. Znany głównie z roli Edwarda Cullena z filmowej adaptacji powieści Zmierzch pisarki Stephenie Meyer."@pl,
+        "Robert Douglas Thomas Pattinson (Londres, 13 de maio de 1986) é um ator, modelo e músico britânico. É mais conhecido por interpretar Edward Cullen nas cinco adaptações cinematográficas da saga Twilight, Cedrico Diggory em \"Harry Potter e o Cálice de Fogo\" e esta confirmado como protagonista juntamente com John David Washington em um filme de grande investimento tenet que esta sendo dirigido por um dos diretores mais renomados da atualidade Christopher Nolan e foi escolhido como o mais novo Bruce Wayne na nova trilogia de filmes do Batman da DC Comics. Ele passou a estrelar como Edward Cullen nas adaptações cinematográficas dos romances de Crepúsculo, consistindo de cinco filmes entre 2008 e 2012, que renderam um total combinado de mais de US $ 3,3 bilhões em todo o mundo. Ele trouxe fama a Pattinson em todo o mundo e o estabeleceu entre os atores mais bem pagos do mundo. Em 2010, a revista Time o nomeou uma das 100 pessoas mais influentes do mundo, e ele foi destaque na lista Forbes Celebrity 100. Depois de estrelar os dramas românticos Remember Me (2010) e Water for Elephants (2011), Pattinson começou a trabalhar em filmes independentes dirigidos por autores, o que lhe valeu um reconhecimento crítico. Ele interpretou um bilionário manipulador no thriller de David Cronenberg, Cosmopolis (2012), um ator aspirante na sátira de Cronenberg Maps to the Stars (2014), um explorador do drama de aventura de James Gray, The Lost City of Z (2017), um banco ladrão no drama policial dos Safdie Brothers, Good Time (2017), um criminoso em uma nave espacial do drama de ficção científica de Claire Denis, High Life(2018), e um faroleiro problemático no filme de terror de Robert Eggers, O Farol (2019). Pattinson compõe e toca sua própria música. Ele cantou músicas para a série de filmes Crepúsculo e o filme independente de drama de 2008, How to Be. Desde 2015, Pattinson é embaixador da GO Campaign, uma organização sem fins lucrativos que aumenta a conscientização e os fundos para ajudar órfãos e crianças vulneráveis ​​em todo o mundo. Ele também é um defensor da campanha Fim da Prostituição e Tráfico de Crianças (ECPAT), pais e filhos sequestrados juntos (PACT), é membro do International Medical Corps e compartilhou detalhes sobre o câncer através dos PSAs para aumentar a conscientização sobre a doença."@pt,
+        "Ро́берт Ду́глас То́мас Па́ттинсон (англ. Robert Douglas Thomas Pattinson; род. 13 мая 1986, Лондон, Великобритания) — английский актёр театра, кино и телевидения, фотомодель и музыкант. Мировую известность ему принесла роль Эдварда Каллена в серии фильмов «Сумерки»."@ru,
+        "Robert Thomas Pattinson, född 13 maj 1986 i London, England, är en brittisk skådespelare, fotomodell och musiker. Han är mest känd för att ha spelat Edward Cullen i filmen Twilight som är baserad på romanen Om jag kunde drömma av Stephenie Meyer, rollen som Cedric Diggory i Harry Potter och den flammande bägaren och Tyler Hawkins i Remember me."@sv,
+        "Роберт Дуґлас Томас Паттінсон, (англ. Robert Douglas Thomas Pattinson, *13 травня 1986) — англійський актор, модель та музикант. Він найбільше відомий роллю Едварда Каллена, вампіра, у кіноадаптації світового бестселера «Сутінки», написаного Стефані Меєр; а також за роль Седрика Дігорі у фільмі «Гаррі Поттер і кубок вогню»."@uk,
+        "羅拔·道格拉斯·湯瑪士·柏迪臣（英語：Robert Douglas Thomas Pattinson，1986年5月13日－）是一位英國男演員、模特兒、音樂人及電影製片人。 羅拔因演出2005年電影《哈利波特－火盃的考驗》中的西追·迪戈里 (Cedric Diggory) 一角而開展他的銀色事業。後來他從史提芬妮·梅爾的小說改編的《暮光之城系列》電影中得到男主角愛德華·庫倫的角色而廣為人熟悉，當中包括於2008-2012年間的5部電影，全球票房收入合共超過$33億，從而帶來享譽世界，也建立了他在荷李活中成為最高片酬和最叫座的演員之一。2010年，羅拔被《時代雜誌》選為「時代最具影響力世上100人」之一，他亦於同年《福布斯》被列入「」中，即世上最具影響力的名人之一。 電影方面，自《暮光之城系列》完結後，羅拔涉足於小成本製作的獨立電影，在《達利和他的情人》（2009）中飾演薩爾瓦多·達利。同年，他於《Robsessed》裡講述一個關於演員的名氣與人氣的紀錄片中演出。2010年，他在《驚動了愛情》中，飾演一名充滿著困擾的年輕人；他也在浪漫愛情電影《大象的眼淚》（2011）中演出。2012年，他在大衛·柯能堡的電影《》中，飾演一名硬朗、冷酷及懂計算的億萬富翁，電影為他贏得極高的讚譽。2014年，他在充滿未來感的西部電影《》中演出，使他再度得到影評人的欣賞。同年，他亦為電影《》演出；2015年，他於傳記電影《沙漠女王》中演出，也在關於《生活》的攝影師丹尼斯·史托克與占士·甸的戲劇電影《叛逆年代》中演出。2017年，他於詹姆士·葛雷的電影《失落之城》中演出，那是關於一個侍從官在尋找一個失落了的古城繼而在亞馬遜失蹤的故事，以及在的電影《失速夜狂奔》裡演出。 羅拔·柏迪臣於12歲便開始其模特兒的事業。2013年，迪奧男裝與他簽約成為旗下香水品牌的代言人。2016年，他還成為該品牌男裝系列的形象大使。除了演戲外，羅拔亦有參與作曲及演奏自己的音樂。他在《暮光之城系列》及2008年獨立喜劇電影《》中也有歌曲獻唱。慈善事業方面，他是ECPAT（終止兒童賣淫、兒童色情及以性目的販運兒童）、父母與兒童共同綁架（PACT），以及的支持者，那是一個非營利組織，旨在提高外界對全世界的孤兒和弱勢兒童的注意及基金援助，他成為後者的2015年大使，以協助提高國際對非營利組織的認識。他亦是國際醫療組織的成員，一個由志願醫生和護士建立的全球人道主義非營利組織，並透過「」推廣及分享有關癌症的詳細資料，以提高人們對這種疾病的認識。"@zh ;
+    ns3:activeYearsStartYear "2004-01-01"^^xsd:gYear ;
+    ns3:award <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Robert_Pattinson> ;
+    ns3:birthDate "1986-05-13"^^xsd:date ;
+    ns3:birthName "Robert Douglas Thomas Pattinson"@en ;
+    ns3:birthPlace <http://dbpedia.org/resource/London> ;
+    ns3:birthYear "1986-01-01"^^xsd:gYear ;
+    ns3:occupation <http://dbpedia.org/resource/Robert_Pattinson__PersonFunction__1> ;
+    ns3:relative <http://dbpedia.org/resource/Lizzy_Pattinson> ;
+    ns3:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Robert_Pattinson_-_November_2014_(cropped).jpg?width=300> ;
+    ns3:wikiPageID 24041298 ;
+    ns3:wikiPageLength "152303"^^xsd:nonNegativeInteger ;
+    ns3:wikiPageRevisionID 984161948 ;
+    ns3:wikiPageWikiLink <http://dbpedia.org/resource/2009_Cannes_Film_Festival>,
+        <http://dbpedia.org/resource/2011_Teen_Choice_Awards>,
+        <http://dbpedia.org/resource/2012_Cannes_Film_Festival>,
+        <http://dbpedia.org/resource/2014_Cannes_Film_Festival>,
+        <http://dbpedia.org/resource/2015_Deauville_American_Film_Festival>,
+        <http://dbpedia.org/resource/2017_Cannes_Film_Festival>,
+        <http://dbpedia.org/resource/2019_Cannes_Film_Festival>,
+        <http://dbpedia.org/resource/62nd_Berlin_International_Film_Festival>,
+        <http://dbpedia.org/resource/65th_Berlin_International_Film_Festival>,
+        <http://dbpedia.org/resource/68th_Berlin_International_Film_Festival>,
+        <http://dbpedia.org/resource/76th_Venice_International_Film_Festival>,
+        <http://dbpedia.org/resource/81st_Academy_Awards>,
+        <http://dbpedia.org/resource/AACTA_Awards>,
+        <http://dbpedia.org/resource/Al_Pacino>,
+        <http://dbpedia.org/resource/AmfAR,_The_Foundation_for_AIDS_Research>,
+        <http://dbpedia.org/resource/Amyotrophic_lateral_sclerosis>,
+        <http://dbpedia.org/resource/Ancient_Greece>,
+        <http://dbpedia.org/resource/Angelina_Jolie>,
+        <http://dbpedia.org/resource/Anthology_film>,
+        <http://dbpedia.org/resource/Anton_Corbijn>,
+        <http://dbpedia.org/resource/Anything_Goes>,
+        <http://dbpedia.org/resource/AskMen>,
+        <http://dbpedia.org/resource/Associated_Press>,
+        <http://dbpedia.org/resource/Asteroid>,
+        <http://dbpedia.org/resource/BBC_Four>,
+        <http://dbpedia.org/resource/Barnes,_London>,
+        <http://dbpedia.org/resource/Batman>,
+        <http://dbpedia.org/resource/Bel-Ami>,
+        <http://dbpedia.org/resource/Bel_Ami_(2012_film)>,
+        <http://dbpedia.org/resource/Black_hole>,
+        <http://dbpedia.org/resource/Brady_Corbet>,
+        <http://dbpedia.org/resource/Burberry>,
+        <http://dbpedia.org/resource/Bérénice_Bejo>,
+        <http://dbpedia.org/resource/Camille_Rowe>,
+        <http://dbpedia.org/resource/Canadian_Screen_Awards>,
+        <http://dbpedia.org/resource/Category:1986_births>,
+        <http://dbpedia.org/resource/Category:21st-century_English_male_actors>,
+        <http://dbpedia.org/resource/Category:21st-century_English_singers>,
+        <http://dbpedia.org/resource/Category:21st-century_guitarists>,
+        <http://dbpedia.org/resource/Category:21st-century_male_singers>,
+        <http://dbpedia.org/resource/Category:English_expatriates_in_the_United_States>,
+        <http://dbpedia.org/resource/Category:English_guitarists>,
+        <http://dbpedia.org/resource/Category:English_male_child_actors>,
+        <http://dbpedia.org/resource/Category:English_male_film_actors>,
+        <http://dbpedia.org/resource/Category:English_male_models>,
+        <http://dbpedia.org/resource/Category:English_male_singers>,
+        <http://dbpedia.org/resource/Category:English_male_stage_actors>,
+        <http://dbpedia.org/resource/Category:English_male_television_actors>,
+        <http://dbpedia.org/resource/Category:Living_people>,
+        <http://dbpedia.org/resource/Category:Male_actors_from_London>,
+        <http://dbpedia.org/resource/Category:Method_actors>,
+        <http://dbpedia.org/resource/Category:People_educated_at_The_Harrodian_School>,
+        <http://dbpedia.org/resource/Category:People_educated_at_Tower_House_School>,
+        <http://dbpedia.org/resource/Category:People_from_Barnes,_London>,
+        <http://dbpedia.org/resource/Catherine_Hardwicke>,
+        <http://dbpedia.org/resource/Cedric_Diggory>,
+        <http://dbpedia.org/resource/Certified_first_responder>,
+        <http://dbpedia.org/resource/Chicago_Tribune>,
+        <http://dbpedia.org/resource/Children's_Hospital_Los_Angeles>,
+        <http://dbpedia.org/resource/Christopher_Hitchens>,
+        <http://dbpedia.org/resource/Christopher_Nolan>,
+        <http://dbpedia.org/resource/Ciro_Guerra>,
+        <http://dbpedia.org/resource/Claire_Denis>,
+        <http://dbpedia.org/resource/Collider_(website)>,
+        <http://dbpedia.org/resource/Comedy-drama>,
+        <http://dbpedia.org/resource/Comedy_film>,
+        <http://dbpedia.org/resource/Coronavirus_disease_2019>,
+        <http://dbpedia.org/resource/Cosmopolis_(film)>,
+        <http://dbpedia.org/resource/Damsel_(2018_film)>,
+        <http://dbpedia.org/resource/Dark_Kingdom:_The_Dragon_King>,
+        <http://dbpedia.org/resource/David_Cronenberg>,
+        <http://dbpedia.org/resource/David_Michôd>,
+        <http://dbpedia.org/resource/David_Zellner>,
+        <http://dbpedia.org/resource/Death_Grips>,
+        <http://dbpedia.org/resource/Deauville_American_Film_Festival>,
+        <http://dbpedia.org/resource/Denis_Johnson>,
+        <http://dbpedia.org/resource/Dennis_Stock>,
+        <http://dbpedia.org/resource/Dior>,
+        <http://dbpedia.org/resource/Dior_Homme>,
+        <http://dbpedia.org/resource/Directors'_Fortnight>,
+        <http://dbpedia.org/resource/Dog_Day_Afternoon>,
+        <http://dbpedia.org/resource/Don_DeLillo>,
+        <http://dbpedia.org/resource/Donald_Ray_Pollock>,
+        <http://dbpedia.org/resource/EBay>,
+        <http://dbpedia.org/resource/ECPAT_International>,
+        <http://dbpedia.org/resource/Edward_Cullen>,
+        <http://dbpedia.org/resource/Emilie_de_Ravin>,
+        <http://dbpedia.org/resource/Empire_(film_magazine)>,
+        <http://dbpedia.org/resource/Empire_Awards>,
+        <http://dbpedia.org/resource/Entertainment_Weekly>,
+        <http://dbpedia.org/resource/Evening_Standard>,
+        <http://dbpedia.org/resource/Executive_producer>,
+        <http://dbpedia.org/resource/FKA_Twigs>,
+        <http://dbpedia.org/resource/File:Cosmopolis_Cannes_2012_2.jpg>,
+        <http://dbpedia.org/resource/File:Robert_Pattinson_(7585890276).jpg>,
+        <http://dbpedia.org/resource/File:Robert_Pattinson_2009.jpg>,
+        <http://dbpedia.org/resource/File:Robert_Pattinson_4,_2011.jpg>,
+        <http://dbpedia.org/resource/File:Robert_Pattinson_Cannes_2014.jpg>,
+        <http://dbpedia.org/resource/File:Robert_Pattinson_at_the_2018_Berlin_Film_Festival.jpg>,
+        <http://dbpedia.org/resource/File:Robert_Pattinson_figure_at_Madame_Tussauds_London.jpg>,
+        <http://dbpedia.org/resource/File:Robert_Pattinson_in_Dior_Homme_at_the_Premiere_of_The_Lost_City_of_Z_.jpg>,
+        <http://dbpedia.org/resource/File:Twilight_cast_imprints_at_Grauman's_Chinese_Theater.jpg>,
+        <http://dbpedia.org/resource/Forbes_Celebrity_100>,
+        <http://dbpedia.org/resource/GO_Campaign>,
+        <http://dbpedia.org/resource/GQ>,
+        <http://dbpedia.org/resource/Gertrude_Bell>,
+        <http://dbpedia.org/resource/Giselher_of_Burgundy>,
+        <http://dbpedia.org/resource/Glamour_(magazine)>,
+        <http://dbpedia.org/resource/Golden_ratio>,
+        <http://dbpedia.org/resource/Good_Time_(film)>,
+        <http://dbpedia.org/resource/Government_Plates>,
+        <http://dbpedia.org/resource/Grauman's_Chinese_Theatre>,
+        <http://dbpedia.org/resource/Guy_Pearce>,
+        <http://dbpedia.org/resource/Guys_and_Dolls>,
+        <http://dbpedia.org/resource/Hackett_London>,
+        <http://dbpedia.org/resource/Harry_Potter_and_the_Goblet_of_Fire_(film)>,
+        <http://dbpedia.org/resource/Harry_Potter_and_the_Order_of_the_Phoenix_(film)>,
+        <http://dbpedia.org/resource/Heat_(magazine)>,
+        <http://dbpedia.org/resource/Helen_Mirren>,
+        <http://dbpedia.org/resource/Henry_V_of_England>,
+        <http://dbpedia.org/resource/High_Life_(2018_film)>,
+        <http://dbpedia.org/resource/Historical_drama>,
+        <http://dbpedia.org/resource/Hollywood_Film_Festival>,
+        <http://dbpedia.org/resource/Hollywood_Foreign_Press_Association>,
+        <http://dbpedia.org/resource/Hope_for_Haiti_Now>,
+        <http://dbpedia.org/resource/How_to_Be>,
+        <http://dbpedia.org/resource/Independent_Spirit_Award_for_Best_Male_Lead>,
+        <http://dbpedia.org/resource/Independent_Spirit_Awards>,
+        <http://dbpedia.org/resource/IndieWire>,
+        <http://dbpedia.org/resource/International_Medical_Corps>,
+        <http://dbpedia.org/resource/Interview_(magazine)>,
+        <http://dbpedia.org/resource/J._M._Coetzee>,
+        <http://dbpedia.org/resource/Jack_Nicholson>,
+        <http://dbpedia.org/resource/James_Dean>,
+        <http://dbpedia.org/resource/James_Franco>,
+        <http://dbpedia.org/resource/James_Gray_(director)>,
+        <http://dbpedia.org/resource/Jamie_Bell>,
+        <http://dbpedia.org/resource/Jean-Paul_Belmondo>,
+        <http://dbpedia.org/resource/John_David_Washington>,
+        <http://dbpedia.org/resource/Johnny_Depp>,
+        <http://dbpedia.org/resource/Jude_Law>,
+        <http://dbpedia.org/resource/Karl_Lagerfeld>,
+        <http://dbpedia.org/resource/Karlovy_Vary_International_Film_Festival>,
+        <http://dbpedia.org/resource/Kate_Long>,
+        <http://dbpedia.org/resource/Kristen_Stewart>,
+        <http://dbpedia.org/resource/Life_(2015_film)>,
+        <http://dbpedia.org/resource/Life_(magazine)>,
+        <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Robert_Pattinson>,
+        <http://dbpedia.org/resource/Little_Ashes>,
+        <http://dbpedia.org/resource/Little_White_Lies_(magazine)>,
+        <http://dbpedia.org/resource/Lizzy_Pattinson>,
+        <http://dbpedia.org/resource/London>,
+        <http://dbpedia.org/resource/Louis,_Duke_of_Guyenne>,
+        <http://dbpedia.org/resource/Love_&_Distrust>,
+        <http://dbpedia.org/resource/MTV_Movie_&_TV_Awards>,
+        <http://dbpedia.org/resource/Macbeth>,
+        <http://dbpedia.org/resource/Madame_Tussauds>,
+        <http://dbpedia.org/resource/Maps_to_the_Stars>,
+        <http://dbpedia.org/resource/Mark_Rylance>,
+        <http://dbpedia.org/resource/Marlon_Brando>,
+        <http://dbpedia.org/resource/Matt_Reeves>,
+        <http://dbpedia.org/resource/Midnight_Mission>,
+        <http://dbpedia.org/resource/Mikael_Jansson_(photographer)>,
+        <http://dbpedia.org/resource/Mira_Nair>,
+        <http://dbpedia.org/resource/Nan_Goldin>,
+        <http://dbpedia.org/resource/New_York_Film_Festival>,
+        <http://dbpedia.org/resource/New_York_Post>,
+        <http://dbpedia.org/resource/Nicole_Kidman>,
+        <http://dbpedia.org/resource/Nottingham>,
+        <http://dbpedia.org/resource/Oliver_Irving>,
+        <http://dbpedia.org/resource/Our_Town>,
+        <http://dbpedia.org/resource/Outback>,
+        <http://dbpedia.org/resource/Owen_Gleiberman>,
+        <http://dbpedia.org/resource/Palme_d'Or>,
+        <http://dbpedia.org/resource/Paramount_Pictures>,
+        <http://dbpedia.org/resource/Parents_and_Abducted_Children_Together>,
+        <http://dbpedia.org/resource/Paul_Morrison_(director)>,
+        <http://dbpedia.org/resource/People's_Choice_Awards>,
+        <http://dbpedia.org/resource/People_(magazine)>,
+        <http://dbpedia.org/resource/Peter_Lindbergh>,
+        <http://dbpedia.org/resource/Peter_O'Toole>,
+        <http://dbpedia.org/resource/Philip_Seymour_Hoffman>,
+        <http://dbpedia.org/resource/Plan_B_Entertainment>,
+        <http://dbpedia.org/resource/Prostate_cancer>,
+        <http://dbpedia.org/resource/Psychological_thriller>,
+        <http://dbpedia.org/resource/Queen_of_the_Desert_(film)>,
+        <http://dbpedia.org/resource/Remember_Me_(2010_film)>,
+        <http://dbpedia.org/resource/Robbie_Collin>,
+        <http://dbpedia.org/resource/Robert_Eggers>,
+        <http://dbpedia.org/resource/Roger_Ebert>,
+        <http://dbpedia.org/resource/Rolling_Stone>,
+        <http://dbpedia.org/resource/Romain_Gavras>,
+        <http://dbpedia.org/resource/Rotten_Tomatoes>,
+        <http://dbpedia.org/resource/Royal_Court_Theatre>,
+        <http://dbpedia.org/resource/Royal_Flying_Doctor_Service_of_Australia>,
+        <http://dbpedia.org/resource/Rupert_Sanders>,
+        <http://dbpedia.org/resource/Safdie_brothers>,
+        <http://dbpedia.org/resource/Salvador_Dalí>,
+        <http://dbpedia.org/resource/San_Francisco_Chronicle>,
+        <http://dbpedia.org/resource/Sara_Gruen>,
+        <http://dbpedia.org/resource/Satire>,
+        <http://dbpedia.org/resource/Scoot_McNairy>,
+        <http://dbpedia.org/resource/Screen_International>,
+        <http://dbpedia.org/resource/Snow_White_and_the_Huntsman>,
+        <http://dbpedia.org/resource/Stacy_Martin>,
+        <http://dbpedia.org/resource/Stephenie_Meyer>,
+        <http://dbpedia.org/resource/Suki_Waterhouse>,
+        <http://dbpedia.org/resource/Surgeons'_Hall>,
+        <http://dbpedia.org/resource/T._E._Lawrence>,
+        <http://dbpedia.org/resource/TV_Guide>,
+        <http://dbpedia.org/resource/Tenet_(film)>,
+        <http://dbpedia.org/resource/Tess_of_the_d'Urbervilles>,
+        <http://dbpedia.org/resource/The_A.V._Club>,
+        <http://dbpedia.org/resource/The_Arizona_Republic>,
+        <http://dbpedia.org/resource/The_Bad_Mother's_Handbook>,
+        <http://dbpedia.org/resource/The_Batman_(film)>,
+        <http://dbpedia.org/resource/The_Blaze_(band)>,
+        <http://dbpedia.org/resource/The_Childhood_of_a_Leader_(film)>,
+        <http://dbpedia.org/resource/The_Daily_Telegraph>,
+        <http://dbpedia.org/resource/The_Devil_All_the_Time>,
+        <http://dbpedia.org/resource/The_Devil_All_the_Time_(film)>,
+        <http://dbpedia.org/resource/The_Guardian>,
+        <http://dbpedia.org/resource/The_Harrodian_School>,
+        <http://dbpedia.org/resource/The_Haunted_Airman>,
+        <http://dbpedia.org/resource/The_Hollywood_Reporter>,
+        <http://dbpedia.org/resource/The_Independent>,
+        <http://dbpedia.org/resource/The_King_(2019_film)>,
+        <http://dbpedia.org/resource/The_Lighthouse_(2019_film)>,
+        <http://dbpedia.org/resource/The_Lost_City_of_Z_(book)>,
+        <http://dbpedia.org/resource/The_Lost_City_of_Z_(film)>,
+        <http://dbpedia.org/resource/The_New_York_Times>,
+        <http://dbpedia.org/resource/The_Rover_(2014_film)>,
+        <http://dbpedia.org/resource/The_Stage>,
+        <http://dbpedia.org/resource/The_Stars_at_Noon>,
+        <http://dbpedia.org/resource/The_Sunday_Times>,
+        <http://dbpedia.org/resource/The_Times>,
+        <http://dbpedia.org/resource/The_Twilight_Saga:_Breaking_Dawn_–_Part_1>,
+        <http://dbpedia.org/resource/The_Twilight_Saga:_Breaking_Dawn_–_Part_2>,
+        <http://dbpedia.org/resource/The_Twilight_Saga:_Eclipse>,
+        <http://dbpedia.org/resource/The_Twilight_Saga:_New_Moon>,
+        <http://dbpedia.org/resource/The_Twilight_Saga_(film_series)>,
+        <http://dbpedia.org/resource/The_Washington_Post>,
+        <http://dbpedia.org/resource/Time_(magazine)>,
+        <http://dbpedia.org/resource/Time_100>,
+        <http://dbpedia.org/resource/Tindersticks>,
+        <http://dbpedia.org/resource/Todd_McCarthy>,
+        <http://dbpedia.org/resource/Tom_Riley_(actor)>,
+        <http://dbpedia.org/resource/Tower_House_School>,
+        <http://dbpedia.org/resource/Twilight_(2008_film)>,
+        <http://dbpedia.org/resource/Twilight_(Meyer_novel)>,
+        <http://dbpedia.org/resource/Twilight_(novel_series)>,
+        <http://dbpedia.org/resource/Twilight_(soundtrack)>,
+        <http://dbpedia.org/resource/Vanity_Fair_(2004_film)>,
+        <http://dbpedia.org/resource/Vanity_Fair_(magazine)>,
+        <http://dbpedia.org/resource/Variety_(magazine)>,
+        <http://dbpedia.org/resource/Waiting_for_the_Barbarians>,
+        <http://dbpedia.org/resource/Waiting_for_the_Barbarians_(film)>,
+        <http://dbpedia.org/resource/Water_for_Elephants>,
+        <http://dbpedia.org/resource/Water_for_Elephants_(film)>,
+        <http://dbpedia.org/resource/Werner_Herzog>,
+        <http://dbpedia.org/resource/William_Shakespeare>,
+        <http://dbpedia.org/resource/World_War_I> ;
+    ns4:awards <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Robert_Pattinson> ;
+    ns4:birthDate "1986-05-13"^^xsd:date ;
+    ns4:birthName "Robert Douglas Thomas Pattinson"@en ;
+    ns4:birthPlace "London, England"@en ;
+    ns4:caption "Pattinson at the 2017 Berlin International Film Festival"@en ;
+    ns4:name "Robert Pattinson"@en ;
+    ns4:occupation "Actor"@en ;
+    ns4:relatives <http://dbpedia.org/resource/Lizzy_Pattinson> ;
+    ns4:title <http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Robert_Pattinson> ;
+    ns4:wikiPageUsesTemplate <http://dbpedia.org/resource/Template:-'>,
+        <http://dbpedia.org/resource/Template:Authority_control>,
+        <http://dbpedia.org/resource/Template:Birth_date_and_age>,
+        <http://dbpedia.org/resource/Template:Commons_category>,
+        <http://dbpedia.org/resource/Template:Dagger>,
+        <http://dbpedia.org/resource/Template:IMDb_name>,
+        <http://dbpedia.org/resource/Template:Infobox_person>,
+        <http://dbpedia.org/resource/Template:London_Film_Critics_Circle_Award_for_British_Actor_of_the_Year>,
+        <http://dbpedia.org/resource/Template:MTV_Movie_Award_for_Best_Actor_in_a_Movie>,
+        <http://dbpedia.org/resource/Template:MTV_Movie_Award_for_Best_Fight>,
+        <http://dbpedia.org/resource/Template:MTV_Movie_Award_for_Best_Kiss>,
+        <http://dbpedia.org/resource/Template:MTV_Movie_Award_for_Next_Generation>,
+        <http://dbpedia.org/resource/Template:Main>,
+        <http://dbpedia.org/resource/Template:Navboxes>,
+        <http://dbpedia.org/resource/Template:Other_uses>,
+        <http://dbpedia.org/resource/Template:Pp-semi-blp>,
+        <http://dbpedia.org/resource/Template:Reflist>,
+        <http://dbpedia.org/resource/Template:Short_description>,
+        <http://dbpedia.org/resource/Template:Small>,
+        <http://dbpedia.org/resource/Template:Sortname>,
+        <http://dbpedia.org/resource/Template:Use_British_English>,
+        <http://dbpedia.org/resource/Template:Use_dmy_dates> ;
+    ns4:wordnet_type <http://www.w3.org/2006/03/wn/wn20/instances/synset-actor-noun-1> ;
+    ns4:yearsActive 2004 ;
+    ns10:subject <http://dbpedia.org/resource/Category:1986_births>,
+        <http://dbpedia.org/resource/Category:21st-century_English_male_actors>,
+        <http://dbpedia.org/resource/Category:21st-century_English_singers>,
+        <http://dbpedia.org/resource/Category:21st-century_guitarists>,
+        <http://dbpedia.org/resource/Category:21st-century_male_singers>,
+        <http://dbpedia.org/resource/Category:English_expatriates_in_the_United_States>,
+        <http://dbpedia.org/resource/Category:English_guitarists>,
+        <http://dbpedia.org/resource/Category:English_male_child_actors>,
+        <http://dbpedia.org/resource/Category:English_male_film_actors>,
+        <http://dbpedia.org/resource/Category:English_male_models>,
+        <http://dbpedia.org/resource/Category:English_male_singers>,
+        <http://dbpedia.org/resource/Category:English_male_stage_actors>,
+        <http://dbpedia.org/resource/Category:English_male_television_actors>,
+        <http://dbpedia.org/resource/Category:Living_people>,
+        <http://dbpedia.org/resource/Category:Male_actors_from_London>,
+        <http://dbpedia.org/resource/Category:Method_actors>,
+        <http://dbpedia.org/resource/Category:People_educated_at_The_Harrodian_School>,
+        <http://dbpedia.org/resource/Category:People_educated_at_Tower_House_School>,
+        <http://dbpedia.org/resource/Category:People_from_Barnes,_London> ;
+    ns7:sameAs <http://viaf.org/viaf/53976712> ;
+    rdfs:comment "روبرت باتينسون (13 مايو 1986 -)، ممثل إنجليزي, اشتهر عالميا عندما شارك في بطولة سلسلة أفلام الغسق، وشارك في العديد من الأفلام مثل قمر جديد وماء للفيلة. الذي حاز ب41 جائزة وترشح ب27 جائزة أخرى."@ar,
+        "Robert Thomas-Pattinson (13 de maig de 1986) és un actor anglès, model i cantant. Va donar-se a conèixer fent el paper de Cedric Diggory, a Harry Potter i el calze de foc. Pattinson va néixer el 13 de maig del 1986 a Londres, (Anglaterra). La seva mare, Clare, treballava com a model en una agència, i el seu pare, Richard, importava cotxes vintage dels Estats Units. Es va convertir en un amateur del teatre amb la  als 15 anys. Després d'una mica d'experiència entre bastidors allà, va aconseguir papers temporals. Ell va agafar al vol l'atenció dels agents temporaris a la producció de Tess of the D'Urbervilles i començà a buscar papers més importants. Des d'aleshores va realitzar una versió amateur de Macbeth a Old Sorting Office Art Centre i també va intentar fer de model."@ca,
+        "Robert Pattinson (* 13. května 1986 Londýn) je britský herec, hudebník a model."@cs,
+        "Robert Douglas Thomas Pattinson (* 13. Mai 1986 in Barnes, London, England) ist ein britischer Schauspieler und Musiker. Bekannt wurde er durch seine Rollen als Cedric Diggory in den Verfilmungen der Harry-Potter-Romane und als Edward Cullen in den Verfilmungen der Bücher der Twilight-Saga (Bis(s) zum Morgengrauen) von Stephenie Meyer."@de,
+        "O Ρόμπερτ Ντάγκλας Τόμας Πάτινσον (Robert Douglas Thomas Pattinson, 13 Μαΐου 1986) είναι Άγγλος ηθοποιός, μουσικός και παραγωγός ενώ έχει εργαστεί και ως μοντέλο. Ο Ρόμπερτ ξεκίνησε την καριέρα του παίζοντας τον ρόλο του Cedric Diggory στην ταινία Harry Potter and the Goblet of Fire(Ο Χάρι Πότερ και το Κύπελλο της Φωτιάς). Αργότερα, κέρδισε τον ρόλο του Edward Cullen στην προσαρμογή των ταινιών του μυθιστορήματος Λυκόφως (μυθιστόρημα) / Λυκόφως (ταινία) από την Stephenie Meyer, αποκτώντας τεράστια φήμη. Ο Ρόμπερτ κατατάσσεται ως ένας από τους πιο καλοπληρωμένους ηθοποιούς στο Χόλιγουντ, σύμφωνα με τα κέρδη του το 2009. Το 2010, ο Ρόμπερτ αναγνωρίστηκε ως μία από τις πιο ισχυρές προσωπικότητες του κόσμου. Στις επερχόμενες ταινίες του περιλαμβάνεται οι ταινία Bel Ami"@el,
+        "Robert Douglas Thomas Pattinson (born 13 May 1986) is an English actor. After starting to act in a London theatre club at the age of 15, he began his film career by playing Cedric Diggory in the fantasy film Harry Potter and the Goblet of Fire (2005). He went on to star as Edward Cullen in the film adaptations of the Twilight novels, consisting of five films between 2008 and 2012, which earned a combined total of over $3.3 billion worldwide. It brought Pattinson worldwide fame and established him among the highest-paid actors in the world. In 2010, Time magazine named him one of the 100 most influential people in the world, and he was featured in the Forbes Celebrity 100 list."@en,
+        "Robert Thomas Pattinson (naskiĝis en Londono, la 13-an de majo 1986) estas brita aktoro, kiu estas konata pro siaj ludoj en la Twilight-filmoj en rolo de vampiro . Li ankaŭ ludis en la filmo Harry Potter and the Goblet of Fire, kiel ."@eo,
+        "Robert Thomas Pattinson​ (Londres, 13 de mayo de 1986) es un actor, modelo, productor y cantante británico.​ Comenzó su carrera actoral interpretando a Cedric Diggory en Harry Potter y el cáliz de fuego (2005) y luego alcanzó un reconocimiento mundial por interpretar a Edward Cullen en las adaptaciones cinematográficas de las novelas de La Saga Crepúsculo (2008-2012) de Stephenie Meyer,​​​ por lo tanto se establece entre los actores más estables y de mejor paga de Hollywood.​"@es,
+        "Robert Thomas-Pattinson (Londres, 1986ko maiatzaren 13a) Erresuma Batuko abeslari, aktorea eta modeloa da. Twilight Sagan Edward Cullen pertsonaia antzezteagatik bereziki ezaguna, baita Harry Potteren pelikula baten Cedric Diggoryrena egiteagatik ere."@eu,
+        "Robert Pattinson est un acteur, mannequin et musicien anglais, né le 13 mai 1986 à Barnes (Londres). Il est révélé durant les années 2000 par des productions destinées aux adolescents : la franchise Twilight (2008-2012), où il incarne Edward Cullen aux côtés de Kristen Stewart, mais aussi son rôle de Cedric Diggory dans le 4e opus de la saga Harry Potter, Harry Potter et la Coupe de feu (2005). Il est choisi pour incarner Bruce Wayne/Batman dans le prochain film de Matt Reeves prévu pour 2021 sur le super-héros de DC Comics."@fr,
+        "Is aisteoir Sasanach é Robert Pattinson (13 Meitheamh 1986 a rugadh é)."@ga,
+        "Robert Douglas Thomas Pattinson (lahir di London, Inggris, 13 Mei 1986; umur 33 tahun) adalah pemeran, model dan musisi Inggris, terkenal dalam perannya sebagai Cedric Diggory dalam film Harry Potter and the Goblet of Fire. Ia bermain sebagai Edward Cullen dalam  dari Twilight, sebuah novel karya Stephenie Meyer. Ia merasa titik balik keseriusannya berakting dimulai ketika ia mendapat pengakuan sebagai Bast Actor di Stasbourg Internasional Film Festival, suatu ajang pernghargaan bergengsi tingkat internasional, melalui film  tahun 2008, Produksi Inggris. Ia juga menyanyi dan menggubah 2 buah lagu soundtrack Twilight, yaitu Never Think dan Let Me Sign. Ia pernah menjalin hubungan dengan Kristen Stewart, lawan mainnya di Twilight. Aktor ini memiliki tinggi badan 185 cm, menyukai spaghetti se"@in,
+        "Robert Pattinson, all'anagrafe Robert Douglas Thomas Pattinson (Londra, 13 maggio 1986), è un attore britannico. Ha raggiunto la fama mondiale per aver interpretato il ruolo del vampiro Edward Cullen nelle trasposizioni cinematografiche della saga letteraria Twilight."@it,
+        "ロバート・ダグラス・トーマス・パティンソン（Robert Douglas Thomas Pattinson、1986年5月13日 - ）は、イギリスの俳優、モデル、歌手。"@ja,
+        "로버트 더글라스 토머스 패틴슨(영어: Robert Douglas Thomas Pattinson, 1986년 5월 13일 ~ ) 은 잉글랜드의 배우, 모델, 가수, 영화 제작자이다. 패틴슨은 영화 《해리 포터와 불의 잔》에서 세드릭 디고리 역할을 연기하며 그의 연기 경력을 시작했다. 이후, 뱀파이어를 소재로 한 스테파니 마이어의 소설을 원작으로 하는 영화 《트와일라잇》시리즈의 에드워드 컬렌 역할을 연기해 세계적으로 명성을 얻으며 스타덤에 올랐다. 따라서 그는 헐리우드에서 높은 개런티를 받는 배우로 성장해, 영국에서는 '젊은 백만장자' 명단에 이름을 올리게 되었다. 패틴슨은 미국의 베니티 페어에서 선정한 '할리우드 40'에 선정되었고, 2010년에는 타임지에서 '가장 영향력있는 인물 100인'에 선정되었고, 같은 해 포브스의 '포브스 유명 인사 100'로 선정되며 세계에서 가장 강력한 유명 인사로 평가했다."@ko,
+        "Robert Douglas Thomas Pattinson (Londen, 13 mei 1986) is een Brits acteur en muzikant. Dit laatste onder het pseudoniem Bobby Dupea. Pattinson begon zijn carrière in het theater en maakte in 2004 zijn filmdebuut. Hij kreeg meer aandacht toen hij de rol van Carlo Kannewasser kreeg in Harry Potter and the Goblet of Fire (2005). Hij is het bekendst van zijn rol \"Edward Cullen\" in de Twilight-boekenreeks die later (mede dankzij zijn hulp) een filmserie werd."@nl,
+        "Robert „Rob” Douglas Thomas Pattinson (ur. 13 maja 1986 w Londynie) – brytyjski aktor filmowy i teatralny oraz muzyk i kompozytor. Znany głównie z roli Edwarda Cullena z filmowej adaptacji powieści Zmierzch pisarki Stephenie Meyer."@pl,
+        "Robert Douglas Thomas Pattinson (Londres, 13 de maio de 1986) é um ator, modelo e músico britânico. É mais conhecido por interpretar Edward Cullen nas cinco adaptações cinematográficas da saga Twilight, Cedrico Diggory em \"Harry Potter e o Cálice de Fogo\" e esta confirmado como protagonista juntamente com John David Washington em um filme de grande investimento tenet que esta sendo dirigido por um dos diretores mais renomados da atualidade Christopher Nolan e foi escolhido como o mais novo Bruce Wayne na nova trilogia de filmes do Batman da DC Comics. Ele passou a estrelar como Edward Cullen nas adaptações cinematográficas dos romances de Crepúsculo, consistindo de cinco filmes entre 2008 e 2012, que renderam um total combinado de mais de US $ 3,3 bilhões em todo o mundo. Ele trouxe fama a"@pt,
+        "Ро́берт Ду́глас То́мас Па́ттинсон (англ. Robert Douglas Thomas Pattinson; род. 13 мая 1986, Лондон, Великобритания) — английский актёр театра, кино и телевидения, фотомодель и музыкант. Мировую известность ему принесла роль Эдварда Каллена в серии фильмов «Сумерки»."@ru,
+        "Robert Thomas Pattinson, född 13 maj 1986 i London, England, är en brittisk skådespelare, fotomodell och musiker. Han är mest känd för att ha spelat Edward Cullen i filmen Twilight som är baserad på romanen Om jag kunde drömma av Stephenie Meyer, rollen som Cedric Diggory i Harry Potter och den flammande bägaren och Tyler Hawkins i Remember me."@sv,
+        "Роберт Дуґлас Томас Паттінсон, (англ. Robert Douglas Thomas Pattinson, *13 травня 1986) — англійський актор, модель та музикант. Він найбільше відомий роллю Едварда Каллена, вампіра, у кіноадаптації світового бестселера «Сутінки», написаного Стефані Меєр; а також за роль Седрика Дігорі у фільмі «Гаррі Поттер і кубок вогню»."@uk,
+        "羅拔·道格拉斯·湯瑪士·柏迪臣（英語：Robert Douglas Thomas Pattinson，1986年5月13日－）是一位英國男演員、模特兒、音樂人及電影製片人。 羅拔因演出2005年電影《哈利波特－火盃的考驗》中的西追·迪戈里 (Cedric Diggory) 一角而開展他的銀色事業。後來他從史提芬妮·梅爾的小說改編的《暮光之城系列》電影中得到男主角愛德華·庫倫的角色而廣為人熟悉，當中包括於2008-2012年間的5部電影，全球票房收入合共超過$33億，從而帶來享譽世界，也建立了他在荷李活中成為最高片酬和最叫座的演員之一。2010年，羅拔被《時代雜誌》選為「時代最具影響力世上100人」之一，他亦於同年《福布斯》被列入「」中，即世上最具影響力的名人之一。"@zh ;
+    owl:sameAs <http://af.dbpedia.org/resource/Robert_Pattinson>,
+        <http://api.nytimes.com/svc/semantic/v2/concept/name/nytd_per/Pattinson,%20Robert>,
+        <http://ar.dbpedia.org/resource/روبرت_باتينسون>,
+        <http://ast.dbpedia.org/resource/Robert_Pattinson>,
+        <http://az.dbpedia.org/resource/Robert_Pettinson>,
+        <http://azb.dbpedia.org/resource/رابرت_پتینسون>,
+        <http://be.dbpedia.org/resource/Роберт_Пацінсан>,
+        <http://bg.dbpedia.org/resource/Робърт_Патинсън>,
+        <http://bn.dbpedia.org/resource/রবার্ট_প্যাটিনসন>,
+        <http://br.dbpedia.org/resource/Robert_Pattinson>,
+        <http://ca.dbpedia.org/resource/Robert_Thomas-Pattinson>,
+        <http://cs.dbpedia.org/resource/Robert_Pattinson>,
+        <http://cy.dbpedia.org/resource/Robert_Pattinson>,
+        <http://d-nb.info/gnd/137014864>,
+        <http://d-nb.info/gnd/137014864/about/rdf>,
+        <http://da.dbpedia.org/resource/Robert_Pattinson>,
+        <http://data.europa.eu/euodp/jrc-names/Rob_Pattinson>,
+        <http://data.europa.eu/euodp/jrc-names/Robert_Pattinson>,
+        <http://de.dbpedia.org/resource/Robert_Pattinson>,
+        <http://el.dbpedia.org/resource/Ρόμπερτ_Πάτινσον>,
+        <http://eo.dbpedia.org/resource/Robert_Pattinson>,
+        <http://es.dbpedia.org/resource/Robert_Pattinson>,
+        <http://et.dbpedia.org/resource/Robert_Pattinson>,
+        <http://eu.dbpedia.org/resource/Robert_Pattinson>,
+        <http://fa.dbpedia.org/resource/رابرت_پتینسون>,
+        <http://fi.dbpedia.org/resource/Robert_Pattinson>,
+        <http://fr.dbpedia.org/resource/Robert_Pattinson>,
+        <http://ga.dbpedia.org/resource/Robert_Pattinson>,
+        <http://gl.dbpedia.org/resource/Robert_Pattinson>,
+        <http://gu.dbpedia.org/resource/રોબર્ટ_પેટિસન>,
+        <http://he.dbpedia.org/resource/רוברט_פטינסון>,
+        <http://hi.dbpedia.org/resource/रॉबर्ट_पैटिनसन>,
+        <http://hr.dbpedia.org/resource/Robert_Pattinson>,
+        <http://hu.dbpedia.org/resource/Robert_Pattinson>,
+        <http://hy.dbpedia.org/resource/Ռոբերտ_Փեթինսոն>,
+        <http://id.dbpedia.org/resource/Robert_Pattinson>,
+        <http://is.dbpedia.org/resource/Robert_Pattinson>,
+        <http://it.dbpedia.org/resource/Robert_Pattinson>,
+        <http://ja.dbpedia.org/resource/ロバート・パティンソン>,
+        <http://jv.dbpedia.org/resource/Robert_Pattinson>,
+        <http://ka.dbpedia.org/resource/რობერტ_პატინსონი>,
+        <http://kk.dbpedia.org/resource/Роберт_Паттинсон>,
+        <http://kn.dbpedia.org/resource/ರಾಬರ್ಟ್‌_ಪ್ಯಾಟಿನ್ಸನ್>,
+        <http://ko.dbpedia.org/resource/로버트_패틴슨>,
+        <http://ky.dbpedia.org/resource/Роберт_Паттинсон>,
+        <http://li.dbpedia.org/resource/Robert_Pattinson>,
+        <http://lt.dbpedia.org/resource/Robert_Pattinson>,
+        <http://lv.dbpedia.org/resource/Roberts_Patinsons>,
+        <http://mk.dbpedia.org/resource/Роберт_Патинсон>,
+        <http://mn.dbpedia.org/resource/Роберт_Паттинсон>,
+        <http://ms.dbpedia.org/resource/Robert_Pattinson>,
+        <http://musicbrainz.org/artist/28f87490-205b-4187-970b-cd48881f5225>,
+        <http://nds.dbpedia.org/resource/Robert_Pattinson>,
+        <http://nl.dbpedia.org/resource/Robert_Pattinson>,
+        <http://no.dbpedia.org/resource/Robert_Pattinson>,
+        <http://pl.dbpedia.org/resource/Robert_Pattinson>,
+        <http://pt.dbpedia.org/resource/Robert_Pattinson>,
+        <http://rdf.freebase.com/ns/m.062dn7>,
+        <http://ro.dbpedia.org/resource/Robert_Pattinson>,
+        <http://ru.dbpedia.org/resource/Паттинсон,_Роберт>,
+        <http://sco.dbpedia.org/resource/Robert_Pattinson>,
+        <http://sh.dbpedia.org/resource/Robert_Pattinson>,
+        <http://simple.dbpedia.org/resource/Robert_Pattinson>,
+        <http://sk.dbpedia.org/resource/Robert_Pattinson>,
+        <http://sl.dbpedia.org/resource/Robert_Pattinson>,
+        <http://sr.dbpedia.org/resource/Robert_Patinson>,
+        <http://su.dbpedia.org/resource/Robert_Pattinson>,
+        <http://sv.dbpedia.org/resource/Robert_Pattinson>,
+        <http://sw.cyc.com/concept/Mx4rV97WellYEd-LYgAhm0kILA>,
+        <http://sw.dbpedia.org/resource/Robert_Pattinson>,
+        <http://ta.dbpedia.org/resource/ராபர்ட்_பாட்டின்சன்>,
+        <http://te.dbpedia.org/resource/రాబర్ట్_ప్యాటిన్సన్>,
+        <http://th.dbpedia.org/resource/โรเบิร์ต_แพตตินสัน>,
+        <http://tl.dbpedia.org/resource/Robert_Pattinson>,
+        <http://tr.dbpedia.org/resource/Robert_Pattinson>,
+        <http://uk.dbpedia.org/resource/Роберт_Паттінсон>,
+        <http://uz.dbpedia.org/resource/Robert_Pattinson>,
+        <http://vi.dbpedia.org/resource/Robert_Pattinson>,
+        <http://viaf.org/viaf/53976712>,
+        <http://www.wikidata.org/entity/Q36767>,
+        <http://yago-knowledge.org/resource/Robert_Pattinson>,
+        <http://zh.dbpedia.org/resource/羅伯·派汀森>,
+        <https://global.dbpedia.org/id/3Q18L>,
+        :Robert_Pattinson ;
+    ns11:wasDerivedFrom <http://en.wikipedia.org/wiki/Robert_Pattinson?oldid=984161948&ns=0> ;
+    ns2:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Robert_Pattinson_-_November_2014_(cropped).jpg> ;
+    ns2:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Robert_Pattinson> ;
+    ns2:name "Robert Pattinson"@en .
+
+owl:sameAs a owl:AnnotationProperty .
+
+: a owl:Ontology .
+
+:CINEMA_CITY a ns1:MovieTheater ;
+    :name "CINEMA CITY" ;
+    ns1:event :CINEMA_CITY_-_SALA_4D_13:00,
+        :CINEMA_CITY_-_SALA_4D_15:30,
+        :CINEMA_CITY_-_SALA_4D_18:05,
+        :CINEMA_CITY_-_SALA_4D_20:40,
+        :CINEMA_CITY_-_SALA_4D_23:10,
+        :CINEMA_CITY_-_SALA_HD_13:10,
+        :CINEMA_CITY_-_SALA_HD_13:15,
+        :CINEMA_CITY_-_SALA_HD_15:25,
+        :CINEMA_CITY_-_SALA_HD_15:40,
+        :CINEMA_CITY_-_SALA_HD_17:45,
+        :CINEMA_CITY_-_SALA_HD_18:10,
+        :CINEMA_CITY_-_SALA_HD_20:00,
+        :CINEMA_CITY_-_SALA_HD_20:30,
+        :CINEMA_CITY_-_SALA_HD_22:15,
+        :CINEMA_CITY_-_SALA_HD_23:00 .
+
+:CINEMA_OCHO a ns1:MovieTheater ;
+    :name "CINEMA OCHO" ;
+    ns1:event :CINEMA_OCHO_-_SALA_HD_13:00,
+        :CINEMA_OCHO_-_SALA_HD_13:15,
+        :CINEMA_OCHO_-_SALA_HD_13:45,
+        :CINEMA_OCHO_-_SALA_HD_15:20,
+        :CINEMA_OCHO_-_SALA_HD_15:40,
+        :CINEMA_OCHO_-_SALA_HD_16:45,
+        :CINEMA_OCHO_-_SALA_HD_17:50,
+        :CINEMA_OCHO_-_SALA_HD_18:05,
+        :CINEMA_OCHO_-_SALA_HD_19:45,
+        :CINEMA_OCHO_-_SALA_HD_20:15,
+        :CINEMA_OCHO_-_SALA_HD_20:20,
+        :CINEMA_OCHO_-_SALA_HD_22:30,
+        :CINEMA_OCHO_-_SALA_HD_22:45,
+        :CINEMA_OCHO_-_SALA_HD_22:50 .
+
+:CINEMA_PARADISO a ns1:MovieTheater ;
+    :name "CINEMA PARADISO" ;
+    ns1:event :CINEMA_PARADISO_-_SALA_HD_13:00,
+        :CINEMA_PARADISO_-_SALA_HD_13:20,
+        :CINEMA_PARADISO_-_SALA_HD_14:00,
+        :CINEMA_PARADISO_-_SALA_HD_15:15,
+        :CINEMA_PARADISO_-_SALA_HD_15:30,
+        :CINEMA_PARADISO_-_SALA_HD_15:40,
+        :CINEMA_PARADISO_-_SALA_HD_16:00,
+        :CINEMA_PARADISO_-_SALA_HD_17:30,
+        :CINEMA_PARADISO_-_SALA_HD_18:00,
+        :CINEMA_PARADISO_-_SALA_HD_19:45,
+        :CINEMA_PARADISO_-_SALA_HD_20:00,
+        :CINEMA_PARADISO_-_SALA_HD_20:30,
+        :CINEMA_PARADISO_-_SALA_HD_20:45,
+        :CINEMA_PARADISO_-_SALA_HD_22:00,
+        :CINEMA_PARADISO_-_SALA_HD_22:45,
+        :CINEMA_PARADISO_-_SALA_HD_23:00,
+        :CINEMA_PARADISO_-_SALA_HD_23:10 .
+
+:CINEMA_ROCHA a ns1:MovieTheater ;
+    :name "CINEMA ROCHA" ;
+    ns1:event :CINEMA_ROCHA_-_SALA_HD_13:45,
+        :CINEMA_ROCHA_-_SALA_HD_14:00,
+        :CINEMA_ROCHA_-_SALA_HD_15:00,
+        :CINEMA_ROCHA_-_SALA_HD_16:15,
+        :CINEMA_ROCHA_-_SALA_HD_16:45,
+        :CINEMA_ROCHA_-_SALA_HD_17:40,
+        :CINEMA_ROCHA_-_SALA_HD_18:30,
+        :CINEMA_ROCHA_-_SALA_HD_19:45,
+        :CINEMA_ROCHA_-_SALA_HD_20:20,
+        :CINEMA_ROCHA_-_SALA_HD_20:45,
+        :CINEMA_ROCHA_-_SALA_HD_22:10,
+        :CINEMA_ROCHA_-_SALA_HD_23:00,
+        :CINEMA_ROCHA_-_SALA_HD_23:10 .
+
+:CINEMA_SAN_MARTIN a ns1:MovieTheater ;
+    :name "CINEMA SAN MARTIN" ;
+    ns1:event :CINEMA_SAN_MARTIN_-_SALA_HD_13:00,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_13:45,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_14:00,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_15:30,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_16:00,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_16:10,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_17:00,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_18:00,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_18:15,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_18:25,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_19:50,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_20:30,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_20:45,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_22:40,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_22:45,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_23:00,
+        :CINEMA_SAN_MARTIN_-_SALA_HD_23:10 .
+
+:Cinépolis_Avellaneda a ns1:MovieTheater ;
+    :name "Cinépolis Avellaneda" ;
+    ns1:event :CLASSIC_2D_ESPAÑOL_15:45,
+        :CLASSIC_2D_ESPAÑOL_16:30,
+        :CLASSIC_2D_ESPAÑOL_16:45,
+        :CLASSIC_2D_ESPAÑOL_17:45,
+        :CLASSIC_2D_ESPAÑOL_22:45,
+        :CLASSIC_2D_ESPAÑOL_23:00,
+        :CLASSIC_2D_SUBTITULADO_20:00 .
+
+:Cinépolis_Luján a ns1:MovieTheater ;
+    :name "Cinépolis Luján" ;
+    ns1:event :CLASSIC_2D_ESPAÑOL_16:10,
+        :CLASSIC_2D_ESPAÑOL_16:20,
+        :CLASSIC_2D_ESPAÑOL_23:00,
+        :CLASSIC_2D_SUBTITULADO_20:00 .
+
+:Cinépolis_Maipú a ns1:MovieTheater ;
+    :name "Cinépolis Maipú" ;
+    ns1:event :CLASSIC_2D_ESPAÑOL_17:45,
+        :CLASSIC_2D_ESPAÑOL_23:00,
+        :CLASSIC_2D_SUBTITULADO_22:45,
+        :GC_2D_ESPAÑOL_18:10,
+        :GC_2D_ESPAÑOL_20:20 .
+
+:Cinépolis_Mendoza a ns1:MovieTheater ;
+    :name "Cinépolis Mendoza" ;
+    ns1:event :CLASSIC_2D_ESPAÑOL_16:40,
+        :CLASSIC_2D_ESPAÑOL_17:00,
+        :CLASSIC_2D_ESPAÑOL_17:20,
+        :CLASSIC_2D_ESPAÑOL_17:25,
+        :CLASSIC_2D_ESPAÑOL_19:00,
+        :CLASSIC_2D_ESPAÑOL_19:50,
+        :CLASSIC_2D_ESPAÑOL_22:45,
+        :CLASSIC_2D_ESPAÑOL_23:00,
+        :CLASSIC_2D_SUBTITULADO_20:00,
+        :CLASSIC_2D_SUBTITULADO_22:40 .
+
+:Cinépolis_Merlo a ns1:MovieTheater ;
+    :name "Cinépolis Merlo" ;
+    ns1:event :CLASSIC_2D_ESPAÑOL_16:40,
+        :CLASSIC_2D_ESPAÑOL_17:10,
+        :CLASSIC_2D_ESPAÑOL_22:40,
+        :CLASSIC_2D_ESPAÑOL_23:00,
+        :CLASSIC_2D_SUBTITULADO_20:00 .
+
+:Cinépolis_Neuquén a ns1:MovieTheater ;
+    :name "Cinépolis Neuquén" ;
+    ns1:event :CLASSIC_2D_ESPAÑOL_15:00,
+        :CLASSIC_2D_ESPAÑOL_15:45,
+        :CLASSIC_2D_ESPAÑOL_17:30,
+        :CLASSIC_2D_ESPAÑOL_17:40,
+        :CLASSIC_2D_SUBTITULADO_20:00,
+        :CLASSIC_2D_SUBTITULADO_23:00,
+        :MS_2D_ESPAÑOL_22:45 .
+
+:Cinépolis_Pilar a ns1:MovieTheater ;
+    :name "Cinépolis Pilar" ;
+    ns1:event :CLASSIC_2D_ESPAÑOL_16:00,
+        :CLASSIC_2D_ESPAÑOL_16:10,
+        :CLASSIC_2D_ESPAÑOL_17:10,
+        :CLASSIC_2D_ESPAÑOL_17:20,
+        :CLASSIC_2D_ESPAÑOL_19:40,
+        :CLASSIC_2D_SUBTITULADO_20:00 .
+
+:Cinépolis_Recoleta a ns1:MovieTheater ;
+    :name "Cinépolis Recoleta" ;
+    ns1:event :CLASSIC_2D_ESPAÑOL_16:10,
+        :CLASSIC_2D_ESPAÑOL_17:15,
+        :CLASSIC_2D_ESPAÑOL_17:40,
+        :CLASSIC_2D_ESPAÑOL_18:50,
+        :CLASSIC_2D_ESPAÑOL_22:20,
+        :CLASSIC_2D_SUBTITULADO_19:50,
+        :CLASSIC_2D_SUBTITULADO_20:00,
+        :CLASSIC_2D_SUBTITULADO_22:40,
+        :CLASSIC_2D_SUBTITULADO_22:50 .
+
+:Cinépolis_Rosario a ns1:MovieTheater ;
+    :name "Cinépolis Rosario" ;
+    ns1:event :CLASSIC_2D_ESPAÑOL_17:00,
+        :CLASSIC_2D_ESPAÑOL_17:10,
+        :CLASSIC_2D_ESPAÑOL_22:40,
+        :CLASSIC_2D_ESPAÑOL_23:15,
+        :CLASSIC_2D_SUBTITULADO_20:00,
+        :CLASSIC_2D_SUBTITULADO_22:45,
+        :CLASSIC_2D_SUBTITULADO_23:00 .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#Gekijouban_Fate/Stay_Night:_Heaven's_Feel_-_III._Spring_Song> a ns1:Movie ;
+    :contentRating "ATP" ;
+    :countryOfOrigin "Japón" ;
+    :description "¡La historia de Fate Stay Night Heaven’s Feel llega a su fin!El capítulo final de la trilogía más ambiciosa y oscura de esta franquicia está aquí. Sakura Matou con los pecados que ha cometido se hunde en la oscuridad, Shirou Emiya ha jurado protegerla y detener la Guerra por el Santo Grial, una guerra dónde poderosos Magos y Espíritus Heroicos trabajan juntos para derrotar a los demás, el vencedor obtendrá el Santo Grial, un contenedor que puede hacer realidad cualquier deseo… Pero esta guerra ha corrompido al Grial. ¿Podrá Shirou salvar a Sakura? ¿Cuál será el precio de esto?" ;
+    :duration "123 minutos" ;
+    :genre "Acción",
+        "Animación",
+        "Drama",
+        "Fantasía",
+        "Romance" ;
+    :hasDirector "Tomonori Sudô" ;
+    ns1:actor :Ayako_Kawasumi,
+        :Jouji_Nakata,
+        :Kana_Ueda,
+        :Mai_Kadowaki,
+        :Masane_Tsukayama,
+        :Miki_Itō,
+        :Noriaki_Sugiyama,
+        :Noriko_Shitaya,
+        :Tetsu_Inada,
+        :Yū_Asakawa .
+
+:bestRating a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating,
+        ns1:Rating ;
+    rdfs:range xsd:double .
+
+:character a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:contentRating a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:contentUrl a owl:DatatypeProperty ;
+    rdfs:domain ns1:ImageObject ;
+    rdfs:range xsd:string .
+
+:countryOfOrigin a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:dateCreated a owl:DatatypeProperty ;
+    rdfs:domain ns1:Review ;
+    rdfs:range xsd:date .
+
+:description a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating,
+        ns1:Movie,
+        ns1:VideoObject ;
+    rdfs:range xsd:string .
+
+:duration a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie,
+        ns1:ScreeningEvent ;
+    rdfs:range xsd:string .
+
+:embedUrl a owl:DatatypeProperty ;
+    rdfs:domain ns1:VideoObject ;
+    rdfs:range xsd:string .
+
+:endTime a owl:DatatypeProperty ;
+    rdfs:domain ns1:Schedule ;
+    rdfs:range xsd:time .
+
+:genre a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:hasDirector a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:image a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie,
+        ns1:Person ;
+    rdfs:range xsd:string .
+
+:inLanguage a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie,
+        ns1:ScreeningEvent ;
+    rdfs:range xsd:string .
+
+:keywords a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:mainEntityOfPage a owl:DatatypeProperty ;
+    rdfs:domain ns1:Organization,
+        ns1:Person ;
+    rdfs:range xsd:string .
+
+:name a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating,
+        ns1:Country,
+        ns1:Movie,
+        ns1:MovieTheater,
+        ns1:Organization,
+        ns1:Person,
+        ns1:VideoObject ;
+    rdfs:range xsd:string .
+
+:ratingCount a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating ;
+    rdfs:range xsd:integer .
+
+:ratingValue a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating,
+        ns1:Rating ;
+    rdfs:range xsd:double .
+
+:reviewBody a owl:DatatypeProperty ;
+    rdfs:domain ns1:Review ;
+    rdfs:range xsd:string .
+
+:reviewCount a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating ;
+    rdfs:range xsd:integer .
+
+:sameAs a owl:DatatypeProperty ;
+    rdfs:domain ns1:Person ;
+    rdfs:range xsd:anyURI .
+
+:startDate a owl:DatatypeProperty ;
+    rdfs:domain ns1:PublicationEvent ;
+    rdfs:range xsd:date .
+
+:startTime a owl:DatatypeProperty ;
+    rdfs:domain ns1:Schedule ;
+    rdfs:range xsd:time .
+
+:thumbnailUrl a owl:DatatypeProperty ;
+    rdfs:domain ns1:VideoObject ;
+    rdfs:range xsd:string .
+
+:uploadDate a owl:DatatypeProperty ;
+    rdfs:domain ns1:VideoObject ;
+    rdfs:range xsd:date .
+
+:url a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range xsd:string .
+
+:videoFormat a owl:DatatypeProperty ;
+    rdfs:domain ns1:ScreeningEvent ;
+    rdfs:range xsd:string .
+
+:worstRating a owl:DatatypeProperty ;
+    rdfs:domain ns1:AggregateRating,
+        ns1:Rating ;
+    rdfs:range xsd:double .
+
+ns1:actor a owl:ObjectProperty .
+
+ns1:aggregateRating a owl:ObjectProperty .
+
+ns1:author a owl:ObjectProperty .
+
+ns1:creator a owl:ObjectProperty .
+
+ns1:director a owl:ObjectProperty .
+
+ns1:event a owl:ObjectProperty .
+
+ns1:eventSchedule a owl:ObjectProperty .
+
+ns1:image a owl:ObjectProperty .
+
+ns1:itemReviewed a owl:ObjectProperty .
+
+ns1:location a owl:ObjectProperty .
+
+ns1:productionCompany a owl:ObjectProperty .
+
+ns1:publisher a owl:ObjectProperty .
+
+ns1:releasedEvent a owl:ObjectProperty .
+
+ns1:review a owl:ObjectProperty .
+
+ns1:reviewRating a owl:ObjectProperty .
+
+ns1:thumbnail a owl:ObjectProperty .
+
+ns1:trailer a owl:ObjectProperty .
+
+ns1:workPresented a owl:ObjectProperty .
+
+<http://www.wikidata.org/entity/Q36767> rdfs:label "Robert Pattinson"@af,
+        "روبرت باتينسون"@ar,
+        "casado con @frannlh"@arn,
+        "روبرت باتينسون"@arz,
+        "Robert Pattinson"@ast,
+        "Robert Pettinson"@az,
+        "رابرت پتینسون"@azb,
+        "Роберт Пацінсан"@be,
+        "Робърт Патинсън"@bg,
+        "রবার্ট প্যাটিনসন"@bn,
+        "Robert Pattinson"@br,
+        "Robert Pattinson"@ca,
+        "Robert Pattinson"@cs,
+        "Robert Pattinson"@cy,
+        "Robert Pattinson"@da,
+        "Robert Pattinson"@de,
+        "Robert Pattinson"@diq,
+        "Ρόμπερτ Πάτινσον"@el,
+        "Robert Pattinson"@en,
+        "Robert Pattinson"@en-gb,
+        "Robert Pattinson"@eo,
+        "Robert Pattinson"@es,
+        "Robert Pattinson"@et,
+        "Robert Pattinson"@eu,
+        "رابرت پتینسون"@fa,
+        "Robert Pattinson"@fi,
+        "Robert Pattinson"@fr,
+        "Robert Pattinson"@ga,
+        "Robert Pattinson"@gl,
+        "રોબર્ટ પેટિસન"@gu,
+        "רוברט פטינסון"@he,
+        "रॉबर्ट पैटिनसन"@hi,
+        "Robert Pattinson"@hr,
+        "Robert Pattinson"@hu,
+        "Ռոբերտ Փեթինսոն"@hy,
+        "Robert Pattinson"@id,
+        "Robert Pattinson"@is,
+        "Robert Pattinson"@it,
+        "ロバート・パティンソン"@ja,
+        "Robert Pattinson"@jv,
+        "რობერტ პატინსონი"@ka,
+        "Роберт Паттинсон"@kk,
+        "ರಾಬರ್ಟ್ ಪ್ಯಾಟಿನ್ಸನ್"@kn,
+        "로버트 패틴슨"@ko,
+        "Роберт Паттинсон"@ky,
+        "Robert Pattinson"@li,
+        "Robert Pattinson"@lt,
+        "Roberts Patinsons"@lv,
+        "Роберт Патинсон"@mk,
+        "റോബർട്ട് പാറ്റിൻസൺ"@ml,
+        "Роберт Паттинсон"@mn,
+        "Robert Pattinson"@ms,
+        "Robert Pattinson"@nan,
+        "Robert Pattinson"@nb,
+        "Robert Pattinson"@nds,
+        "रोबर्ट प्याटिनसन"@ne,
+        "Robert Pattinson"@nl,
+        "Robert Pattinson"@nn,
+        "Robert Pattinson"@pl,
+        "Robert Pattinson"@pt,
+        "Robert Pattinson"@pt-br,
+        "Robert Pattinson"@ro,
+        "Роберт Паттинсон"@ru,
+        "Robert Pattinson"@sco,
+        "Robert Pattinson"@sh,
+        "Robert Pattinson"@sk,
+        "Robert Pattinson"@sl,
+        "Robert Pattinson"@sq,
+        "Robert Patinson"@sr,
+        "Robert Pattinson"@su,
+        "Robert Pattinson"@sv,
+        "Robert Pattinson"@sw,
+        "ராபர்ட் பாட்டின்சன்"@ta,
+        "రాబర్ట్ ప్యాటిన్సన్"@te,
+        "โรเบิร์ต แพตตินสัน"@th,
+        "Robert Pattinson"@tl,
+        "Robert Pattinson"@tr,
+        "Роберт Паттінсон"@uk,
+        "Robert Pattinson"@uz,
+        "Robert Pattinson"@vi,
+        "罗伯特·帕丁森"@wuu,
+        "რობერტ პატინსონი"@xmf,
+        "羅拔柏迪臣"@yue,
+        "羅伯·派汀森"@zh ;
+    ns7:dateModified "2021-05-30T01:46:28+00:00"^^xsd:dateTime ;
+    ns7:description "Britse akteur"@af,
+        "ممثل إنجليزي"@ar,
+        "английски актьор"@bg,
+        "অভিনেতা"@bn,
+        "actor britànic"@ca,
+        "anglický herec"@cs,
+        "britisk skuespiller"@da,
+        "britischer Schauspieler"@de,
+        "British actor"@en,
+        "British actor"@en-ca,
+        "Actor"@en-gb,
+        "actor, modelo, productor y cantante británico"@es,
+        "Suurbritannia näitleja"@et,
+        "بازیگر بریتانیایی"@fa,
+        "englantilainen näyttelijä, malli ja muusikko"@fi,
+        "acteur britannique"@fr,
+        "actor británico"@gl,
+        "שחקן ודוגמן אנגלי"@he,
+        "अभिनेता"@hi,
+        "brit színész"@hu,
+        "Ճանաչվել է աշխարհի ամենա գեղեցիկ տղամարդը"@hy,
+        "pemeran laki-laki asal Britania Raya"@id,
+        "attore britannico"@it,
+        "ബ്രിട്ടനിലെ ചലച്ചിത്ര അഭിനേതാവ്"@ml,
+        "britisk skuespiller"@nb,
+        "Brits acteur"@nl,
+        "britisk skodespelar"@nn,
+        "aktor brytyjski"@pl,
+        "Ator britânico"@pt,
+        "Actor englez"@ro,
+        "британский актёр, модель и музыкант"@ru,
+        "aktor britanik"@sq,
+        "brittisk skådespelare"@sv,
+        "İngiliz oyuncu, yapımcı ve manken"@tr,
+        "英國演員"@zh ;
+    ns7:version 1431258310 ;
+    ns12:identifiers 57 ;
+    ns12:sitelinks 86 ;
+    ns12:statements 119 ;
+    ns12:timestamp "2021-05-30T01:46:32+00:00"^^xsd:dateTime ;
+    owl:sameAs :Robert_Pattinson ;
+    ns8:altLabel "روبرت باترسون"@ar,
+        "روبرت باتينسون \\ Robert Pattinson"@ar,
+        "Edward Cullen"@az,
+        "Robert Pattinson"@az,
+        "Spunk Ransom"@az,
+        "Robert Douglas Thomas Pattinson"@ca,
+        "Robert Thomas-Pattinson"@ca,
+        "Robert Thomas Pattinson"@cs,
+        "Bobby Dupea"@de,
+        "Pattinson"@de,
+        "Robert Thomas Pattinson"@de,
+        "Robert Thomas-Pattinson"@de,
+        "Robert Pattinson"@el,
+        "Robert Douglas Thomas Pattinson"@en,
+        "Robert Thomas Pattinson"@et,
+        "رابرت پتینسن"@fa,
+        "Robert Patisson"@fr,
+        "Robert Douglas Thomas Pattinso"@it,
+        "Robert Pattison"@jv,
+        "პეტინსონი"@ka,
+        "რობერტ პეტინსონი"@ka,
+        "Роберт Томас Паттинсон"@kk,
+        "로버트패틴슨"@ko,
+        "Patinsons"@lv,
+        "Robert Pattison"@nb,
+        "Robert Thomas Pattinson"@nb,
+        "Robert Thomas-Pattinson"@nb,
+        "Robert Thomas Pattinson"@pt,
+        "Паттинсон"@ru,
+        "Паттинсон, Роберт"@ru,
+        "Пэттинсон, Роберт"@ru,
+        "Robert Patinson"@sh,
+        "Robert Petinson"@sh,
+        "Роберт Патинсон"@sr,
+        "Роберт Патисон"@sr,
+        "Pattinson"@sv,
+        "Robert Pattinson"@th,
+        "โรเบิร์ต แพททินสัน"@th,
+        "Pattinson"@tl,
+        "Роберт Патісон"@uk,
+        "Robert Pattinson"@yue,
+        "罗伯特·帕廷森"@zh,
+        "羅伯‧派廷森"@zh,
+        "羅伯派汀森 Robert Pattionson"@zh,
+        "羅伯特·派汀森"@zh,
+        "羅拔"@zh,
+        "羅拔·柏迪臣"@zh ;
+    ns6:P1006 <http://www.wikidata.org/entity/statement/Q36767-79F247AE-18BB-48AA-BCCC-802C4E213D20> ;
+    ns6:P103 <http://www.wikidata.org/entity/statement/Q36767-2ca60c6f-4e5a-7680-8b73-a374516ab91c> ;
+    ns6:P1050 <http://www.wikidata.org/entity/statement/Q36767-348f6841-4f0e-922e-74f0-81e2b7ca3377> ;
+    ns6:P106 <http://www.wikidata.org/entity/statement/Q36767-03253448-78C4-44C1-ADCD-61BF63D39DAA>,
+        <http://www.wikidata.org/entity/statement/Q36767-0F2F86D8-0D3B-45CD-994C-05E34381EDD0>,
+        <http://www.wikidata.org/entity/statement/Q36767-36234064-74B7-4D06-8066-812BCED1C24C>,
+        <http://www.wikidata.org/entity/statement/Q36767-36F32CC0-E945-49B1-8C4F-2F2202EE814B>,
+        <http://www.wikidata.org/entity/statement/Q36767-53C06CD2-0FAF-4049-A228-5FEE2685C2AD>,
+        <http://www.wikidata.org/entity/statement/Q36767-7C083BF0-BE64-47CE-8402-E243599FE3BD>,
+        <http://www.wikidata.org/entity/statement/Q36767-BEDFFBE4-7CFE-400B-A5E9-12301095D2A5>,
+        <http://www.wikidata.org/entity/statement/q36767-0E1B48DC-916F-4CBF-9F8A-294F71BC5126> ;
+    ns6:P109 <http://www.wikidata.org/entity/statement/Q36767-801d18d6-4533-b8bf-b2f5-161985faf380> ;
+    ns6:P1207 <http://www.wikidata.org/entity/statement/Q36767-510153F5-248D-4A05-9517-E593237A27D1> ;
+    ns6:P1263 <http://www.wikidata.org/entity/statement/Q36767-9AAA6CEC-9CEB-4561-BD76-1E1FAB9FB661> ;
+    ns6:P1266 <http://www.wikidata.org/entity/statement/Q36767-1ED0E9FB-7394-40FC-9A8B-34FA0FA0A5EE> ;
+    ns6:P1280 <http://www.wikidata.org/entity/statement/Q36767-174EDAF6-8492-4B10-9F7C-D41C11CBCF91> ;
+    ns6:P1284 <http://www.wikidata.org/entity/statement/Q36767-77F9272E-8E90-472A-A2B8-2FAC4F5A96E9> ;
+    ns6:P1303 <http://www.wikidata.org/entity/statement/Q36767-3284854A-4895-4388-A7DD-94CEC6E81145>,
+        <http://www.wikidata.org/entity/statement/Q36767-891fb78d-4bf0-5391-eb2b-566abc5d8f2e> ;
+    ns6:P1343 <http://www.wikidata.org/entity/statement/Q36767-5B7BD026-AEDD-4605-B59A-2DD9E3014C26> ;
+    ns6:P1411 <http://www.wikidata.org/entity/statement/Q36767-08C33C57-F061-41D5-9ABB-6CD8128C1F88>,
+        <http://www.wikidata.org/entity/statement/Q36767-201219EA-88C0-4D7D-B46D-CC754F644D58>,
+        <http://www.wikidata.org/entity/statement/Q36767-33DC3FFB-A96A-4C89-85CF-8F49958811DE>,
+        <http://www.wikidata.org/entity/statement/Q36767-524CF603-64CA-4C92-90FA-BEC3E8F221F3>,
+        <http://www.wikidata.org/entity/statement/Q36767-60A0759C-D9BC-490B-9EBC-AA3ED996C3D0>,
+        <http://www.wikidata.org/entity/statement/Q36767-67CE343E-F50B-487F-9226-51B8F7D2E502>,
+        <http://www.wikidata.org/entity/statement/Q36767-785A2CC3-98A9-43A9-830F-4EA0D388689B>,
+        <http://www.wikidata.org/entity/statement/Q36767-83646388-86B7-4CC4-9F7E-8F41D9F2DAB2>,
+        <http://www.wikidata.org/entity/statement/Q36767-8B169B13-5A9A-4F26-8EAA-FB54AADB7468>,
+        <http://www.wikidata.org/entity/statement/Q36767-926A7963-6BBC-43E5-98EF-7680DD03CFD4>,
+        <http://www.wikidata.org/entity/statement/Q36767-96131708-8FD8-4F6D-993E-0C49C798BF0D>,
+        <http://www.wikidata.org/entity/statement/Q36767-97189C4A-216F-4D30-AEF7-65634B9AD456>,
+        <http://www.wikidata.org/entity/statement/Q36767-9CF17A9E-3054-4A42-A0BF-EA4814D74324>,
+        <http://www.wikidata.org/entity/statement/Q36767-A08D229B-E36A-4262-BF4E-7D0430EDA7D9>,
+        <http://www.wikidata.org/entity/statement/Q36767-AF2BA29F-0661-4F14-AF16-05C7B5A70A65>,
+        <http://www.wikidata.org/entity/statement/Q36767-B03050DF-A208-4278-92A6-CB80984FB6CA>,
+        <http://www.wikidata.org/entity/statement/Q36767-C855D5DA-79F7-42DD-A158-84772097F1A5>,
+        <http://www.wikidata.org/entity/statement/Q36767-DA67C71B-E1C4-4F17-AAE1-712E4443B05C>,
+        <http://www.wikidata.org/entity/statement/Q36767-FB559457-97A4-42F7-BC22-04CFC2C37BBE> ;
+    ns6:P1412 <http://www.wikidata.org/entity/statement/Q36767-8D40F98B-5B40-42D7-8249-1A0159E997BA> ;
+    ns6:P1559 <http://www.wikidata.org/entity/statement/Q36767-846e6533-4f51-a762-1651-b87dda06d196> ;
+    ns6:P166 <http://www.wikidata.org/entity/statement/Q36767-08C411C7-DA18-4EB1-B259-4DBB03A9210E>,
+        <http://www.wikidata.org/entity/statement/Q36767-21A18E00-3609-4867-94C1-835A970AD6F0>,
+        <http://www.wikidata.org/entity/statement/Q36767-4FE7F229-D8A5-479A-BC74-71D6BDBBCC46>,
+        <http://www.wikidata.org/entity/statement/Q36767-67788D25-B18C-4181-9606-B537E7A4200E>,
+        <http://www.wikidata.org/entity/statement/Q36767-7AA17E62-49FA-48DB-B05D-4BAAA081A4E8>,
+        <http://www.wikidata.org/entity/statement/Q36767-98D08911-8051-44DB-B8A4-87873F560D0E>,
+        <http://www.wikidata.org/entity/statement/Q36767-B4E60BC8-1B8D-4B29-B9D6-B1810546A7FC>,
+        <http://www.wikidata.org/entity/statement/Q36767-CDC000B2-77AB-4FF3-B6EB-E6194A321FE7>,
+        <http://www.wikidata.org/entity/statement/Q36767-D069E397-8989-4109-BAD2-3C05C701D0CD> ;
+    ns6:P18 <http://www.wikidata.org/entity/statement/Q36767-D8897746-B44A-4124-B7F2-E6D6BB06E897> ;
+    ns6:P1819 <http://www.wikidata.org/entity/statement/Q36767-9F71EC77-5CBB-42BD-85C9-D92857711A7A> ;
+    ns6:P19 <http://www.wikidata.org/entity/statement/Q36767-5781319D-D953-4B03-8314-352C2D89ED9D> ;
+    ns6:P1953 <http://www.wikidata.org/entity/statement/Q36767-e53e9114-46bc-ca4a-3148-fa3885e6cf08> ;
+    ns6:P2019 <http://www.wikidata.org/entity/statement/Q36767-6c948198-4184-d756-6a6d-89ad0fd3bf14> ;
+    ns6:P2031 <http://www.wikidata.org/entity/statement/Q36767-6E2A1E8A-6635-4D33-B1E9-47BB9B72EAB0> ;
+    ns6:P21 <http://www.wikidata.org/entity/statement/Q36767-08E7E0E6-3B22-42FB-8710-DE75F394CF0A> ;
+    ns6:P213 <http://www.wikidata.org/entity/statement/q36767-2FD1854E-5607-467F-A106-1828838EA60B> ;
+    ns6:P214 <http://www.wikidata.org/entity/statement/q36767-A134BBE8-5C30-4305-AECA-734B64440FA8> ;
+    ns6:P2163 <http://www.wikidata.org/entity/statement/Q36767-D3640E64-29E3-4AE4-859E-C31FA387DE37> ;
+    ns6:P2168 <http://www.wikidata.org/entity/statement/Q36767-a34f6bed-4d81-8ecd-3ffe-c75a058aaf0e> ;
+    ns6:P227 <http://www.wikidata.org/entity/statement/q36767-7DE32B7C-AE45-47F4-BAFE-FB60E8D2C3E5> ;
+    ns6:P2373 <http://www.wikidata.org/entity/statement/Q36767-9fd5817d-773a-476d-b409-067169470b7b> ;
+    ns6:P2387 <http://www.wikidata.org/entity/statement/Q36767-19345db6-4db3-6345-671d-713324ff5b28> ;
+    ns6:P2435 <http://www.wikidata.org/entity/statement/Q36767-01818432-43A1-4FA3-BB2F-1C0952E61880> ;
+    ns6:P244 <http://www.wikidata.org/entity/statement/q36767-59B084D7-C719-459D-8BBE-B21E600BCFDE> ;
+    ns6:P2471 <http://www.wikidata.org/entity/statement/Q36767-65ffc3a1-4022-fcb4-496e-477ee69abcd6> ;
+    ns6:P2519 <http://www.wikidata.org/entity/statement/Q36767-6980a44e-418f-42e9-413b-dc4f3bb01215> ;
+    ns6:P2604 <http://www.wikidata.org/entity/statement/Q36767-05d02d05-430f-aa0e-9b27-898212b50a33> ;
+    ns6:P2605 <http://www.wikidata.org/entity/statement/Q36767-E6B3278F-2BFD-48D8-87B5-C5C283C4895D> ;
+    ns6:P2626 <http://www.wikidata.org/entity/statement/Q36767-E6F62429-D966-4089-85C8-BA17DAE3F8A6> ;
+    ns6:P2638 <http://www.wikidata.org/entity/statement/Q36767-57DB4655-8337-440E-9F2D-EC193E1EF31B> ;
+    ns6:P2639 <http://www.wikidata.org/entity/statement/Q36767-8B4A62A2-591F-4A88-8BD2-6BAE933902B8> ;
+    ns6:P268 <http://www.wikidata.org/entity/statement/Q36767-CC66226A-01FF-4477-996E-11EF2B0853AA> ;
+    ns6:P2688 <http://www.wikidata.org/entity/statement/Q36767-1A12425B-6471-4994-AAE1-4A2327D2F5FC> ;
+    ns6:P269 <http://www.wikidata.org/entity/statement/Q36767-70970893-D458-4062-B0CA-A34466EE8D9C> ;
+    ns6:P27 <http://www.wikidata.org/entity/statement/Q36767-10CA01D0-16E7-47B4-919F-A0E9AE577E8E> ;
+    ns6:P2949 <http://www.wikidata.org/entity/statement/Q36767-79A92C36-9A39-4C0C-AEFD-DC655127FE2E> ;
+    ns6:P3056 <http://www.wikidata.org/entity/statement/Q36767-552609F8-7975-46CD-BB8D-75FE731F512C> ;
+    ns6:P31 <http://www.wikidata.org/entity/statement/Q36767-5DD84ED2-5F90-420A-AF19-F44DA9C604EF> ;
+    ns6:P3305 <http://www.wikidata.org/entity/statement/Q36767-11CDCE7D-1FC9-4FD7-8655-22BAD9839632> ;
+    ns6:P3373 <http://www.wikidata.org/entity/statement/Q36767-DD28F320-36A1-434E-B549-E929FBD75F0F> ;
+    ns6:P3417 <http://www.wikidata.org/entity/statement/Q36767-A43019B9-F3C1-4753-BCC6-01C207A16741> ;
+    ns6:P345 <http://www.wikidata.org/entity/statement/q36767-EECC5488-1CD5-4CFC-9985-0A2D9ED29878> ;
+    ns6:P3478 <http://www.wikidata.org/entity/statement/Q36767-73C9F881-9DCE-40A4-95FA-0327899548A9> ;
+    ns6:P349 <http://www.wikidata.org/entity/statement/Q36767-926DF243-CA7D-4E39-912E-16BBAFF648A0> ;
+    ns6:P3630 <http://www.wikidata.org/entity/statement/Q36767-07F48A8F-168B-41A3-8A93-63AF7E3C8C1A> ;
+    ns6:P373 <http://www.wikidata.org/entity/statement/q36767-C39C96DE-F3B6-4F4B-9D20-FCF0A5C18204> ;
+    ns6:P434 <http://www.wikidata.org/entity/statement/q36767-E2F02183-39BA-413F-8F9B-D550829DE730> ;
+    ns6:P451 <http://www.wikidata.org/entity/statement/Q36767-b46d67b5-4d73-82a3-94dc-8ea1ba2b69c9>,
+        <http://www.wikidata.org/entity/statement/Q36767-ba3457a6-4167-76de-35c1-7a2c66ba6537> ;
+    ns6:P4985 <http://www.wikidata.org/entity/statement/Q36767-680AD88C-D93B-44FF-A919-BB17B0256354> ;
+    ns6:P5033 <http://www.wikidata.org/entity/statement/Q36767-D5EE83F6-0825-4BCD-B424-28D7FDE88523> ;
+    ns6:P5034 <http://www.wikidata.org/entity/statement/Q36767-08bf4393-f3a1-4da2-8038-77b19f53e36b> ;
+    ns6:P5284 <http://www.wikidata.org/entity/statement/Q36767-88a70f01-4f02-0d22-86cb-5e8e25ee15ae> ;
+    ns6:P551 <http://www.wikidata.org/entity/statement/Q36767-4C3B050A-8F2C-48DC-99AF-5318DF0F6EE6> ;
+    ns6:P5534 <http://www.wikidata.org/entity/statement/Q36767-21CE0302-7A27-4225-AC60-1CE4C1D72EC9> ;
+    ns6:P569 <http://www.wikidata.org/entity/statement/q36767-55A8691F-8AD1-415B-87F7-F7F548BED9FD> ;
+    ns6:P5905 <http://www.wikidata.org/entity/statement/Q36767-11EBED04-1CAB-4747-B2AA-1A2D22213156>,
+        <http://www.wikidata.org/entity/statement/Q36767-651e31ad-4b3d-5e8c-3e06-b9d35b392730> ;
+    ns6:P6351 <http://www.wikidata.org/entity/statement/Q36767-81ec3c53-0361-490e-a702-fd24314f3b00> ;
+    ns6:P646 <http://www.wikidata.org/entity/statement/Q36767-3CAE429D-B6A1-48E3-AC0A-208435A0EA7B> ;
+    ns6:P69 <http://www.wikidata.org/entity/statement/Q36767-877F6925-A1BF-4994-98F2-0519BE696681>,
+        <http://www.wikidata.org/entity/statement/Q36767-D9187062-BB36-420B-A55C-358FEDF3B5A5> ;
+    ns6:P691 <http://www.wikidata.org/entity/statement/Q36767-02D31FCA-7952-41F2-93C9-70DE60548562> ;
+    ns6:P7194 <http://www.wikidata.org/entity/statement/Q36767-5716C4C8-7D8B-4703-AD9C-A229BA2BB73C> ;
+    ns6:P7214 <http://www.wikidata.org/entity/statement/Q36767-C41FE383-3B78-40E7-964D-A8E1EB7A7B0E> ;
+    ns6:P7293 <http://www.wikidata.org/entity/statement/Q36767-BCD43DE7-1844-4921-BAB3-63AD5175A4F2> ;
+    ns6:P734 <http://www.wikidata.org/entity/statement/Q36767-A58FF7A5-E9EC-4695-800E-AE46C1953299> ;
+    ns6:P735 <http://www.wikidata.org/entity/statement/Q36767-0d5c33b0-4749-1fc3-85b2-ce4652239a0e>,
+        <http://www.wikidata.org/entity/statement/Q36767-13aea0be-4770-ccb0-55a3-5a4d7c9bfc95>,
+        <http://www.wikidata.org/entity/statement/Q36767-1ED9E67D-0BD4-464A-A6E5-1D594AA34467> ;
+    ns6:P7704 <http://www.wikidata.org/entity/statement/Q36767-33A445CE-3CB8-422A-B6D9-1BA5A2915A45> ;
+    ns6:P7803 <http://www.wikidata.org/entity/statement/Q36767-0438CEF7-EE21-40B0-9C61-588A33CC7D98> ;
+    ns6:P7818 <http://www.wikidata.org/entity/statement/Q36767-B16E41BF-26F6-4113-89E7-A84701261845> ;
+    ns6:P7859 <http://www.wikidata.org/entity/statement/Q36767-24FBEB0C-D7E7-4594-8593-CB0A08641410> ;
+    ns6:P7902 <http://www.wikidata.org/entity/statement/Q36767-50663383-8189-40B2-A088-DD228CB42EF1> ;
+    ns6:P8672 <http://www.wikidata.org/entity/statement/Q36767-B864E80D-5689-45D9-A432-B1DB01FEA6A4> ;
+    ns6:P950 <http://www.wikidata.org/entity/statement/Q36767-79ED97AB-518B-44F6-8FDC-73FBB120C0A2> ;
+    ns9:P1006 <http://data.bibliotheken.nl/id/thes/p315907061> ;
+    ns9:P214 <http://viaf.org/viaf/53976712> ;
+    ns9:P2163 <http://id.worldcat.org/fast/1916087> ;
+    ns9:P227 <https://d-nb.info/gnd/137014864> ;
+    ns9:P244 <https://id.loc.gov/authorities/names/no2008168470> ;
+    ns9:P268 <http://data.bnf.fr/ark:/12148/cb15968803t#about> ;
+    ns9:P269 <http://www.idref.fr/135994071/id> ;
+    ns9:P349 <http://id.ndl.go.jp/auth/ndlna/01191587> ;
+    ns9:P434 <http://musicbrainz.org/artist/28f87490-205b-4187-970b-cd48881f5225> ;
+    ns9:P5034 <http://lod.nl.go.kr/resource/KAC201011573> ;
+    ns9:P646 <http://g.co/kg/m/062dn7> ;
+    ns9:P7704 <http://data.europeana.eu/agent/base/30943> ;
+    ns9:P950 <http://datos.bne.es/resource/XX4836387> ;
+    ns5:P1006 "315907061"^^xsd:string ;
+    ns5:P103 <http://www.wikidata.org/entity/Q7979> ;
+    ns5:P1050 <http://www.wikidata.org/entity/Q84263196> ;
+    ns5:P106 <http://www.wikidata.org/entity/Q10798782>,
+        <http://www.wikidata.org/entity/Q10800557>,
+        <http://www.wikidata.org/entity/Q177220>,
+        <http://www.wikidata.org/entity/Q2259451>,
+        <http://www.wikidata.org/entity/Q3282637>,
+        <http://www.wikidata.org/entity/Q33999>,
+        <http://www.wikidata.org/entity/Q36834>,
+        <http://www.wikidata.org/entity/Q4610556> ;
+    ns5:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Pattinson%20signature.svg> ;
+    ns5:P1207 "n2010122523"^^xsd:string ;
+    ns5:P1263 "395/000159915"^^xsd:string ;
+    ns5:P1266 "97604"^^xsd:string ;
+    ns5:P1280 "165281379"^^xsd:string ;
+    ns5:P1284 "00000028125"^^xsd:string ;
+    ns5:P1303 <http://www.wikidata.org/entity/Q5994>,
+        <http://www.wikidata.org/entity/Q6607> ;
+    ns5:P1343 <http://www.wikidata.org/entity/Q67311526> ;
+    ns5:P1411 <http://www.wikidata.org/entity/Q1161101>,
+        <http://www.wikidata.org/entity/Q1535145>,
+        <http://www.wikidata.org/entity/Q18154821>,
+        <http://www.wikidata.org/entity/Q257235>,
+        <http://www.wikidata.org/entity/Q4220901>,
+        <http://www.wikidata.org/entity/Q602299>,
+        <http://www.wikidata.org/entity/Q641316>,
+        <http://www.wikidata.org/entity/Q734036> ;
+    ns5:P1412 <http://www.wikidata.org/entity/Q1860> ;
+    ns5:P1559 "Robert Pattinson"@en ;
+    ns5:P166 <http://www.wikidata.org/entity/Q1161101>,
+        <http://www.wikidata.org/entity/Q257235>,
+        <http://www.wikidata.org/entity/Q4220901>,
+        <http://www.wikidata.org/entity/Q734036> ;
+    ns5:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Pattinson%20Premiere%20of%20The%20Lost%20City%20of%20Z%20at%20Zoo%20Palast%20Berlinale%202017%2002.jpg> ;
+    ns5:P1819 "I00568537"^^xsd:string ;
+    ns5:P19 <http://www.wikidata.org/entity/Q84> ;
+    ns5:P1953 "1443890"^^xsd:string ;
+    ns5:P2019 "p403945"^^xsd:string ;
+    ns5:P2031 "2004-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns5:P21 <http://www.wikidata.org/entity/Q6581097> ;
+    ns5:P213 "0000 0001 2133 3240"^^xsd:string ;
+    ns5:P214 "53976712"^^xsd:string ;
+    ns5:P2163 "1916087"^^xsd:string ;
+    ns5:P2168 "339788"^^xsd:string ;
+    ns5:P227 "137014864"^^xsd:string ;
+    ns5:P2373 "Robert-pattinson"^^xsd:string ;
+    ns5:P2387 "1467855"^^xsd:string ;
+    ns5:P2435 "220706"^^xsd:string ;
+    ns5:P244 "no2008168470"^^xsd:string ;
+    ns5:P2471 "robert-pattinson"^^xsd:string ;
+    ns5:P2519 "45460"^^xsd:string ;
+    ns5:P2604 "544406"^^xsd:string ;
+    ns5:P2605 "36406"^^xsd:string ;
+    ns5:P2626 "175701"^^xsd:string ;
+    ns5:P2638 "people/robert-pattinson"^^xsd:string ;
+    ns5:P2639 "c4c290d82aa34431bb6d6c080ffe37c8"^^xsd:string ;
+    ns5:P268 "15968803t"^^xsd:string ;
+    ns5:P2688 "robertpattinson"^^xsd:string ;
+    ns5:P269 "135994071"^^xsd:string ;
+    ns5:P27 <http://www.wikidata.org/entity/Q145> ;
+    ns5:P2949 "Pattinson-62"^^xsd:string ;
+    ns5:P3056 "3896346"^^xsd:string ;
+    ns5:P31 <http://www.wikidata.org/entity/Q5> ;
+    ns5:P3305 "200591"^^xsd:string ;
+    ns5:P3373 <http://www.wikidata.org/entity/Q6660780> ;
+    ns5:P3417 "Robert-Pattinson-2"^^xsd:string ;
+    ns5:P345 "nm1500155"^^xsd:string ;
+    ns5:P3478 "2368867"^^xsd:string ;
+    ns5:P349 "01191587"^^xsd:string ;
+    ns5:P3630 "262146"^^xsd:string ;
+    ns5:P373 "Robert Pattinson"^^xsd:string ;
+    ns5:P434 "28f87490-205b-4187-970b-cd48881f5225"^^xsd:string ;
+    ns5:P451 <http://www.wikidata.org/entity/Q126599>,
+        <http://www.wikidata.org/entity/Q16235151> ;
+    ns5:P4985 "11288"^^xsd:string ;
+    ns5:P5033 "164450"^^xsd:string ;
+    ns5:P5034 "KAC201011573"^^xsd:string ;
+    ns5:P5284 "1035656"^^xsd:string ;
+    ns5:P551 <http://www.wikidata.org/entity/Q65> ;
+    ns5:P5534 "11288"^^xsd:string ;
+    ns5:P569 "1986-05-13T00:00:00+00:00"^^xsd:dateTime ;
+    ns5:P5905 "4005-73247"^^xsd:string,
+        "4040-114145"^^xsd:string ;
+    ns5:P6351 "14172"^^xsd:string ;
+    ns5:P646 "/m/062dn7"^^xsd:string ;
+    ns5:P69 <http://www.wikidata.org/entity/Q7738938>,
+        <http://www.wikidata.org/entity/Q7829703> ;
+    ns5:P691 "xx0098726"^^xsd:string ;
+    ns5:P7194 "r/robertpattinson"^^xsd:string ;
+    ns5:P7214 "763580"^^xsd:string ;
+    ns5:P7293 "9810674925505606"^^xsd:string ;
+    ns5:P734 <http://www.wikidata.org/entity/Q21452108> ;
+    ns5:P735 <http://www.wikidata.org/entity/Q4927937> ;
+    ns5:P7704 "agent/base/30943"^^xsd:string ;
+    ns5:P7803 "30748"^^xsd:string ;
+    ns5:P7818 "Robert_Pattinson"^^xsd:string ;
+    ns5:P7859 "lccn-no2008168470"^^xsd:string ;
+    ns5:P7902 "137014864"^^xsd:string ;
+    ns5:P8672 "864564607519563776"^^xsd:string ;
+    ns5:P950 "XX4836387"^^xsd:string .
+
+:13:10 a ns1:Schedule ;
+    :startTime "13:10:00"^^xsd:time .
+
+:13:20 a ns1:Schedule ;
+    :startTime "13:20:00"^^xsd:time .
+
+:15:15 a ns1:Schedule ;
+    :startTime "15:15:00"^^xsd:time .
+
+:15:20 a ns1:Schedule ;
+    :startTime "15:20:00"^^xsd:time .
+
+:15:25 a ns1:Schedule ;
+    :startTime "15:25:00"^^xsd:time .
+
+:15:45 a ns1:Schedule ;
+    :startTime "15:45" .
+
+:16:15 a ns1:Schedule ;
+    :startTime "16:15:00"^^xsd:time .
+
+:16:20 a ns1:Schedule ;
+    :startTime "16:20" .
+
+:16:30 a ns1:Schedule ;
+    :startTime "16:30" .
+
+:16:40 a ns1:Schedule ;
+    :startTime "16:40" .
+
+:17:10 a ns1:Schedule ;
+    :startTime "17:10" .
+
+:17:15 a ns1:Schedule ;
+    :startTime "17:15" .
+
+:17:20 a ns1:Schedule ;
+    :startTime "17:20" .
+
+:17:25 a ns1:Schedule ;
+    :startTime "17:25" .
+
+:17:50 a ns1:Schedule ;
+    :startTime "17:50:00"^^xsd:time .
+
+:18:15 a ns1:Schedule ;
+    :startTime "18:15:00"^^xsd:time .
+
+:18:25 a ns1:Schedule ;
+    :startTime "18:25:00"^^xsd:time .
+
+:18:30 a ns1:Schedule ;
+    :startTime "18:30:00"^^xsd:time .
+
+:18:50 a ns1:Schedule ;
+    :startTime "18:50" .
+
+:19:00 a ns1:Schedule ;
+    :startTime "19:00" .
+
+:19:40 a ns1:Schedule ;
+    :startTime "19:40" .
+
+:20:15 a ns1:Schedule ;
+    :startTime "20:15:00"^^xsd:time .
+
+:20:40 a ns1:Schedule ;
+    :startTime "20:40:00"^^xsd:time .
+
+:20th_Fox a ns1:Organization ;
+    :name "20th Fox" .
+
+:22:00 a ns1:Schedule ;
+    :startTime "22:00:00"^^xsd:time .
+
+:22:10 a ns1:Schedule ;
+    :startTime "22:10:00"^^xsd:time .
+
+:22:15 a ns1:Schedule ;
+    :startTime "22:15:00"^^xsd:time .
+
+:22:20 a ns1:Schedule ;
+    :startTime "22:20" .
+
+:22:30 a ns1:Schedule ;
+    :startTime "22:30:00"^^xsd:time .
+
+:23:15 a ns1:Schedule ;
+    :startTime "23:15" .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#ABC_Radio_(Australia)> a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-2397> ;
+    :name "ABC Radio (Australia)" .
+
+:Aaron_Taylor-Johnson a ns1:Person ;
+    ns3:birthDate "1990-06-13"^^xsd:date ;
+    ns4:occupation "Actor"@en ;
+    owl:sameAs "http://dbpedia.org/resource/Aaron_Taylor-Johnson" ;
+    ns2:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Aaron_Taylor-Johnson> ;
+    :name "Aaron Taylor-Johnson" .
+
+:Adam_Brody a ns1:Person ;
+    ns3:birthDate "1979-12-15"^^xsd:date ;
+    owl:sameAs "http://dbpedia.org/resource/Adam_Brody" ;
+    ns2:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Adam_Brody> ;
+    :name "Adam Brody" .
+
+:AggregateRating_0 a ns1:AggregateRating ;
+    :bestRating 1e+01 ;
+    :ratingCount 202971 ;
+    :ratingValue 5.4e+00 ;
+    :worstRating 1e+00 .
+
+:AggregateRating_1 a ns1:AggregateRating ;
+    :bestRating 1e+02 ;
+    :ratingCount 57 ;
+    :ratingValue 6e+01 ;
+    :worstRating 0e+00 .
+
+:AggregateRating_2 a ns1:AggregateRating ;
+    :bestRating 1e+01 ;
+    :ratingCount 20 ;
+    :ratingValue 7.6e+00 ;
+    :worstRating 0e+00 .
+
+:Akari_Kito a ns1:Person ;
+    :name "Akari Kito" .
+
+:Alberto_Ammann a ns1:Person ;
+    :name "Alberto Ammann" .
+
+:Alex_Delescu a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/alex-delescu> ;
+    :name "Alex Delescu" .
+
+:Alexander_Skarsgård a ns1:Person ;
+    :name "Alexander Skarsgård" .
+
+:Alice_Braga a ns1:Person ;
+    :name "Alice Braga" .
+
+:Alison_Brie a ns1:Person ;
+    :name "Alison Brie" .
+
+:Amr_Waked a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/amr-waked> ;
+    :name "Amr Waked" .
+
+:Amreen_N._Yaqoob a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/amreen-n-yaqoob> ;
+    :name "Amreen N. Yaqoob" .
+
+:Amy_Nicholson a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/amy-nicholson> ;
+    :name "Amy Nicholson" .
+
+:Andrew_Ellis a ns1:Person ;
+    :name "Andrew Ellis" .
+
+:Andrew_Galdi a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/andrew-galdi> ;
+    :name "Andrew Galdi" .
+
+:Anna_Kendrick a ns1:Person ;
+    :name "Anna Kendrick" .
+
+:Anthony_Ramos a ns1:Person ;
+    :name "Anthony Ramos" .
+
+:Antonio_Banderas a ns1:Person ;
+    ns3:birthDate "1960-08-10"^^xsd:date ;
+    ns4:occupation "Actor, producer, director"@en ;
+    owl:sameAs "http://dbpedia.org/resource/Antonio_Banderas" ;
+    ns2:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Antonio_Banderas> ;
+    :name "Antonio Banderas" .
+
+:Anya_Taylor-Joy a ns1:Person ;
+    :name "Anya Taylor-Joy" .
+
+:Ars_Technica a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-2985> ;
+    :name "Ars Technica" .
+
+:Australian_Financial_Review a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-3199> ;
+    :name "Australian Financial Review" .
+
+:Avaryl_Halley a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/avaryl-halley> ;
+    :name "Avaryl Halley" .
+
+:Awkwafina a ns1:Person ;
+    :name "Awkwafina" .
+
+:Ayako_Kawasumi a ns1:Person ;
+    :name "Ayako Kawasumi" .
+
+:BF_Paris a ns1:Organization ;
+    :name "BF Paris" .
+
+:Battleship_Pretension a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-3090> ;
+    :name "Battleship Pretension" .
+
+:Bern_Collaco a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/bern-collaco> ;
+    :name "Bern Collaco" .
+
+:Blu_Hunt a ns1:Person ;
+    :name "Blu Hunt" .
+
+:Bo_Burnham a ns1:Person ;
+    :name "Bo Burnham" .
+
+:Bobby_Cannavale a ns1:Person ;
+    :name "Bobby Cannavale" .
+
+:Brian_Gill a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/brian-gill> ;
+    :name "Brian Gill" .
+
+:Brian_Tyree_Henry a ns1:Person ;
+    :name "Brian Tyree Henry" .
+
+:Brittney_Aleah a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/brittney-aleah> ;
+    :name "Brittney Aleah" .
+
+:Buena_Vista_International a ns1:Organization ;
+    :name "Buena Vista International" .
+
+:CINEMA_CITY_-_SALA_4D_13:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_4D" ;
+    ns1:eventSchedule :13:00 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_CITY_-_SALA_4D_15:30 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_4D" ;
+    ns1:eventSchedule :15:30 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_CITY_-_SALA_4D_18:05 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_4D" ;
+    ns1:eventSchedule :18:05 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_CITY_-_SALA_4D_20:40 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_4D" ;
+    ns1:eventSchedule :20:40 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_CITY_-_SALA_4D_23:10 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_4D" ;
+    ns1:eventSchedule :23:10 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_CITY_-_SALA_HD_13:10 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :13:10 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_CITY_-_SALA_HD_13:15 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :13:15 ;
+    ns1:workPresented :Promising_young_woman .
+
+:CINEMA_CITY_-_SALA_HD_15:25 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :15:25 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_CITY_-_SALA_HD_15:40 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :15:40 ;
+    ns1:workPresented :Promising_young_woman .
+
+:CINEMA_CITY_-_SALA_HD_17:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :17:45 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_CITY_-_SALA_HD_18:10 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :18:10 ;
+    ns1:workPresented :Promising_young_woman .
+
+:CINEMA_CITY_-_SALA_HD_20:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :20:00 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_CITY_-_SALA_HD_20:30 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :20:30 ;
+    ns1:workPresented :Promising_young_woman .
+
+:CINEMA_CITY_-_SALA_HD_22:15 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :22:15 ;
+    ns1:workPresented :New_Mutants .
+
+:CINEMA_CITY_-_SALA_HD_23:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :23:00 ;
+    ns1:workPresented :Promising_young_woman .
+
+:CINEMA_OCHO_-_SALA_HD_13:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :13:00 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_OCHO_-_SALA_HD_13:15 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :13:15 ;
+    ns1:workPresented :New_Mutants .
+
+:CINEMA_OCHO_-_SALA_HD_13:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :13:45 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_OCHO_-_SALA_HD_15:20 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :15:20 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_OCHO_-_SALA_HD_15:40 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :15:40 ;
+    ns1:workPresented :New_Mutants .
+
+:CINEMA_OCHO_-_SALA_HD_16:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :16:45 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_OCHO_-_SALA_HD_17:50 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :17:50 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_OCHO_-_SALA_HD_18:05 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :18:05 ;
+    ns1:workPresented :New_Mutants .
+
+:CINEMA_OCHO_-_SALA_HD_19:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :19:45 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_OCHO_-_SALA_HD_20:15 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :20:15 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_OCHO_-_SALA_HD_20:20 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :20:20 ;
+    ns1:workPresented :New_Mutants .
+
+:CINEMA_OCHO_-_SALA_HD_22:30 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :22:30 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_OCHO_-_SALA_HD_22:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :22:45 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_OCHO_-_SALA_HD_22:50 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :22:50 ;
+    ns1:workPresented :New_Mutants .
+
+:CINEMA_PARADISO_-_SALA_HD_13:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :13:00 ;
+    ns1:workPresented :Godzilla_vs._Kong,
+        :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_PARADISO_-_SALA_HD_13:20 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :13:20 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CINEMA_PARADISO_-_SALA_HD_14:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :14:00 ;
+    ns1:workPresented :HABITACION_212 .
+
+:CINEMA_PARADISO_-_SALA_HD_15:15 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :15:15 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_PARADISO_-_SALA_HD_15:30 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :15:30 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_PARADISO_-_SALA_HD_15:40 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :15:40 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CINEMA_PARADISO_-_SALA_HD_16:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :16:00 ;
+    ns1:workPresented <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#SCOOBY!> .
+
+:CINEMA_PARADISO_-_SALA_HD_17:30 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :17:30 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_PARADISO_-_SALA_HD_18:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :18:00 ;
+    ns1:workPresented :Godzilla_vs._Kong,
+        :HABITACION_212,
+        :Tom_and_Jerry .
+
+:CINEMA_PARADISO_-_SALA_HD_19:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :19:45 ;
+    ns1:workPresented :LA_FABRICA_DE_SUEÑOS .
+
+:CINEMA_PARADISO_-_SALA_HD_20:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :20:00 ;
+    ns1:workPresented :HABITACION_212 .
+
+:CINEMA_PARADISO_-_SALA_HD_20:30 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :20:30 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_PARADISO_-_SALA_HD_20:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :20:45 ;
+    ns1:workPresented :LA_NOCHE_MAGICA .
+
+:CINEMA_PARADISO_-_SALA_HD_22:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :22:00 ;
+    ns1:workPresented :HABITACION_212 .
+
+:CINEMA_PARADISO_-_SALA_HD_22:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :22:45 ;
+    ns1:workPresented :Tenet .
+
+:CINEMA_PARADISO_-_SALA_HD_23:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :23:00 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_PARADISO_-_SALA_HD_23:10 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :23:10 ;
+    ns1:workPresented :LA_NOCHE_MAGICA .
+
+:CINEMA_ROCHA_-_SALA_HD_13:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :13:45 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_ROCHA_-_SALA_HD_14:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :14:00 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CINEMA_ROCHA_-_SALA_HD_15:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :15:00 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_ROCHA_-_SALA_HD_16:15 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :16:15 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CINEMA_ROCHA_-_SALA_HD_16:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :16:45 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_ROCHA_-_SALA_HD_17:40 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :17:40 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_ROCHA_-_SALA_HD_18:30 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :18:30 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CINEMA_ROCHA_-_SALA_HD_19:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :19:45 ;
+    ns1:workPresented :RAYA_Y_EL_ULTIMO_DRAGON .
+
+:CINEMA_ROCHA_-_SALA_HD_20:20 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :20:20 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_ROCHA_-_SALA_HD_20:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :20:45 ;
+    ns1:workPresented :New_Mutants .
+
+:CINEMA_ROCHA_-_SALA_HD_22:10 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :22:10 ;
+    ns1:workPresented :Wonder_Woman_1984 .
+
+:CINEMA_ROCHA_-_SALA_HD_23:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :23:00 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_ROCHA_-_SALA_HD_23:10 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :23:10 ;
+    ns1:workPresented :New_Mutants .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_13:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :13:00 ;
+    ns1:workPresented :New_Mutants .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_13:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :13:45 ;
+    ns1:workPresented :Chaos_Walking .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_14:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :14:00 ;
+    ns1:workPresented :Godzilla_vs._Kong,
+        :Tom_and_Jerry .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_15:30 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :15:30 ;
+    ns1:workPresented :New_Mutants .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_16:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :16:00 ;
+    ns1:workPresented :LOS_INTRUSOS .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_16:10 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :16:10 ;
+    ns1:workPresented :TROLLS_2:_WORLD_TOUR .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_17:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :17:00 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_18:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :18:00 ;
+    ns1:workPresented :New_Mutants .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_18:15 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :18:15 ;
+    ns1:workPresented :Chaos_Walking .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_18:25 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :18:25 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_19:50 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :19:50 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_20:30 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :20:30 ;
+    ns1:workPresented :LOS_INTRUSOS,
+        :New_Mutants .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_20:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :20:45 ;
+    ns1:workPresented :EL_SECRETO_DEL_BOSQUE .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_22:40 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :22:40 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_22:45 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :22:45 ;
+    ns1:workPresented :Chaos_Walking .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_23:00 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :23:00 ;
+    ns1:workPresented :New_Mutants .
+
+:CINEMA_SAN_MARTIN_-_SALA_HD_23:10 a ns1:ScreeningEvent ;
+    :videoFormat "SALA_HD" ;
+    ns1:eventSchedule :23:10 ;
+    ns1:workPresented :EL_SECRETO_DEL_BOSQUE .
+
+:CLASSIC_2D_ESPAÑOL_15:00 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :15:00 ;
+    ns1:workPresented :Trolls_2 .
+
+:CLASSIC_2D_ESPAÑOL_16:00 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :16:00 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CLASSIC_2D_ESPAÑOL_16:20 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :16:20 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CLASSIC_2D_ESPAÑOL_16:30 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :16:30 ;
+    ns1:workPresented :Trolls_2 .
+
+:CLASSIC_2D_ESPAÑOL_16:45 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :16:45 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CLASSIC_2D_ESPAÑOL_17:15 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :17:15 ;
+    ns1:workPresented :Trolls_2 .
+
+:CLASSIC_2D_ESPAÑOL_17:25 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :17:25 ;
+    ns1:workPresented :Trolls_2 .
+
+:CLASSIC_2D_ESPAÑOL_17:30 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :17:30 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CLASSIC_2D_ESPAÑOL_18:50 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :18:50 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CLASSIC_2D_ESPAÑOL_19:00 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :19:00 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CLASSIC_2D_ESPAÑOL_19:40 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :19:40 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CLASSIC_2D_ESPAÑOL_19:50 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :19:50 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CLASSIC_2D_ESPAÑOL_22:20 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :22:20 ;
+    ns1:workPresented :El_silencio_del_cazador .
+
+:CLASSIC_2D_ESPAÑOL_23:15 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :23:15 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:CLASSIC_2D_SUBTITULADO_19:50 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :19:50 ;
+    ns1:workPresented :On_a_magical_night .
+
+:CLASSIC_2D_SUBTITULADO_22:50 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :22:50 ;
+    ns1:workPresented :Wonder_Woman_1984 .
+
+:Carey_Mulligan a ns1:Person ;
+    :name "Carey Mulligan" .
+
+:Chance_the_Rapper a ns1:Person ;
+    :name "Chance the Rapper" .
+
+:Charlie_Heaton a ns1:Person ;
+    :name "Charlie Heaton" .
+
+:Chicago_Reader a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-66> ;
+    :name "Chicago Reader" .
+
+:Chloë_Grace_Moretz a ns1:Person ;
+    :name "Chloë Grace Moretz" .
+
+:Chris_Pine a ns1:Person ;
+    ns3:birthDate "1980-08-26"^^xsd:date ;
+    ns4:occupation "Actor"@en ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/name/nm1517976/>,
+        <https://schema.org/https://www.metacritic.com/person/chris-pine> ;
+    owl:sameAs "http://dbpedia.org/resource/Chris_Pine" ;
+    ns2:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chris_Pine> ;
+    :image "https://resizing.flixster.com/kXDRe1jUWEU8UFkdf8JhRPMUG8s=/660x990/v1.bjs3NTYxMDQ7ajsxODgxODsxMjAwOzY2MDs5OTA" ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/chris-pine/" ;
+    :name "Chris Pine" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/christopher_pine"^^xsd:anyURI .
+
+:Chris_Silcox a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/chris-silcox> ;
+    :name "Chris Silcox" .
+
+:Christopher_Mintz-Plasse a ns1:Person ;
+    :name "Christopher Mintz-Plasse" .
+
+:Cinetren a ns1:Organization ;
+    :name "Cinetren" .
+
+:Cinépolis a ns1:Organization ;
+    :name "Cinépolis" .
+
+:Clancy_Brown a ns1:Person ;
+    :name "Clancy Brown" .
+
+:Clemence_Poésy a ns1:Person ;
+    :name "Clemence Poésy" .
+
+:Clémence_Poésy a ns1:Person ;
+    :name "Clémence Poésy" .
+
+:Concrete_Playground a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-2298> ;
+    :name "Concrete Playground" .
+
+:Connie_Britton a ns1:Person ;
+    ns3:birthDate "1967-03-06"^^xsd:date ;
+    ns4:occupation "Actress"@en,
+        "producer"@en,
+        "singer"@en ;
+    owl:sameAs "http://dbpedia.org/resource/Connie_Britton" ;
+    ns2:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Connie_Britton> ;
+    :name "Connie Britton" .
+
+:Connie_Nielsen a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/connie-nielsen> ;
+    :image "https://resizing.flixster.com/9KfyO3m2pAvZAVHAEY2rGGM2PJA=/2938x3500/v1.cjs1MDM1NztqOzE4ODEwOzEyMDA7MjkzODszNTAw" ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/connie-nielsen/" ;
+    :name "Connie Nielsen" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/connie_nielsen"^^xsd:anyURI .
+
+:CreativeWork_0 a ns1:CreativeWork ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/title/tt7126948/> .
+
+:Cynthia_Erivo a ns1:Person ;
+    :name "Cynthia Erivo" .
+
+:César_Bordón a ns1:Person ;
+    :name "César Bordón" .
+
+:Daisy_Ridley a ns1:Person ;
+    :name "Daisy Ridley" .
+
+:Dan_Tabor a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/dan-tabor> ;
+    :name "Dan Tabor" .
+
+:Daniel_Dae_Kim a ns1:Person ;
+    :name "Daniel Dae Kim" .
+
+:Dave_Callaham a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/name/nm1709264/> ;
+    :name "Dave Callaham" .
+
+:David_Bax a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/david-bax> ;
+    :name "David Bax" .
+
+:David_Oyelowo a ns1:Person ;
+    :name "David Oyelowo" .
+
+:David_Sims a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/david-sims> ;
+    :name "David Sims" .
+
+:Demian_Bichir a ns1:Person ;
+    :name "Demian Bichir" .
+
+:Demon_Slayer_Mugen_Train a ns1:Movie ;
+    :contentRating "N/A" ;
+    :countryOfOrigin "Japón" ;
+    :description "Demon Slayer: Mugen Train cuenta la historia de Tanjiro Kamado, Kyoujurou Rengoku y sus amigos de la Compañía de Cazadores de Demonios (Demon Slayer Corps). Juntos, se unen con uno de los mejores espadachines de la compañía, Kyojuro Rengoku, para investigar una misteriosa serie de desapariciones que han ocurrido dentro del “Tren Infinito”. Poco saben que Enmu, uno de los miembros de las Doce Lunas Demoníacas, también está a bordo y les ha preparado una trampa." ;
+    :duration "120 minutos" ;
+    :genre "Acción",
+        "Animación",
+        "Aventura",
+        "Drama",
+        "Fantasía" ;
+    :hasDirector "Haruo Sotozaki" ;
+    ns1:actor :Akari_Kito,
+        :Hiro_Shimono,
+        :Katsuyuki_Konishi,
+        :Kenichi_Suzumura,
+        :Natsuki_Hanae,
+        :Saori_Hayami,
+        :Satoshi_Hino,
+        :Takahiro_Sakurai,
+        :Tomokazu_Seki,
+        :Yoshitsugu_Matsuoka ;
+    ns1:productionCompany :Cinépolis .
+
+:Dennis_Mojen a ns1:Person ;
+    :name "Dennis Mojen" .
+
+:Dimple_Kapadia a ns1:Person ;
+    :name "Dimple Kapadia" .
+
+:ES a ns1:Country ;
+    :name "ES" .
+
+:Eddie_Harrison a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/eddie-harrison> ;
+    :name "Eddie Harrison" .
+
+:Eiza_González a ns1:Person ;
+    :name "Eiza González" .
+
+:El_silencio_del_cazador a ns1:Movie ;
+    :contentRating "P13R" ;
+    :countryOfOrigin "Argentina" ;
+    :description "Guzmán trabaja en un parque nacional con un grupo pequeño pero comprometido de guardas en alerta, ante la aparición de un animal salvaje que acecha desde la selva. Sara, esposa de Guzmán, es una médica dedicada a la comunidad local. Entre ellos se encuentra un amigo de la infancia de ambos y expareja de Sara. Los celos, las cuestiones no saldadas y las relaciones de poder enfrentarán a los tres hasta llegar a un desenlace sin tregua." ;
+    :duration "103 minutos" ;
+    :genre "Drama",
+        "Thriller" ;
+    :hasDirector "Martín Desalvo" ;
+    ns1:actor :Alberto_Ammann,
+        :César_Bordón,
+        :Mercedes_Burgos,
+        :Mora_Recalde,
+        :Pablo_Echarri ;
+    ns1:productionCompany :Cinetren .
+
+:Elizabeth_Debicki a ns1:Person ;
+    :name "Elizabeth Debicki" .
+
+:Ella_Walker a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/ella-walker> ;
+    :name "Ella Walker" .
+
+:Emilia_Schüle a ns1:Person ;
+    :name "Emilia Schüle" .
+
+:Epoch_Times a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-2771> ;
+    :name "Epoch Times" .
+
+:Eric_Marchen a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/eric-marchen> ;
+    :name "Eric Marchen" .
+
+:Fat_Guys_at_the_Movies a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-2722> ;
+    :name "Fat Guys at the Movies" .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#FilmWeek_(KPCC_-_NPR_Los_Angeles)> a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-3509> ;
+    :name "FilmWeek (KPCC - NPR Los Angeles)" .
+
+:Flula_Borg a ns1:Person ;
+    :name "Flula Borg" .
+
+:Frank_Welker a ns1:Person ;
+    :name "Frank Welker" .
+
+:GC_2D_ESPAÑOL_18:10 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :18:10 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:GC_2D_ESPAÑOL_20:20 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :20:20 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:Gabriella_Wilde a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/gabriella-wilde> ;
+    :name "Gabriella Wilde" .
+
+:Gal_Gadot a ns1:Person ;
+    ns3:birthDate "1985-04-30"^^xsd:date ;
+    ns4:occupation "Actress"@en,
+        "model"@en ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/name/nm2933757/>,
+        <https://schema.org/https://www.metacritic.com/person/gal-gadot> ;
+    owl:sameAs "http://dbpedia.org/resource/Gal_Gadot" ;
+    ns2:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gal_Gadot> ;
+    :image "https://resizing.flixster.com/dLV_qSUTi18Sb6W9904IUCOm8i8=/633x704/v1.cjs0Mjc1NjtwOzE4ODEwOzEyMDA7NjMzOzcwNA" ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/gal-gadot/" ;
+    :name "Gal Gadot" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/gal-gadot"^^xsd:anyURI .
+
+:Geoff_Johns a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/name/nm0424315/> ;
+    :name "Geoff Johns" .
+
+:Happy_Anderson a ns1:Person ;
+    :name "Happy Anderson" .
+
+:Harrison_Arevalo a ns1:Person ;
+    :name "Harrison Arevalo" .
+
+:Heiner_Lauterbach a ns1:Person ;
+    :name "Heiner Lauterbach" .
+
+:Henry_Zaga a ns1:Person ;
+    :name "Henry Zaga" .
+
+:Hernán_Jiménez a ns1:Person ;
+    :name "Hernán Jiménez" .
+
+:Himesh_Patel a ns1:Person ;
+    :name "Himesh Patel" .
+
+:Hiro_Shimono a ns1:Person ;
+    :name "Hiro Shimono" .
+
+:Ian_Kenny a ns1:Person ;
+    :name "Ian Kenny" .
+
+:Ian_Simmons a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/ian-simmons> ;
+    :name "Ian Simmons" .
+
+:ImageObject_0 a ns1:ImageObject ;
+    rdfs:seeAlso <https://schema.org/https://img.ecartelera.com/carteles/13100/13170/009_p.jpg> .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#ImageObject_https://m.media-amazon.com/images/M/MV5BZjQ0NGM2NGMtMDE1Yi00YzQyLWI1ZWYtMmQ2OWEzZTA5YjEyXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg> a ns1:ImageObject ;
+    :contentUrl "https://m.media-amazon.com/images/M/MV5BZjQ0NGM2NGMtMDE1Yi00YzQyLWI1ZWYtMmQ2OWEzZTA5YjEyXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg" .
+
+:Isabela_Palópoli a ns1:Person ;
+    :name "Isabela Palópoli" .
+
+:Jake_Curran a ns1:Person ;
+    :name "Jake Curran" .
+
+:Jake_Wilson a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/jake-wilson> ;
+    :name "Jake Wilson" .
+
+:Jamaal_Burcher a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/jamaal-burcher> ;
+    :name "Jamaal Burcher" .
+
+:Jamal_Alkhaldi a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/jamal-alkhaldi> ;
+    :name "Jamal Alkhaldi" .
+
+:James_Corden a ns1:Person ;
+    :name "James Corden" .
+
+:Jamie_Dornan a ns1:Person ;
+    :name "Jamie Dornan" .
+
+:Jeff_Moore a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/jeff-moore> ;
+    :name "Jeff Moore" .
+
+:Jeffrey_Corazzini a ns1:Person ;
+    :name "Jeffrey Corazzini" .
+
+:Jennifer_Coolidge a ns1:Person ;
+    :name "Jennifer Coolidge" .
+
+:Jennifer_Ouellette a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/jennifer-ouellette> ;
+    :name "Jennifer Ouellette" .
+
+:Jessica_Henwick a ns1:Person ;
+    :name "Jessica Henwick" .
+
+:Joel_Morris a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/joel-morris> ;
+    :name "Joel Morris" .
+
+:John_David_Washington a ns1:Person ;
+    :name "John David Washington" .
+
+:John_David_Washington._Kenneth_Branagh a ns1:Person ;
+    :name "John David Washington. Kenneth Branagh" .
+
+:John_Gettier a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/john-gettier> ;
+    :name "John Gettier" .
+
+:John_McDonald a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/john-mcdonald> ;
+    :name "John McDonald" .
+
+:Jonathan_Ajayi a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/jonathan-ajayi> ;
+    :name "Jonathan Ajayi" .
+
+:Jouji_Nakata a ns1:Person ;
+    :name "Jouji Nakata" .
+
+:Julian_Dennison a ns1:Person ;
+    :name "Julian Dennison" .
+
+:Julian_Ferro a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/julian-ferro> ;
+    :name "Julian Ferro" .
+
+:June_Foray a ns1:Person ;
+    :name "June Foray" .
+
+:Justin_Sisk a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/justin-sisk> ;
+    :name "Justin Sisk" .
+
+:Justin_Timberlake a ns1:Person ;
+    :name "Justin Timberlake" .
+
+:Kaila_Ingram a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/kaila-ingram> ;
+    :name "Kaila Ingram" .
+
+:Kana_Ueda a ns1:Person ;
+    :name "Kana Ueda" .
+
+:Karan_Soni a ns1:Person ;
+    :name "Karan Soni" .
+
+:Katsuyuki_Konishi a ns1:Person ;
+    :name "Katsuyuki Konishi" .
+
+:Kelly_Marie_Tran a ns1:Person ;
+    :name "Kelly Marie Tran" .
+
+:Ken_Duken a ns1:Person ;
+    :name "Ken Duken" .
+
+:Kenichi_Suzumura a ns1:Person ;
+    :name "Kenichi Suzumura" .
+
+:Kenneth_Branagh a ns1:Person ;
+    :name "Kenneth Branagh" .
+
+:Kevin_Carr a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/kevin-carr> ;
+    :name "Kevin Carr" .
+
+:Kicking_the_Seat a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-3892> ;
+    :name "Kicking the Seat" .
+
+:Kristen_Wiig a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/name/nm1325419/>,
+        <https://schema.org/https://www.metacritic.com/person/kristen-wiig> ;
+    :image "https://resizing.flixster.com/i99pcM4wMZMqPEVkLFp2GB17UXc=/2000x2083/v1.cjs0OTMxNjtqOzE4ODEwOzEyMDA7MjAwMDsyMDgz" ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/kristen-wiig/" ;
+    :name "Kristen Wiig" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/kristen_wiig"^^xsd:anyURI .
+
+:Kristoffer_Polaha a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/kristoffer-polaha> ;
+    :name "Kristoffer Polaha" .
+
+:Kunal_Nayyar a ns1:Person ;
+    :name "Kunal Nayyar" .
+
+:Kurt_Sutter a ns1:Person ;
+    :name "Kurt Sutter" .
+
+:Kyle_Chandler a ns1:Person ;
+    :name "Kyle Chandler" .
+
+:LA_FABRICA_DE_SUEÑOS a ns1:Movie ;
+    :contentRating "Apta todo público" ;
+    :countryOfOrigin "Alemania" ;
+    :description "Durante el verano de 1961, Emil comienza a trabajar como extra en los famosos estudios de cine Babelsberg. Durante el rodaje de una superproducción, se enamora de la bailarina francesa llamada Milou. Cuando por fin conquista a Milou, el rodaje se cancela repentinamente y son obligados a separarse ya que El Muro de Berlín es levantado en agosto de ese año. Años más tarde, Emil trazará un atrevido y arriesgado plan para lograr que el rodaje continúe y reencontrarse con Milou." ;
+    :duration "127 minutos" ;
+    :genre "Drama romantico" ;
+    :hasDirector "Martin Schreier" ;
+    :inLanguage "Aleman subtitulada" ;
+    :url "No disponible" ;
+    ns1:actor :Dennis_Mojen,
+        :Emilia_Schüle,
+        :Heiner_Lauterbach,
+        :Ken_Duken,
+        :Michael_Gwisdek,
+        :Nikolai_Kinski,
+        :Wilfried_Hochholdinger .
+
+:La_noche_magica a ns1:Movie ;
+    :contentRating "P-16" ;
+    :countryOfOrigin "Argentina" ;
+    :description "La Noche Mágica, la película protagonizada por Natalia Oreiro y Diego Peretti, llega a los cines argentinos el 11 de marzo. El film, una innovadora comedia dramática con ritmo y suspenso de thriller, dirigida por Gastón Portal, cuenta también con las actuaciones de Pablo Rago y Esteban Bigliardi. Está producida por Aeroplano. La Noche Mágica transcurre durante Nochebuena en una casa en San Isidro. Kira (Natalia Oreiro) y su amante Cachete (Pablo Rago), se encuentran en el dormitorio cuando oyen llegar a Juan (Esteban Bigliardi), el marido de Kira. Pero cuando Cachete se esconde en el balcón, se encuentra con algo peor; NICOLA (Diego Peretti), un excéntrico ladrón que, como Papa Noel lleva una barba blanca y un gorro rojo, ha venido a robar el domicilio. Nicola procede a esposar a todos los presentes pero el atraco se complica cuando se encuentra con Alicia, la pequeña hija del matrimonio, quien apenas lo ve le extiende una lista de deseos… Una producción de Aeroplano, en coproducción con World Media (Uruguay), DirecTV, Diego Kolankowsky y Silvia Rodriguez; en asociación con Welavit, RBS, Film Suez, Ketama, TeDigoQue y Dk Entertainment." ;
+    :duration "98 minutos" ;
+    :genre "Thriller" ;
+    :hasDirector "Gastón Portal" ;
+    ns1:actor :Diego_Peretti,
+        :Esteban_Bigliardi,
+        :Hernán_Jiménez,
+        :Isabela_Palópoli,
+        :Laura_López_Moyano,
+        :Natalia_Oreiro,
+        :Pablo_Rago ;
+    ns1:productionCompany :Buena_Vista_International .
+
+:Laura_López_Moyano a ns1:Person ;
+    :name "Laura López Moyano" .
+
+:Laverne_Cox a ns1:Person ;
+    :name "Laverne Cox" .
+
+:Lil_Rel_Howery a ns1:Person ;
+    :name "Lil Rel Howery" .
+
+:Lilly_Aspell a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/lilly-aspell> ;
+    :name "Lilly Aspell" .
+
+:Lolita_Marie a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/lolita-marie> ;
+    :name "Lolita Marie" .
+
+:Lynda_Carter a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/lynda-carter> ;
+    :name "Lynda Carter" .
+
+:Lyon_Beckwith a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/lyon-beckwith> ;
+    :name "Lyon Beckwith" .
+
+:MS_2D_ESPAÑOL_22:45 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :22:45 ;
+    ns1:workPresented :Godzilla_vs._Kong .
+
+:Mad_About_Movies_Podcast a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-3256> ;
+    :name "Mad About Movies Podcast" .
+
+:Mads_Mikkelsen a ns1:Person ;
+    :name "Mads Mikkelsen" .
+
+:Mai_Kadowaki a ns1:Person ;
+    :name "Mai Kadowaki" .
+
+:Manoj_Anand a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/manoj-anand> ;
+    :name "Manoj Anand" .
+
+:Marisol_Correa a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/marisol-correa> ;
+    :name "Marisol Correa" .
+
+:Mark_Jackson a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/mark-jackson> ;
+    :name "Mark Jackson" .
+
+:Mark_Meszoros a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/mark-meszoros> ;
+    :name "Mark Meszoros" .
+
+:Marla_Aaron_Wapner a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/marla-aaron-wapner> ;
+    :name "Marla Aaron Wapner" .
+
+:Martin_Donovan a ns1:Person ;
+    :name "Martin Donovan" .
+
+:Masane_Tsukayama a ns1:Person ;
+    :name "Masane Tsukayama" .
+
+:Matt_Neal a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/matt-neal> ;
+    :name "Matt Neal" .
+
+:Max_Greenfield a ns1:Person ;
+    :name "Max Greenfield" .
+
+:Mel_Blanc a ns1:Person ;
+    ns3:birthDate "1908-05-30"^^xsd:date ;
+    ns4:occupation "Voice actor, radio personality"@en ;
+    owl:sameAs "http://dbpedia.org/resource/Mel_Blanc" ;
+    ns2:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mel_Blanc> ;
+    :name "Mel Blanc" .
+
+:Mercedes_Burgos a ns1:Person ;
+    :name "Mercedes Burgos" .
+
+:Michael_Caine a ns1:Person ;
+    :name "Michael Caine" .
+
+:Michael_Gwisdek a ns1:Person ;
+    :name "Michael Gwisdek" .
+
+:Michael_Peña a ns1:Person ;
+    :name "Michael Peña" .
+
+:Mickey_Gilmore a ns1:Person ;
+    :name "Mickey Gilmore" .
+
+:Miki_Itō a ns1:Person ;
+    :name "Miki Itō" .
+
+:Millie_Bobby_Brown a ns1:Person ;
+    :name "Millie Bobby Brown" .
+
+:Mirada_Distribution_SRL a ns1:Organization ;
+    :name "Mirada Distribution SRL" .
+
+:Molly_Shannon a ns1:Person ;
+    :name "Molly Shannon" .
+
+:Monica_Haynes a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/monica-haynes> ;
+    :name "Monica Haynes" .
+
+:Mora_Recalde a ns1:Person ;
+    :name "Mora Recalde" .
+
+:Natasha_Rothwell a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/natasha-rothwell> ;
+    :name "Natasha Rothwell" .
+
+:Natsuki_Hanae a ns1:Person ;
+    :name "Natsuki Hanae" .
+
+:Newsday a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-338> ;
+    :name "Newsday" .
+
+:Nick_Jonas a ns1:Person ;
+    :name "Nick Jonas" .
+
+:Nicky_Jam a ns1:Person ;
+    :name "Nicky Jam" .
+
+:Nikolai_Kinski a ns1:Person ;
+    :name "Nikolai Kinski" .
+
+:Nina_Garin a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/nina-garin> ;
+    :name "Nina Garin" .
+
+:Noriaki_Sugiyama a ns1:Person ;
+    :name "Noriaki Sugiyama" .
+
+:Noriko_Shitaya a ns1:Person ;
+    :name "Noriko Shitaya" .
+
+:Oakley_Bull a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/oakley-bull> ;
+    :name "Oakley Bull" .
+
+:On_a_magical_night a ns1:Movie ;
+    :contentRating "P-13" ;
+    :countryOfOrigin "Francia" ;
+    :description "Tras 20 años de matrimonio, Maria decide dejar todo atrás y empezar una nueva vida. El primer paso es hospedarse en la habitación 212 de un hotel frente a la casa en la que vivía junto a su pareja. Pero, con el paso del tiempo, comenzará a preguntarse si tomó la decisión correcta…" ;
+    :duration "86 minutos" ;
+    :genre "Comedia" ;
+    :hasDirector "Christophe Honoré" ;
+    ns1:actor :Benjamin_Biolay,
+        :Camille_Cottin,
+        :Carole_Bouquet,
+        :Chiara_Mastroianni,
+        :Harrison_Arevalo,
+        :Marie-Christine_Adam,
+        :Stéphane_Roger,
+        :Vincent_Lacoste ;
+    ns1:productionCompany :Mirada_Distribution_SRL .
+
+:Pablo_Echarri a ns1:Person ;
+    :name "Pablo Echarri" .
+
+:Paul_Ron_Cruz a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/paul-ron-cruz> ;
+    :name "Paul Ron Cruz" .
+
+:Pedro_Pascal a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/name/nm0050959/>,
+        <https://schema.org/https://www.metacritic.com/person/pedro-pascal> ;
+    :image "https://resizing.flixster.com/Y4GD2HB5QLiRYLWxPU8iRb9o8-Q=/220x196/v1.cjs0NDAwMDtqOzE4ODEwOzEyMDA7MjIwOzE5Ng" ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/pedro-pascal/" ;
+    :name "Pedro Pascal" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/pedro_pascal"^^xsd:anyURI .
+
+:Penelope_Kapudija a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/penelope-kapudija> ;
+    :name "Penelope Kapudija" .
+
+:Phawker a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-3631> ;
+    :name "Phawker" .
+
+:PublicationEvent_2020-12-18 a ns1:PublicationEvent ;
+    :startDate "2020-12-18"^^xsd:date ;
+    ns1:location :ES .
+
+:Rafer_Guzman a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/rafer-guzman> ;
+    :name "Rafer Guzman" .
+
+:Rating_Review_Amy_Nicholson_2021-01-04T03:37:14-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Andrew_Galdi_2021-03-11T06:02:25-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Avaryl_Halley_2021-03-11T05:51:39-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Brian_Gill_2021-02-10T06:48:34-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Dan_Tabor_2021-02-05T01:55:00-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_David_Bax_2021-03-23T10:02:10-07:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_David_Sims_2020-12-28T07:45:33-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Eddie_Harrison_2021-02-07T19:57:42-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Eric_Marchen_2021-02-17T02:36:51-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Ian_Simmons_2021-02-05T19:46:31-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Jake_Wilson_2020-12-28T07:49:06-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Jennifer_Ouellette_2021-02-11T02:38:41-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_John_McDonald_2021-01-31T18:14:33-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Kevin_Carr_2021-04-03T14:11:59-07:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Mark_Jackson_2021-02-02T10:00:09-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Mark_Meszoros_2021-02-13T23:57:56-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Matt_Neal_2021-01-31T17:01:54-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Nina_Garin_2021-03-01T08:14:02-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Rafer_Guzman_2021-01-04T04:59:29-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Sarah_Ward_2021-02-21T08:36:54-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Sheri_Flanders_2021-02-01T04:29:30-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Stephen_Romei_2020-12-29T12:09:48-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Tony_Medley_2021-02-22T06:02:11-08:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue -1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_Valerie_Kalfrin_2021-03-20T08:54:50-07:00 a ns1:Rating ;
+    :bestRating 1e+00 ;
+    :ratingValue 1e+00 ;
+    :worstRating -1e+00 .
+
+:Rating_Review_zeki-4_2021-01-02 a ns1:Rating ;
+    :bestRating 1e+01 ;
+    :ratingValue 4e+00 ;
+    :worstRating 1e+00 .
+
+:Ravi_Patel a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/ravi-patel> ;
+    :name "Ravi Patel" .
+
+:Ray_McKinnon a ns1:Person ;
+    :name "Ray McKinnon" .
+
+:Rebecca_Hall a ns1:Person ;
+    :name "Rebecca Hall" .
+
+:Review_Amy_Nicholson_2021-01-04T03:37:14-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://www.scpr.org/programs/filmweek/2020/12/23/66369/filmweek-wonder-woman-1984-soul-promising-young-wo/> ;
+    :dateCreated "2021-01-04"^^xsd:date ;
+    :reviewBody "Very sweet and very fun. I think some of the stunts are a little bit dumb, but I had a lot of watching this." ;
+    ns1:author :Amy_Nicholson ;
+    ns1:publisher <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#FilmWeek_(KPCC_-_NPR_Los_Angeles)> ;
+    ns1:reviewRating :Rating_Review_Amy_Nicholson_2021-01-04T03:37:14-08:00 .
+
+:Review_Andrew_Galdi_2021-03-11T06:02:25-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://youtu.be/75nDMuZMfLs> ;
+    :dateCreated "2021-03-11"^^xsd:date ;
+    :reviewBody "There were just such gross failures of filmmaking..." ;
+    ns1:author :Andrew_Galdi ;
+    ns1:publisher :Movie_Bitches ;
+    ns1:reviewRating :Rating_Review_Andrew_Galdi_2021-03-11T06:02:25-08:00 .
+
+:Review_Avaryl_Halley_2021-03-11T05:51:39-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://youtu.be/75nDMuZMfLs> ;
+    :dateCreated "2021-03-11"^^xsd:date ;
+    :reviewBody "At least \"Justice League\" had at the decency to be short" ;
+    ns1:author :Avaryl_Halley ;
+    ns1:publisher :Movie_Bitches ;
+    ns1:reviewRating :Rating_Review_Avaryl_Halley_2021-03-11T05:51:39-08:00 .
+
+:Review_Brian_Gill_2021-02-10T06:48:34-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/http://madaboutmoviespodcast.com/episodes/2020/12/29/wonder-woman-1984> ;
+    :dateCreated "2021-02-10"^^xsd:date ;
+    :reviewBody "I have sorely missed this sort of big budget popcorn flick through this never-ending pandemic and Wonder Woman succeeds in filling that gap, though only by the slimmest of margins. " ;
+    ns1:author :Brian_Gill ;
+    ns1:publisher :Mad_About_Movies_Podcast ;
+    ns1:reviewRating :Rating_Review_Brian_Gill_2021-02-10T06:48:34-08:00 .
+
+:Review_Dan_Tabor_2021-02-05T01:55:00-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/http://www.phawker.com/2020/12/23/cinema-waiting-for-gadot/> ;
+    :dateCreated "2021-02-05"^^xsd:date ;
+    :reviewBody "WW84 is a near perfect superhero film that outshines the original with its infectious sense of joy and optimism and nuanced deconstruction of the power of truth and how that can be a tool of good or evil. " ;
+    ns1:author :Dan_Tabor ;
+    ns1:publisher :Phawker ;
+    ns1:reviewRating :Rating_Review_Dan_Tabor_2021-02-05T01:55:00-08:00 .
+
+:Review_David_Bax_2021-03-23T10:02:10-07:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://battleshippretension.com/wonder-woman-1984-go-ahead-and-jump-by-david-bax/> ;
+    :dateCreated "2021-03-23"^^xsd:date ;
+    :reviewBody "Where too many directors of these types of films use their visual effects budget to imagine new levels of destruction, Jenkins would rather show us the novel beauty of an invisible jet soaring through a sky full of fireworks." ;
+    ns1:author :David_Bax ;
+    ns1:publisher :Battleship_Pretension ;
+    ns1:reviewRating :Rating_Review_David_Bax_2021-03-23T10:02:10-07:00 .
+
+:Review_David_Sims_2020-12-28T07:45:33-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://www.theatlantic.com/culture/archive/2020/12/wonder-woman-1984-movie-review/617470/> ;
+    :dateCreated "2020-12-28"^^xsd:date ;
+    :reviewBody "It's a refreshingly silly and airy adventure focused on the emotions of one character, Wonder Woman (played by Gal Gadot), and a charming end to a tiring year of cinema." ;
+    ns1:author :David_Sims ;
+    ns1:publisher :The_Atlantic ;
+    ns1:reviewRating :Rating_Review_David_Sims_2020-12-28T07:45:33-08:00 .
+
+:Review_Eddie_Harrison_2021-02-07T19:57:42-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://film-authority.com/2021/01/11/wonder-woman-1984/> ;
+    :dateCreated "2021-02-07"^^xsd:date ;
+    :reviewBody "...a joyless dud, a bucket of sludge when we're crying out for a glass of water..." ;
+    ns1:author :Eddie_Harrison ;
+    ns1:publisher :film-authority.com ;
+    ns1:reviewRating :Rating_Review_Eddie_Harrison_2021-02-07T19:57:42-08:00 .
+
+:Review_Eric_Marchen_2021-02-17T02:36:51-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://untitledmoviepodcast.com/reviews/2020/12/27/wonder-woman-1984> ;
+    :dateCreated "2021-02-17"^^xsd:date ;
+    :reviewBody "Feels like this would be better suited for an episode of TV than a 2.5 hour film." ;
+    ns1:author :Eric_Marchen ;
+    ns1:publisher :Untitled_Movie_Podcast ;
+    ns1:reviewRating :Rating_Review_Eric_Marchen_2021-02-17T02:36:51-08:00 .
+
+:Review_Ian_Simmons_2021-02-05T19:46:31-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://kickseat.com/podcast/ep623-when-you-wish-upon-a-sequel-wonder-woman-1984> ;
+    :dateCreated "2021-02-05"^^xsd:date ;
+    :reviewBody "I'm not usually a fan of the \"multiple villain\" thing, but I thought it was handled pretty well here." ;
+    ns1:author :Ian_Simmons ;
+    ns1:publisher :Kicking_the_Seat ;
+    ns1:reviewRating :Rating_Review_Ian_Simmons_2021-02-05T19:46:31-08:00 .
+
+:Review_Jake_Wilson_2020-12-28T07:49:06-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://www.theage.com.au/culture/movies/wonder-woman-1984-gal-gadot-soars-in-a-plot-that-doesn-t-aim-high-20201216-p56o4z.html> ;
+    :dateCreated "2020-12-28"^^xsd:date ;
+    :reviewBody "Gadot as Wonder Woman -- or Diana Prince, as she's more commonly known -- may be the single best piece of casting in a superhero role since Christopher Reeve first donned the cape and spandex of the Man of Steel." ;
+    ns1:author :Jake_Wilson ;
+    ns1:publisher <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#The_Age_(Australia)> ;
+    ns1:reviewRating :Rating_Review_Jake_Wilson_2020-12-28T07:49:06-08:00 .
+
+:Review_Jennifer_Ouellette_2021-02-11T02:38:41-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://arstechnica.com/gaming/2020/12/wonder-woman-1984-is-fun-but-doesnt-quite-capture-magic-of-its-predecessor/> ;
+    :dateCreated "2021-02-11"^^xsd:date ;
+    :reviewBody "While Wonder Woman 1984 still has a bit of the old magic, and its leads all turn in terrific performances, the film is hampered by a frequently nonsensical plot, extraneous showy action sequences, and it's way too heavy-handed with the moralizing." ;
+    ns1:author :Jennifer_Ouellette ;
+    ns1:publisher :Ars_Technica ;
+    ns1:reviewRating :Rating_Review_Jennifer_Ouellette_2021-02-11T02:38:41-08:00 .
+
+:Review_John_McDonald_2021-01-31T18:14:33-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://www.johnmcdonald.net.au/2021/wonder-woman-1984/> ;
+    :dateCreated "2021-01-31"^^xsd:date ;
+    :reviewBody "One wonders how many more films will confirm the cast-iron law that every new Hollywood movie is really about Donald Trump?" ;
+    ns1:author :John_McDonald ;
+    ns1:publisher :Australian_Financial_Review ;
+    ns1:reviewRating :Rating_Review_John_McDonald_2021-01-31T18:14:33-08:00 .
+
+:Review_Kevin_Carr_2021-04-03T14:11:59-07:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/http://www.fatguysatthemovies.com/episode-728-lizard-vs-ape/> ;
+    :dateCreated "2021-04-03"^^xsd:date ;
+    :reviewBody "It's a fun movie, and it's got a lot of fun action in it. If you can get past the goofiness, it works." ;
+    ns1:author :Kevin_Carr ;
+    ns1:publisher :Fat_Guys_at_the_Movies ;
+    ns1:reviewRating :Rating_Review_Kevin_Carr_2021-04-03T14:11:59-07:00 .
+
+:Review_Mark_Jackson_2021-02-02T10:00:09-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://www.theepochtimes.com/film-review-wonder-woman-1984-a-sequel-less-wonderful_3667828.html> ;
+    :dateCreated "2021-02-02"^^xsd:date ;
+    :reviewBody "\"Wonder Woman\" (2017) was one of the best superhero movies ever made. It was idealistic, classy, aesthetically pleasing, and romantic, and should've kicked off a fabulous franchise. Unfortunately the sequel is a major letdown." ;
+    ns1:author :Mark_Jackson ;
+    ns1:publisher :Epoch_Times ;
+    ns1:reviewRating :Rating_Review_Mark_Jackson_2021-02-02T10:00:09-08:00 .
+
+:Review_Mark_Meszoros_2021-02-13T23:57:56-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://www.news-herald.com/entertainment/movie-reviews/wonder-woman-1984-overdoes-it-but-what-made-first-movie-successful-alive-and-well-in/article_a0eed67e-453e-11eb-9aae-8774f60e37ce.html> ;
+    :dateCreated "2021-02-13"^^xsd:date ;
+    :reviewBody "There are plenty of good times to be had as we pick back up with Gal Gadot's Wonder Woman/Diana Prince six-plus decades after the World War I-set first tale." ;
+    ns1:author :Mark_Meszoros ;
+    ns1:publisher <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#The_News-Herald_(Willoughby,_OH)> ;
+    ns1:reviewRating :Rating_Review_Mark_Meszoros_2021-02-13T23:57:56-08:00 .
+
+:Review_Matt_Neal_2021-01-31T17:01:54-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://movies8mylife.blogspot.com/2021/02/wonder-woman-1984.html> ;
+    :dateCreated "2021-01-31"^^xsd:date ;
+    :reviewBody " After such a stirring debut, it's pains me to say that Wonder Woman 1984 isn't that wonderful." ;
+    ns1:author :Matt_Neal ;
+    ns1:publisher <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#ABC_Radio_(Australia)> ;
+    ns1:reviewRating :Rating_Review_Matt_Neal_2021-01-31T17:01:54-08:00 .
+
+:Review_Nina_Garin_2021-03-01T08:14:02-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://www.sandiegouniontribune.com/entertainment/movies/story/2020-12-24/wonder-woman-1984> ;
+    :dateCreated "2021-03-01"^^xsd:date ;
+    :reviewBody "Gadot is so skilled at bringing vulnerability to her battles - whether it's a physical fight with Maxwell Lord or an internal struggle about giving up the one thing she's ever desired. She embodies a true superhero, one who is inclusive and noble. " ;
+    ns1:author :Nina_Garin ;
+    ns1:publisher :San_Diego_Union-Tribune ;
+    ns1:reviewRating :Rating_Review_Nina_Garin_2021-03-01T08:14:02-08:00 .
+
+:Review_Rafer_Guzman_2021-01-04T04:59:29-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://www.newsday.com/entertainment/movies/wonder-woman-1984-review-1.50099436> ;
+    :dateCreated "2021-01-04"^^xsd:date ;
+    :reviewBody " A serviceable sequel, elevated by its radiant leading lady and an over-the-top villain." ;
+    ns1:author :Rafer_Guzman ;
+    ns1:publisher :Newsday ;
+    ns1:reviewRating :Rating_Review_Rafer_Guzman_2021-01-04T04:59:29-08:00 .
+
+:Review_Sarah_Ward_2021-02-21T08:36:54-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://concreteplayground.com/sydney/event/wonder-woman-1984> ;
+    :dateCreated "2021-02-21"^^xsd:date ;
+    :reviewBody "Wonder Woman 1984 doesn't spin the most complicated story, but it's so repetitive and meandering across its 151-minute running time that it's needlessly bulky, muddled and weighed down." ;
+    ns1:author :Sarah_Ward ;
+    ns1:publisher :Concrete_Playground ;
+    ns1:reviewRating :Rating_Review_Sarah_Ward_2021-02-21T08:36:54-08:00 .
+
+:Review_Sheri_Flanders_2021-02-01T04:29:30-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://www.chicagoreader.com/chicago/wonder-woman-1984/Film?oid=85354160> ;
+    :dateCreated "2021-02-01"^^xsd:date ;
+    :reviewBody "Wonder Woman 1984 is a technicolor, lighthearted romp through the era of Jazzercise, big hair, and even bigger shoulder pads." ;
+    ns1:author :Sheri_Flanders ;
+    ns1:publisher :Chicago_Reader ;
+    ns1:reviewRating :Rating_Review_Sheri_Flanders_2021-02-01T04:29:30-08:00 .
+
+:Review_Stephen_Romei_2020-12-29T12:09:48-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://www.theaustralian.com.au/arts/review/wonder-woman-a-superhero-for-these-unpredictable-times/news-story/07c2cdcdf7699c36c2fa44d8e003acb8> ;
+    :dateCreated "2020-12-29"^^xsd:date ;
+    :reviewBody "I assume there will be a sequel to this sequel. If so, no complaint from me, especially if Wiig and Pascal are in it. " ;
+    ns1:author :Stephen_Romei ;
+    ns1:publisher :The_Australian ;
+    ns1:reviewRating :Rating_Review_Stephen_Romei_2020-12-29T12:09:48-08:00 .
+
+:Review_Tony_Medley_2021-02-22T06:02:11-08:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/http://www.tonymedley.com/2020/Wonder_Woman_1984.htm> ;
+    :dateCreated "2021-02-22"^^xsd:date ;
+    :reviewBody "It is even more absurd than the first one that grossly distorted history. Gal Gadot's delivery makes Tony Curtis', \"Yonda Lies Da Castle of My Fodda,\" seem Shakespearean." ;
+    ns1:author :Tony_Medley ;
+    ns1:publisher :The_Larchmont_Chronicle ;
+    ns1:reviewRating :Rating_Review_Tony_Medley_2021-02-22T06:02:11-08:00 .
+
+:Review_Valerie_Kalfrin_2021-03-20T08:54:50-07:00 a ns1:Review ;
+    rdfs:seeAlso <https://schema.org/https://intheirownleague.com/2020/12/29/review-wonder-woman-1984/> ;
+    :dateCreated "2021-03-20"^^xsd:date ;
+    :reviewBody "With its message of kindness and empathy, \"Wonder Woman 1984\" offers a soothing balm in a pandemic-weary year, even if getting there is a muddled journey." ;
+    ns1:author :Valerie_Kalfrin ;
+    ns1:publisher :Their_Own_League ;
+    ns1:reviewRating :Rating_Review_Valerie_Kalfrin_2021-03-20T08:54:50-07:00 .
+
+:Review_zeki-4_2021-01-02 a ns1:Review ;
+    :dateCreated "2021-01-02"^^xsd:date ;
+    :inLanguage "English" ;
+    :name "So bad that I almost walked out of my own house!" ;
+    :reviewBody "The first one was fun and well played out. This sequel is a total misfire. Not because it follows the trend of having women being the alpha characters and portraying men as either weak or stupid, but simply because it's a lazy effort. Except a couple of scenes, and hilarious over-the-top acting by Pedro Pascal, I found nothing here. It has \"straight-to-DVD\" written all over it." ;
+    ns1:author :zeki-4 ;
+    ns1:itemReviewed :CreativeWork_0 ;
+    ns1:reviewRating :Rating_Review_zeki-4_2021-01-02 .
+
+:Rick_Kelvin_Branch a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/rick-kelvin-branch> ;
+    :name "Rick Kelvin Branch" .
+
+:Rita_Tushingham a ns1:Person ;
+    :name "Rita Tushingham" .
+
+:Robin_Wright a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/robin-wright> ;
+    :image "https://resizing.flixster.com/s5rTePWBzCqGE8uYUIYqS52D6JU=/1000x1500/v1.bjs3NDQ4MjY7ajsxODgxODsxMjAwOzEwMDA7MTUwMA" ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/robin-wright/" ;
+    :name "Robin Wright" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/robin_wright"^^xsd:anyURI .
+
+:Rosario_Dawson a ns1:Person ;
+    :name "Rosario Dawson" .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#SCOOBY!> a ns1:Movie ;
+    :contentRating "Apta todo público" ;
+    :countryOfOrigin "EEUU" ;
+    :description """Película animada sobre el dibujito Scooby-Doo que sigue a un perro Gran Danés y sus 4 amigos: Fred, Daphne, Vilma y Shaggy quienes juntos viajan por el mundo resolviendo misterios relacionados con fantasmas y otras fuerzas sobrenaturales.-\r
+Scooby! revela cómo se conocieron los amigos de toda la vida Scooby y Shaggy, y cómo se unieron con los jóvenes detectives Fred, Velma y Daphne para formar Mystery Inc. Ahora, con cientos de casos resueltos y aventuras compartidas, Scooby y la pandilla se enfrentan al misterio más desafiante de todos los tiempos: una trama para liberar Cerberus, el perro fantasma, sobre el mundo. Mientras compiten para detener este "perrocalipsis" global, la pandilla descubre que Scooby tiene un legado secreto y un gran y épico destino que nadie imaginaba.""" ;
+    :duration "94 minutos" ;
+    :genre "Acción, Aventuras" ;
+    :hasDirector "Tony Cervone" ;
+    :inLanguage "Castellano" ;
+    :url "No disponible" ;
+    ns1:actor :animación .
+
+:Sahil_Shroff a ns1:Person ;
+    :name "Sahil Shroff" .
+
+:Sam_Richardson a ns1:Person ;
+    :name "Sam Richardson" .
+
+:Sam_Rockwell a ns1:Person ;
+    :name "Sam Rockwell" .
+
+:San_Diego_Union-Tribune a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-503> ;
+    :name "San Diego Union-Tribune" .
+
+:Saori_Hayami a ns1:Person ;
+    :name "Saori Hayami" .
+
+:Sarah_Ward a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/sarah-ward> ;
+    :name "Sarah Ward" .
+
+:Satoshi_Hino a ns1:Person ;
+    :name "Satoshi Hino" .
+
+:Sheri_Flanders a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/sheri-flanders> ;
+    :name "Sheri Flanders" .
+
+:Shun_Oguri a ns1:Person ;
+    :name "Shun Oguri" .
+
+:Sia_Alipour a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/sia-alipour> ;
+    :name "Sia Alipour" .
+
+:Sonia_Goswami a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/sonia-goswami> ;
+    :name "Sonia Goswami" .
+
+:Spencer_Trinwith a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/spencer-trinwith> ;
+    :name "Spencer Trinwith" .
+
+:Stacha_Hicks a ns1:Person ;
+    :name "Stacha Hicks" .
+
+:Stephen_Romei a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/stephen-romei> ;
+    :name "Stephen Romei" .
+
+:Stream_on_HBO_Max_for_a_Limited_Time a ns1:VideoObject ;
+    :description "Fast forward to the 1980s as Wonder Woman’s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah." ;
+    :embedUrl "/video/imdb/vi3240214809" ;
+    :name "Stream on HBO Max for a Limited Time" ;
+    :thumbnailUrl "https://m.media-amazon.com/images/M/MV5BZjQ0NGM2NGMtMDE1Yi00YzQyLWI1ZWYtMmQ2OWEzZTA5YjEyXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg" ;
+    :uploadDate "2020-12-07"^^xsd:date ;
+    ns1:thumbnail <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#ImageObject_https://m.media-amazon.com/images/M/MV5BZjQ0NGM2NGMtMDE1Yi00YzQyLWI1ZWYtMmQ2OWEzZTA5YjEyXkEyXkFqcGdeQWRvb2xpbmhk._V1_.jpg> .
+
+:Stéphane_Roger a ns1:Person ;
+    :name "Stéphane Roger" .
+
+:Subrat_Dutta a ns1:Person ;
+    :name "Subrat Dutta" .
+
+:Sylvester_McCoy a ns1:Person ;
+    :name "Sylvester McCoy" .
+
+:T-Pain a ns1:Person ;
+    :name "T-Pain" .
+
+:TROLLS_2:_WORLD_TOUR a ns1:Movie ;
+    :contentRating "Apta todo público" ;
+    :countryOfOrigin "EEUU" ;
+    :description "En una aventura que les llevará más allá de todo lo que habían conocido, Poppy y Branch descubren que su tribu de Trolls es solo una de las seis que existen, que el resto están repartidas en seis reinos y consagradas a seis tipos distintos de música: funk, country, tecno, clásica, pop y rock. La reina Bárbara, miembro de la realeza del hard rock, y su padre, el Rey Metal, quieren acabar con el resto de géneros musicales e imponer el reinado del rock. Con el destino del mundo en juego, Poppy y Branch, junto con el resto de la pandilla - Grandullón, Chanelle, Satén, Cooper y Guy Diamante-, visitarán los demás reinos para unir a los Trolls contra los planes de Barb de eclipsarlos a todos." ;
+    :duration "91 minutos" ;
+    :genre "Animación" ;
+    :hasDirector "Walt Dohrn, David P. Smith" ;
+    :inLanguage "Castellano" ;
+    :url "No disponible" ;
+    ns1:actor :animación .
+
+:Takahiro_Sakurai a ns1:Person ;
+    :name "Takahiro Sakurai" .
+
+:Tenet a ns1:Movie ;
+    :contentRating "Apta mayores de 13 años",
+        "P-13" ;
+    :countryOfOrigin "EEUU",
+        "Reino Unido, Estados Unidos" ;
+    :description "Armado con tan solo una palabra -Tenet- el protagonista de esta historia deberá pelear por la supervivencia del mundo entero en una misión que le lleva a viajar a través del oscuro mundo del espionaje internacional, y cuya experiencia se desdoblará más allá del tiempo lineal.",
+        "Armado solamente con una palabra, Tenet, el protagonista deberá luchar por la supervivencia del mundo entero y evitar la Tercera Guerra Mundial, en una historia de espionaje internacional. La misión se desplegará más allá del tiempo real. No son viajes en el tiempo, es inversión." ;
+    :duration "150 minutos",
+        "155 minutos" ;
+    :genre "Acción",
+        "Ciencia Ficción",
+        "Thriller" ;
+    :hasDirector "Christopher Nolan" ;
+    :inLanguage "Inglés subtitulada" ;
+    :url "No disponible" ;
+    ns1:actor :Aaron_Taylor-Johnson,
+        :Clemence_Poésy,
+        :Clémence_Poésy,
+        :Dimple_Kapadia,
+        :Elizabeth_Debicki,
+        :Himesh_Patel,
+        :John_David_Washington,
+        :John_David_Washington._Kenneth_Branagh,
+        :Kenneth_Branagh,
+        :Martin_Donovan,
+        :Michael_Caine,
+        :Robert_Pattinson ;
+    ns1:productionCompany :Warner .
+
+:Tessa_Bonham_Jones a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/tessa-bonham-jones> ;
+    :name "Tessa Bonham Jones" .
+
+:Tetsu_Inada a ns1:Person ;
+    :name "Tetsu Inada" .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#The_Age_(Australia)> a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-2041> ;
+    :name "The Age (Australia)" .
+
+:The_Atlantic a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-24> ;
+    :name "The Atlantic" .
+
+:The_Australian a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-1964> ;
+    :name "The Australian" .
+
+:The_Larchmont_Chronicle a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-2992> ;
+    :name "The Larchmont Chronicle" .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#The_News-Herald_(Willoughby,_OH)> a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-3916> ;
+    :name "The News-Herald (Willoughby, OH)" .
+
+:Their_Own_League a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-3607> ;
+    :name "Their Own League" .
+
+:Thomas_Clay_Strickland a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/person/thomas-clay-strickland> ;
+    :name "Thomas Clay Strickland" .
+
+:Thomas_Kee a ns1:Person ;
+    :name "Thomas Kee" .
+
+:Tom_Holland a ns1:Person ;
+    :name "Tom Holland" .
+
+:Tomatometer a ns1:AggregateRating ;
+    :bestRating 1e+02 ;
+    :description "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show." ;
+    :name "Tomatometer" ;
+    :ratingCount 426 ;
+    :ratingValue 5.9e+01 ;
+    :reviewCount 426 ;
+    :worstRating 0e+00 .
+
+:Tomokazu_Seki a ns1:Person ;
+    :name "Tomokazu Seki" .
+
+:Tony_Medley a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/tony-medley> ;
+    :name "Tony Medley" .
+
+:Untitled_Movie_Podcast a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-3831> ;
+    :name "Untitled Movie Podcast" .
+
+:Valerie_Kalfrin a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/critic/valerie-kalfrin> ;
+    :name "Valerie Kalfrin" .
+
+:Vanessa_Curry a ns1:Person ;
+    :name "Vanessa Curry" .
+
+:Wilfried_Hochholdinger a ns1:Person ;
+    :name "Wilfried Hochholdinger" .
+
+:William_Hanna a ns1:Person ;
+    :name "William Hanna" .
+
+:William_Moulton_Marston a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/name/nm0551376/> ;
+    :name "William Moulton Marston" .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#Wonder_Woman_1984_(Trailer_2)> a ns1:VideoObject ;
+    :description "Video Clip of Wonder Woman 1984" ;
+    :name "Wonder Woman 1984 (Trailer 2)" ;
+    :thumbnailUrl "https://content.internetvideoarchive.com/content/hdphotos/13126/013126/013126_820x461_637413475681110755.jpg" ;
+    :uploadDate "2020-11-21"^^xsd:date .
+
+:Yoshitsugu_Matsuoka a ns1:Person ;
+    :name "Yoshitsugu Matsuoka" .
+
+:Yū_Asakawa a ns1:Person ;
+    :name "Yū Asakawa" .
+
+:film-authority.com a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-3904> ;
+    :name "film-authority.com" .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#https://www.imdb.com/company/co0002663/> a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/company/co0002663/> .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#https://www.imdb.com/company/co0028338/> a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/company/co0028338/> .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#https://www.imdb.com/company/co0038332/> a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/company/co0038332/> .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#https://www.imdb.com/company/co0283444/> a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/company/co0283444/> .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#https://www.imdb.com/company/co0728674/> a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/company/co0728674/> .
+
+:zeki-4 a ns1:Person ;
+    :name "zeki-4" .
+
+:Óscar_Jaenada a ns1:Person ;
+    :name "Óscar Jaenada" .
+
+xsd:time a rdfs:Datatype .
+
+:13:15 a ns1:Schedule ;
+    :startTime "13:15:00"^^xsd:time .
+
+:15:00 a ns1:Schedule ;
+    :startTime "15:00",
+        "15:00:00"^^xsd:time .
+
+:16:10 a ns1:Schedule ;
+    :startTime "16:10",
+        "16:10:00"^^xsd:time .
+
+:17:00 a ns1:Schedule ;
+    :startTime "17:00",
+        "17:00:00"^^xsd:time .
+
+:17:30 a ns1:Schedule ;
+    :startTime "17:30",
+        "17:30:00"^^xsd:time .
+
+:17:40 a ns1:Schedule ;
+    :startTime "17:40",
+        "17:40:00"^^xsd:time .
+
+:17:45 a ns1:Schedule ;
+    :startTime "17:45",
+        "17:45:00"^^xsd:time .
+
+:18:00 a ns1:Schedule ;
+    :startTime "18:00:00"^^xsd:time .
+
+:18:05 a ns1:Schedule ;
+    :startTime "18:05:00"^^xsd:time .
+
+:18:10 a ns1:Schedule ;
+    :startTime "18:10",
+        "18:10:00"^^xsd:time .
+
+:22:50 a ns1:Schedule ;
+    :startTime "22:50",
+        "22:50:00"^^xsd:time .
+
+:Benjamin_Biolay a ns1:Person ;
+    ns3:birthDate "1973-01-20"^^xsd:date ;
+    ns4:occupation "Singer"@en,
+        "actor"@en,
+        "record producer"@en,
+        "songwriter"@en ;
+    owl:sameAs "http://dbpedia.org/resource/Benjamin_Biolay" ;
+    ns2:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Benjamin_Biolay> ;
+    :name "Benjamin Biolay" .
+
+:CLASSIC_2D_ESPAÑOL_15:45 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :15:45 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CLASSIC_2D_ESPAÑOL_16:40 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :16:40 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CLASSIC_2D_ESPAÑOL_17:00 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :17:00 ;
+    ns1:workPresented :Tom_and_Jerry,
+        :Trolls_2 .
+
+:CLASSIC_2D_ESPAÑOL_17:20 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :17:20 ;
+    ns1:workPresented :Tom_and_Jerry,
+        :Trolls_2 .
+
+:CLASSIC_2D_ESPAÑOL_17:40 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :17:40 ;
+    ns1:workPresented :La_noche_magica .
+
+:CLASSIC_2D_ESPAÑOL_17:45 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :17:45 ;
+    ns1:workPresented :Tom_and_Jerry .
+
+:CLASSIC_2D_ESPAÑOL_22:40 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :22:40 ;
+    ns1:workPresented :Godzilla_vs._Kong,
+        :New_Mutants,
+        :Wonder_Woman_1984 .
+
+:CLASSIC_2D_ESPAÑOL_22:45 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :22:45 ;
+    ns1:workPresented :New_Mutants .
+
+:CLASSIC_2D_SUBTITULADO_22:40 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :22:40 ;
+    ns1:workPresented :Godzilla_vs._Kong,
+        :New_Mutants .
+
+:CLASSIC_2D_SUBTITULADO_22:45 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :22:45 ;
+    ns1:workPresented :New_Mutants,
+        :Promising_young_woman .
+
+:CLASSIC_2D_SUBTITULADO_23:00 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :23:00 ;
+    ns1:workPresented :Godzilla_vs._Kong,
+        :New_Mutants .
+
+:Camille_Cottin a ns1:Person ;
+    :name "Camille Cottin" .
+
+:Carole_Bouquet a ns1:Person ;
+    :name "Carole Bouquet" .
+
+:Chiara_Mastroianni a ns1:Person ;
+    :name "Chiara Mastroianni" .
+
+:Demián_Bichir a ns1:Person ;
+    :name "Demián Bichir" .
+
+:Diego_Peretti a ns1:Person ;
+    owl:sameAs "http://dbpedia.org/resource/Diego_Peretti" ;
+    ns2:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Diego_Peretti> ;
+    :name "Diego Peretti" .
+
+:EL_SECRETO_DEL_BOSQUE a ns1:Movie ;
+    :contentRating "Apta mayores de 13 años" ;
+    :countryOfOrigin "EEUU" ;
+    :description "Mientras disfrutan de una escapada romántica en la India salvaje, una pareja de Los Angeles accidentalmente es testigo del exorcismo de una niña de 11 años a la cual intentarán rescatar." ;
+    :duration "87 minutos" ;
+    :genre "Terror" ;
+    :hasDirector "Vikram Jayakumar" ;
+    :inLanguage "Inglés subtitulada" ;
+    :url "No disponible" ;
+    ns1:actor :Sahil_Shroff,
+        :Subrat_Dutta,
+        :Vanessa_Curry .
+
+:Esteban_Bigliardi a ns1:Person ;
+    :name "Esteban Bigliardi" .
+
+:LA_NOCHE_MAGICA a ns1:Movie ;
+    :contentRating "Apta mayores de 16 años" ;
+    :countryOfOrigin "Argentina" ;
+    :description """Es 24 de diciembre, víspera de Navidad. En una casa tranquila en San Isidro donde vive un matrimonio con su pequeña hija, un ladrón  espera su momento para entrar a robar. Para su sorpresa, se encontrará primero con el amante de la señora de la casa al cual obligará a participar en el robo.\r
+Lo que no sabe, es que la pequeña de la casa al verlo lo confundirá con Papá Noel y le pedirá cumplir su lista de deseos navideños""" ;
+    :duration "98 minutos" ;
+    :genre "Comedia" ;
+    :hasDirector "Gastón Portal" ;
+    :inLanguage "Castellano" ;
+    :url "No disponible" ;
+    ns1:actor :Diego_Peretti,
+        :Esteban_Bigliardi,
+        :Natalia_Oreiro,
+        :Pablo_Rago .
+
+:LOS_INTRUSOS a ns1:Movie ;
+    :contentRating "Apta mayores de 16 años" ;
+    :countryOfOrigin "Reino Unido - Francia" ;
+    :description "Inglaterra rural, principios de los noventa: los amigos de la infancia Nathan y Terry son inducidos por el sociópata local para robar a los Huggins, un médico anciano y su esposa. La novia de Nathan, Mary, está totalmente en contra del plan, pero al cabo de unas horas se encuentra en el caserón, al lado de la caja fuerte del sótano y de una panda de individuos, a cual más sospechoso." ;
+    :duration "92 minutos" ;
+    :genre "Terror" ;
+    :hasDirector "Julius Berg" ;
+    :inLanguage "Inglés subtitulada" ;
+    :url "No disponible" ;
+    ns1:actor :Andrew_Ellis,
+        :Ian_Kenny,
+        :Jake_Curran,
+        :Maisie_Williams,
+        :Rita_Tushingham,
+        :Stacha_Hicks,
+        :Sylvester_McCoy .
+
+:Maisie_Williams a ns1:Person ;
+    :name "Maisie Williams" .
+
+:Marie-Christine_Adam a ns1:Person ;
+    :name "Marie-Christine Adam" .
+
+:Movie_Bitches a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.rottentomatoes.com/source-3639> ;
+    :name "Movie Bitches" .
+
+:Natalia_Oreiro a ns1:Person ;
+    ns3:birthDate "1977-05-19"^^xsd:date ;
+    ns4:occupation "Singer, songwriter, actress, model"@en ;
+    owl:sameAs "http://dbpedia.org/resource/Natalia_Oreiro" ;
+    ns2:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Natalia_Oreiro> ;
+    :name "Natalia Oreiro" .
+
+:Pablo_Rago a ns1:Person ;
+    :name "Pablo Rago" .
+
+:UIP a ns1:Organization ;
+    :name "UIP" .
+
+:Vincent_Lacoste a ns1:Person ;
+    :name "Vincent Lacoste" .
+
+:Warner a ns1:Organization ;
+    :name "Warner" .
+
+<https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#Warner_Bros.> a ns1:Organization ;
+    :name "Warner Bros." .
+
+:Warner_Bros._Pictures a ns1:Organization ;
+    rdfs:seeAlso <https://schema.org/https://www.metacritic.com/company/warner-bros-pictures> ;
+    :mainEntityOfPage "https://www.ecartelera.com/empresas/warner-bros/" ;
+    :name "Warner Bros. Pictures" .
+
+ns1:Country a owl:Class .
+
+ns1:PublicationEvent a owl:Class .
+
+xsd:date a rdfs:Datatype .
+
+:13:45 a ns1:Schedule ;
+    :startTime "13:45:00"^^xsd:time .
+
+:14:00 a ns1:Schedule ;
+    :startTime "14:00:00"^^xsd:time .
+
+:15:30 a ns1:Schedule ;
+    :startTime "15:30:00"^^xsd:time .
+
+:15:40 a ns1:Schedule ;
+    :startTime "15:40:00"^^xsd:time .
+
+:16:00 a ns1:Schedule ;
+    :startTime "16:00",
+        "16:00:00"^^xsd:time .
+
+:16:45 a ns1:Schedule ;
+    :startTime "16:45",
+        "16:45:00"^^xsd:time .
+
+:19:45 a ns1:Schedule ;
+    :startTime "19:45:00"^^xsd:time .
+
+:19:50 a ns1:Schedule ;
+    :startTime "19:50",
+        "19:50:00"^^xsd:time .
+
+:20:00 a ns1:Schedule ;
+    :startTime "20:00",
+        "20:00:00"^^xsd:time .
+
+:20:20 a ns1:Schedule ;
+    :startTime "20:20",
+        "20:20:00"^^xsd:time .
+
+:20:30 a ns1:Schedule ;
+    :startTime "20:30:00"^^xsd:time .
+
+:20:45 a ns1:Schedule ;
+    :startTime "20:45:00"^^xsd:time .
+
+:22:40 a ns1:Schedule ;
+    :startTime "22:40",
+        "22:40:00"^^xsd:time .
+
+:CLASSIC_2D_ESPAÑOL_16:10 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :16:10 ;
+    ns1:workPresented :Tom_and_Jerry,
+        :Trolls_2 .
+
+:CLASSIC_2D_ESPAÑOL_17:10 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :17:10 ;
+    ns1:workPresented :Tom_and_Jerry,
+        :Trolls_2 .
+
+:Patty_Jenkins a ns1:Person ;
+    rdfs:seeAlso <https://schema.org/https://www.imdb.com/name/nm0420941/>,
+        <https://schema.org/https://www.metacritic.com/person/patty-jenkins> ;
+    :mainEntityOfPage "https://www.ecartelera.com/personas/patty-jenkins/" ;
+    :name "Patty Jenkins" ;
+    :sameAs "https://www.rottentomatoes.com/celebrity/patty_jenkins"^^xsd:anyURI .
+
+:Robert_Pattinson a ns1:Person ;
+    :name "Robert Pattinson" .
+
+:Wonder_Woman_1984 a ns1:Movie ;
+    :character "Antiope",
+        "Barbara Minerva / Cheetah",
+        "Diana Prince / Wonder Woman",
+        "Hippolyta",
+        "Steve Trevor" ;
+    :contentRating "Apta mayores de 13 años",
+        "P-13",
+        "PG-13" ;
+    :countryOfOrigin "EE.UU.",
+        "EEUU",
+        "Estados Unidos" ;
+    :description """&#39;Wonder Woman 1984&#39; llegará a la pantalla grande el próximo 5 de junio de 2020, de nuevo con la actriz israelí Gal Gadot en el papel de la Mujer Maravilla y Patty Jenkins detrás de las cámaras. La secuela de &#39;Wonder Woman&#39; contará además con el regreso de Chris Pine (&#39;Star Trek. Más allá&#39;) como Steve Trevor. La película sigue a Diana en su vida durante los años 80 en Estados Unidos. En esta ocasión, Diana se enfrentará a nuevos enemigos. Su principal antagonista es la arqueóloga británica Barbara Minerva, que será interpretada por Kristen Wigg (&#39;Cazafantasmas&#39;). La científica tiene un alter ego, la villana Cheetah que tiene una fuerza y agilidad sobrehumanas. Otro enemigo a tener en cuenta será el empresario Maxwel Lord, interpretado por Pedro Pascal (&#39;The Mandalorian&#39;). Este personaje es un arrogante con la habilidad de manipular a otros a su antojo. En los cómics, Max Lord tiene poderes mentales. También aparecen en esta cinta las guerreras amazonas Antiope (Robin Wright) y la Reina Hippolyta (Connie Nielsen).\r
+\r
+La trama de esta película es una gran misterio. El guión está basado en una historia escrita por Patty Jenkins, Geoff Johns (&#39;The Flash&#39;, &#39;Aquaman&#39;) y Dave Callaham (&#39;Zombieland: Mata y remata&#39;). Se espera que tenga protagonismo la tecnología y la vigilancia, teniendo en cuenta el título que hace referencia a la distopía de &#39;1984&#39; de George Orwell.""",
+        "Ambientada en los años 80s. El mayor deseo de Diana Prince parece ser tener devuelta a Steve Trevor. Esto inexplicablemente parece haberse convertido en realidad, pero la enfrentará a dos nuevos villanos: Max Lord y Cheetah",
+        "En 1984, en plena Guerra Fría, Diana Prince, conocida como Wonder Woman, se enfrenta al empresario Maxwell Lord y a su antigua amiga Barbara Minerva / Cheetah, una villana que posee fuerza y agilidad sobrehumanas.",
+        "Fast forward to the 1980s as Wonder Woman’s next big screen adventure finds her facing two all-new foes: Max Lord and The Cheetah.",
+        "Wonder Woman 1984 is a movie starring Gal Gadot, Chris Pine, and Kristen Wiig. Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient..." ;
+    :duration "150 minutos",
+        "151 minutos",
+        "PT151M",
+        "PT2H31M" ;
+    :genre "Acción",
+        "Action",
+        "Action & Adventure",
+        "Adventure",
+        "Aventura",
+        "Ciencia Ficción",
+        "Fantasy",
+        "Fantasía",
+        "Science Fiction & Fantasy" ;
+    :hasDirector "Patty Jenkins" ;
+    :image "https://m.media-amazon.com/images/M/MV5BYTlhNzJjYzYtNGU3My00ZDI5LTgzZDUtYzllYjU1ZmU0YTgwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+        "https://resizing.flixster.com/m8G6eIbecl1KNYf1yd2lt2F5yX8=/740x380/v1.bjsyNTUxODM4O2o7MTg4Mzk7MTIwMDs0MTIyOzIzMTI",
+        "https://static.metacritic.com/images/products/movies/4/9d1a4650bb42f43a0a781bfa70a7772d.jpg" ;
+    :inLanguage "Inglés subtitulada" ;
+    :keywords "sequel,superhero,dc extended universe,princess,dc comics" ;
+    :name "Wonder Woman 1984" ;
+    :url "No disponible" ;
+    ns1:actor :Alex_Delescu,
+        :Amr_Waked,
+        :Amreen_N._Yaqoob,
+        :Bern_Collaco,
+        :Brittney_Aleah,
+        :Chris_Pine,
+        :Chris_Silcox,
+        :Connie_Nielsen,
+        :Ella_Walker,
+        :Gabriella_Wilde,
+        :Gal_Gadot,
+        :Jamaal_Burcher,
+        :Jamal_Alkhaldi,
+        :Jeff_Moore,
+        :Joel_Morris,
+        :John_Gettier,
+        :Jonathan_Ajayi,
+        :Julian_Ferro,
+        :Justin_Sisk,
+        :Kaila_Ingram,
+        :Kristen_Wiig,
+        :Kristoffer_Polaha,
+        :Lilly_Aspell,
+        :Lolita_Marie,
+        :Lynda_Carter,
+        :Lyon_Beckwith,
+        :Manoj_Anand,
+        :Marisol_Correa,
+        :Marla_Aaron_Wapner,
+        :Monica_Haynes,
+        :Natasha_Rothwell,
+        :Oakley_Bull,
+        :Paul_Ron_Cruz,
+        :Pedro_Pascal,
+        :Penelope_Kapudija,
+        :Ravi_Patel,
+        :Rick_Kelvin_Branch,
+        :Robin_Wright,
+        :Sia_Alipour,
+        :Sonia_Goswami,
+        :Spencer_Trinwith,
+        :Tessa_Bonham_Jones,
+        :Thomas_Clay_Strickland ;
+    ns1:aggregateRating :AggregateRating_0,
+        :AggregateRating_1,
+        :AggregateRating_2,
+        :Tomatometer ;
+    ns1:author :Patty_Jenkins ;
+    ns1:creator :Dave_Callaham,
+        :Geoff_Johns,
+        :Patty_Jenkins,
+        :William_Moulton_Marston,
+        <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#https://www.imdb.com/company/co0002663/>,
+        <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#https://www.imdb.com/company/co0028338/>,
+        <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#https://www.imdb.com/company/co0038332/>,
+        <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#https://www.imdb.com/company/co0283444/>,
+        <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#https://www.imdb.com/company/co0728674/> ;
+    ns1:director :Patty_Jenkins ;
+    ns1:image :ImageObject_0 ;
+    ns1:productionCompany <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#Warner_Bros.>,
+        :Warner_Bros._Pictures ;
+    ns1:publisher :Warner_Bros._Pictures ;
+    ns1:releasedEvent :PublicationEvent_2020-12-18 ;
+    ns1:review :Review_Amy_Nicholson_2021-01-04T03:37:14-08:00,
+        :Review_Andrew_Galdi_2021-03-11T06:02:25-08:00,
+        :Review_Avaryl_Halley_2021-03-11T05:51:39-08:00,
+        :Review_Brian_Gill_2021-02-10T06:48:34-08:00,
+        :Review_Dan_Tabor_2021-02-05T01:55:00-08:00,
+        :Review_David_Bax_2021-03-23T10:02:10-07:00,
+        :Review_David_Sims_2020-12-28T07:45:33-08:00,
+        :Review_Eddie_Harrison_2021-02-07T19:57:42-08:00,
+        :Review_Eric_Marchen_2021-02-17T02:36:51-08:00,
+        :Review_Ian_Simmons_2021-02-05T19:46:31-08:00,
+        :Review_Jake_Wilson_2020-12-28T07:49:06-08:00,
+        :Review_Jennifer_Ouellette_2021-02-11T02:38:41-08:00,
+        :Review_John_McDonald_2021-01-31T18:14:33-08:00,
+        :Review_Kevin_Carr_2021-04-03T14:11:59-07:00,
+        :Review_Mark_Jackson_2021-02-02T10:00:09-08:00,
+        :Review_Mark_Meszoros_2021-02-13T23:57:56-08:00,
+        :Review_Matt_Neal_2021-01-31T17:01:54-08:00,
+        :Review_Nina_Garin_2021-03-01T08:14:02-08:00,
+        :Review_Rafer_Guzman_2021-01-04T04:59:29-08:00,
+        :Review_Sarah_Ward_2021-02-21T08:36:54-08:00,
+        :Review_Sheri_Flanders_2021-02-01T04:29:30-08:00,
+        :Review_Stephen_Romei_2020-12-29T12:09:48-08:00,
+        :Review_Tony_Medley_2021-02-22T06:02:11-08:00,
+        :Review_Valerie_Kalfrin_2021-03-20T08:54:50-07:00,
+        :Review_zeki-4_2021-01-02 ;
+    ns1:trailer :Stream_on_HBO_Max_for_a_Limited_Time,
+        <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#Wonder_Woman_1984_(Trailer_2)> .
+
+:animación a ns1:Person ;
+    :name "animación" .
+
+ns1:ImageObject a owl:Class .
+
+:13:00 a ns1:Schedule ;
+    :startTime "13:00:00"^^xsd:time .
+
+:23:10 a ns1:Schedule ;
+    :startTime "23:10:00"^^xsd:time .
+
+:Chaos_Walking a ns1:Movie ;
+    :contentRating "Apta mayores de 13 años",
+        "P-13" ;
+    :countryOfOrigin "EEUU",
+        "Estados Unidos" ;
+    :description "En Prentisstown, Todd ha crecido creyendo que la \"Masilla\" fue la responsable de liberar un germen que asesinó a todas las mujeres y contagió con el \"ruido\" al resto de los hombres. Tras descubrir un remanso de silencio en un pantano, sus padres adoptivos le obligan a huir lo más rápido que pueda, dejando todo atrás salvo un mapa del Nuevo Mundo y un mensaje, así como un sinfín de preguntas sin responder. Pronto descubre la fuente del silencio: una chica llamada Viola. Los dos deben avisar lo antes posible sobre la inminente llegada de una nave para que el intendente Prentiss pueda preparar un ejército para la guerra.",
+        "En un futuro no muy lejano, en un mundo donde las mujeres han desaparecido y los hombres han sido afectados por “el ruido” – una fuerza que exhibe todos sus pensamientos – Todd Hewitt (Tom Holland) se encuentra con Viola (Daisy Ridley), una joven misteriosa que ha aterrizado en su planeta. Con Viola bajo riesgo, Todd jura protegerla y ponerla fuera de peligro. Para salvarla Todd tendrá que controlar su “ruido”, descubrir su propia fuerza y desbloquear todos los obscuros secretos que guarda su planeta y su comunidad. Del director de Identidad Desconocida (The Bourne Identity) y Al Filo del Mañana (Edge of Tomorrow), basada en la novela bestseller, El Cuchillo en la Mano del escritor Patrick Ness. Tom Holland y Daisy Ridely protagonizan junto con David Oyelowo, Nick Jonas, Mads Mikkelsen y Demián Bichir. Caos: El Inicio (Chaos Walking) llegará a los cines en 2021." ;
+    :duration "109 minutos",
+        "110 minutos" ;
+    :genre "Acción",
+        "Aventura",
+        "Ciencia Ficción",
+        "Thriller" ;
+    :hasDirector "Doug Liman" ;
+    :inLanguage "Inglés subtitulada" ;
+    :url "No disponible" ;
+    ns1:actor :Cynthia_Erivo,
+        :Daisy_Ridley,
+        :David_Oyelowo,
+        :Demián_Bichir,
+        :Kurt_Sutter,
+        :Mads_Mikkelsen,
+        :Nick_Jonas,
+        :Ray_McKinnon,
+        :Tom_Holland,
+        :Óscar_Jaenada ;
+    ns1:productionCompany :BF_Paris .
+
+:HABITACION_212 a ns1:Movie ;
+    :contentRating "Apta mayores de 13 años" ;
+    :countryOfOrigin "Francia" ;
+    :description "Tras 20 años de matrimonio, Maria decide dejarlo todo atrás y empezar una nueva vida. El primer paso es hospedarse en la habitación 212 de un hotel próximo a la casa en la que vivía junto a su familia. Con el paso del tiempo, comienza a preguntarse si ha tomado la decisión correcta." ;
+    :duration "87 minutos" ;
+    :genre "Comedia dramática" ;
+    :hasDirector "Christophe Honoré" ;
+    :inLanguage "Francés subtitulado" ;
+    :url "No disponible" ;
+    ns1:actor :Benjamin_Biolay,
+        :Camille_Cottin,
+        :Carole_Bouquet,
+        :Chiara_Mastroianni,
+        :Marie-Christine_Adam,
+        :Vincent_Lacoste .
+
+:CLASSIC_2D_ESPAÑOL_23:00 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :23:00 ;
+    ns1:workPresented :Chaos_Walking,
+        :Godzilla_vs._Kong .
+
+:22:45 a ns1:Schedule ;
+    :startTime "22:45",
+        "22:45:00"^^xsd:time .
+
+:23:00 a ns1:Schedule ;
+    :startTime "23:00",
+        "23:00:00"^^xsd:time .
+
+:Promising_young_woman a ns1:Movie ;
+    :contentRating "ATP",
+        "Apta mayores de 16 años" ;
+    :countryOfOrigin "EEUU",
+        "Estados Unidos" ;
+    :description "De la innovadora directora Emerald Fennell (Killing Eve) llega una deliciosa nueva visión sobre la venganza. Todos dicen que Cassie (Carey Mulligan) era una prometedora mujer joven...hasta que un misterioso suceso abruptamente descarrilló su futuro. Pero nada en la vida de Cassie es lo que aparenta ser: ella es pícaramente inteligente, atormentadoramente astuta y vive una secreta doble vida por la noche. Ahora, un encuentro inesperado está a punto de darle a Cassie la posibilidad de reparar los errores del pasado en esta fascinante y totalmente divertida historia.",
+        "Una joven mujer traumatizada por un evento trágico ocurrido en su pasado, busca venganza contra los hombres que se cruzaron por su camino." ;
+    :duration "113 minutos",
+        "117 minutos" ;
+    :genre "Crimen",
+        "Drama",
+        "Thriller" ;
+    :hasDirector "Emerald Fennell" ;
+    :inLanguage "Inglés subtitulada" ;
+    :url "No disponible" ;
+    ns1:actor :Adam_Brody,
+        :Alison_Brie,
+        :Bo_Burnham,
+        :Carey_Mulligan,
+        :Christopher_Mintz-Plasse,
+        :Clancy_Brown,
+        :Connie_Britton,
+        :Jennifer_Coolidge,
+        :Laverne_Cox,
+        :Max_Greenfield,
+        :Molly_Shannon,
+        :Sam_Richardson ;
+    ns1:productionCompany :UIP .
+
+ns1:VideoObject a owl:Class .
+
+:CLASSIC_2D_SUBTITULADO_20:00 a ns1:ScreeningEvent ;
+    :videoFormat "2D" ;
+    ns1:eventSchedule :20:00 ;
+    ns1:workPresented :Demon_Slayer_Mugen_Train .
+
+:Trolls_2 a ns1:Movie ;
+    :contentRating "N/A" ;
+    :countryOfOrigin "Estados Unidos" ;
+    :description "En una aventura que les llevará más allá de todo lo que habían conocido, Poppy y Branch descubren que su tribu de Trolls es solo una de las seis que existen, que el resto están repartidas en seis reinos y consagradas a seis tipos distintos de música: funk, country, tecno, clásica, pop y rock. La reina Bárbara, miembro de la realeza del hard rock, y su padre, el Rey Metal, quieren acabar con el resto de géneros musicales e imponer el reinado del rock. Con el destino del mundo en juego, Poppy y Branch, junto con el resto de la pandilla — Grandullón, Chanelle, Satén, Cooper y Guy Diamante—, visitarán los demás reinos para unir a los Trolls contra los planes de Barb de eclipsarlos a todos." ;
+    :duration "90 minutos" ;
+    :genre "Animación",
+        "Aventura",
+        "Comedia",
+        "Familia",
+        "Fantasía",
+        "Música" ;
+    :hasDirector "Walt Dohrn" ;
+    ns1:actor :Anna_Kendrick,
+        :Anthony_Ramos,
+        :Chance_the_Rapper,
+        :Flula_Borg,
+        :James_Corden,
+        :Jamie_Dornan,
+        :Justin_Timberlake,
+        :Karan_Soni,
+        :Kunal_Nayyar,
+        :Sam_Rockwell ;
+    ns1:productionCompany :UIP .
+
+ns1:AggregateRating a owl:Class .
+
+:RAYA_Y_EL_ULTIMO_DRAGON a ns1:Movie ;
+    :contentRating "Apta todo público C/L" ;
+    :countryOfOrigin "EEUU" ;
+    :description "Ambientada en el sudeste asiático, la cinta sigue la historia de Raya, una niña de un gran espíritu aventurero que vive en un reino llamado Kumandra. Este lejano y recóndito territorio está habitado por una civilización milenaria. Cinco son los clanes que forman esta tierra conocida como la del dragón y Raya, con el objetivo de devolver el equilibrio a su tierra, será la encargada de encontrar al último de los dragones en la mayor aventura de su vida." ;
+    :duration "114 minutos" ;
+    :genre "Animación" ;
+    :hasDirector "Don Hall, Carlos Lopez Estrada, Paul Briggs" ;
+    :inLanguage "Castellano" ;
+    :url "No disponible" ;
+    ns1:actor :Awkwafina,
+        :Daniel_Dae_Kim,
+        :Kelly_Marie_Tran .
+
+ns1:MovieTheater a owl:Class .
+
+:New_Mutants a ns1:Movie ;
+    :contentRating "Apta mayores de 13 años",
+        "P-13" ;
+    :countryOfOrigin "EEUU",
+        "Estados Unidos" ;
+    :description """Encerrados contra su voluntad en una institución secreta, 5 jóvenes mutantes descubren sus poderosas habilidades. Están bajo el estudio y análisis de la Doctora Cecilia Reyes quién tiene como objetivo curarlos.\r
+Wolfsbane, Cannonball, Magik, Mirage y Sunspot deberán enfrentar sus miedos, poderes y peligros que los rodean para intentar escapar a su pasado y salvarse a si mismos.""",
+        "La historia de los Nuevos Mutantes, un equipo de héroes mutantes formado por los primeros graduados de la escuela de Charles Xavier." ;
+    :duration "98 minutos" ;
+    :genre " Terror",
+        "Acción",
+        "Ciencia Ficción",
+        "Comedia ",
+        "Terror" ;
+    :hasDirector "Josh Boone" ;
+    :inLanguage "Inglés subtitulada" ;
+    :url "No disponible" ;
+    ns1:actor :Alice_Braga,
+        :Antonio_Banderas,
+        :Anya_Taylor-Joy,
+        :Blu_Hunt,
+        :Charlie_Heaton,
+        :Happy_Anderson,
+        :Henry_Zaga,
+        :Jeffrey_Corazzini,
+        :Maisie_Williams,
+        :Mickey_Gilmore,
+        :Rosario_Dawson,
+        :Thomas_Kee ;
+    ns1:productionCompany :20th_Fox .
+
+:Tom_and_Jerry a ns1:Movie ;
+    :contentRating "ATP",
+        "Apta todo público" ;
+    :countryOfOrigin "EEUU",
+        "Estados Unidos" ;
+    :description """Película del clásico dibujo animado de Tom y Jerry que mezcla live-action con animación. \r
+Jerry se muda al hotel más lujoso de Nueva York justo antes del "casamiento del siglo"; la coordinadora de la ceremonia, desesperada, no tiene más opción que contratar a Tom para eliminar a Jerry. Esto desata una batalla entre gato y ratón que amenaza con destruir la carrera de la coordinadora, la ceremonia e incluso quizás el hotel mismo.\r
+Pero pronto surge un problema más grave: un empleado ambicioso y diabólico que conspira contra los tres.""",
+        "Tom el gato y Jerry el ratón son expulsados de su casa y se trasladan a un elegante hotel de Nueva York, donde una empleada descuidada llamada Kayla perderá su trabajo si no puede desalojar a Jerry antes de una boda de clase alta en el hotel. ¿Su solución? Contratar a Tom para deshacerse del molesto ratón." ;
+    :duration "101 minutos" ;
+    :genre "Acción",
+        "Animación",
+        "Aventura",
+        "Comedia",
+        "Familia" ;
+    :hasDirector "Tim Story" ;
+    :inLanguage "Inglés subtitulada" ;
+    :url "No disponible" ;
+    ns1:actor :Bobby_Cannavale,
+        :Chloë_Grace_Moretz,
+        :Frank_Welker,
+        :June_Foray,
+        :Lil_Rel_Howery,
+        :Mel_Blanc,
+        :Michael_Peña,
+        :Nicky_Jam,
+        :T-Pain,
+        :William_Hanna,
+        :animación ;
+    ns1:productionCompany :Warner .
+
+ns1:Review a owl:Class .
+
+:Godzilla_vs._Kong a ns1:Movie ;
+    :contentRating "Apta mayores de 13 años",
+        "P-13" ;
+    :countryOfOrigin "EEUU",
+        "Estados Unidos" ;
+    :description "Godzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por todo tipo de aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad. Monarch (Kyle Chandler) se embarca en una misión de alto riesgo y pone rumbo hacia territorios inexplorados para descubrir los orígenes de estos dos titanes, en un último esfuerzo por tratar de salvar a dos bestias que parecen tener las horas contadas sobre la faz de la Tierra.",
+        "Godzilla y Kong, dos de las fuerzas más poderosas de un planeta habitado por todo tipo de aterradoras criaturas, se enfrentan en un espectacular combate que sacude los cimientos de la humanidad. Monarch se embarca en una misión de alto riesgo y pone rumbo hacia territorios inexplorados para descubrir los orígenes de estos dos titanes, en un último esfuerzo por tratar de salvar a dos bestias que parecen tener las horas contadas sobre la faz de la Tierra." ;
+    :duration "113 minutos",
+        "117 minutos" ;
+    :genre "Acción",
+        "Aventura",
+        "Ciencia Ficción",
+        "Thriller" ;
+    :hasDirector "Adam Wingard" ;
+    :inLanguage "Inglés subtitulada" ;
+    :url "No disponible" ;
+    ns1:actor :Alexander_Skarsgård,
+        :Brian_Tyree_Henry,
+        :Demian_Bichir,
+        :Demián_Bichir,
+        :Eiza_González,
+        :Jessica_Henwick,
+        :Julian_Dennison,
+        :Kyle_Chandler,
+        :Millie_Bobby_Brown,
+        :Rebecca_Hall,
+        :Shun_Oguri ;
+    ns1:productionCompany <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#Warner_Bros.> .
+
+ns1:Rating a owl:Class .
+
+ns1:Movie a owl:Class .
+
+ns1:Organization a owl:Class .
+
+ns1:Schedule a owl:Class .
+
+ns1:ScreeningEvent a owl:Class .
+
+ns1:Person a owl:Class .
+
+
