@@ -1,5 +1,6 @@
 from rdflib import Graph, Namespace
 from rdflib.namespace import OWL
+from time import sleep
 from sys import argv, exit
 from SPARQLWrapper import SPARQLWrapper, XML
 
@@ -102,9 +103,14 @@ def main():
 
     output = load_input(argv[1])
 
+    bedtime_counter = 0
     for person, name in get_persons(output):
+        bedtime_counter += 1
         graph = merge_graphs(output, query_wikidata(name.toPython()), person)
         graph = merge_graphs(output, query_dbpedia(name.toPython()), person)
+        if bedtime_counter % 30 == 0:   # avoid wikidata's limit
+            sleep(60)
+
 
     print(output.serialize(format="turtle").decode("utf-8"))
 
