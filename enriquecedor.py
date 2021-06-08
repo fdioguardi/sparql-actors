@@ -1,12 +1,13 @@
 from rdflib import Graph, Namespace
-from rdflib.namespace import OWL
+from rdflib.namespace import OWL, RDF
 from time import sleep
 from sys import argv, exit
 from SPARQLWrapper import SPARQLWrapper, XML
 
-WIKIDATA_PROP = Namespace("http://www.wikidata.org/prop/direct/")
-WIKIDATA_ENTITY = Namespace("http://www.wikidata.org/entity/")
+DBO = Namespace("http://dbpedia.org/ontology/")
 SCHEMA = Namespace("https://schema.org/")
+WD = Namespace("http://www.wikidata.org/entity/")
+WDT = Namespace("http://www.wikidata.org/prop/direct/")
 HOMEBREW = Namespace(
     "https://raw.githubusercontent.com/fdioguardi/"
     + "movies_ontology/master/movie.ttl#"
@@ -36,7 +37,11 @@ def request_query(url, query):
     sparql = SPARQLWrapper(url)
     sparql.setQuery(query)
     sparql.setReturnFormat(XML)
-    return sparql.query().convert()
+    try:
+        return sparql.query().convert()
+    except:
+        sleep(120)
+        return sparql.query().convert()
 
 
 def query_wikidata(name):
@@ -96,7 +101,7 @@ def merge_graphs(graph, external_graph, person):
     return graph
 
 
-def query_academy_winners_wikidata(actor):
+def query_academy_winners_wikidata():
     query = """
     PREFIX homebrew: <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#>
     CONSTRUCT {
@@ -109,35 +114,27 @@ def query_academy_winners_wikidata(actor):
       ?film wdt:P31 wd:Q11424; # is movie
         wdt:P57 ?director; # has director
         wdt:P161 ?actor. # has actor
-
-      ?actor wdt:P106 wd:Q33999. # is an actor
-
-      FILTER(?actor = "%s"@en)
     }
-    """ % actor
+    """
 
     return request_query("https://query.wikidata.org/sparql", query)
 
 
-def query_academy_winners_dbpedia(actor):
+def query_academy_winners_dbpedia():
     query = """
     PREFIX homebrew: <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#>
     CONSTRUCT {
       ?actor homebrew:wasDirectedByOscarWinner ?director
     }
     WHERE {
-      ?director wdt:P106 wd:Q2526255; # is director
-        (wdt:P166/(wdt:P31?)) wd:Q19020. # has oscar
+        ?movie dbo:director ?director;
+                    dbo:starring ?actor;
+                    rdf:type dbo:Film.
 
-      ?film wdt:P31 wd:Q11424; # is movie
-        wdt:P57 ?director; # has director
-        wdt:P161 ?actor. # has actor
-
-      ?actor wdt:P106 wd:Q33999. # is an actor
-
-      FILTER(?actor = "%s"@en)
+        ?director dct:subject ?subject.
+       FILTER(REGEX(?subject, "Academy_Award_winners", "i"))
     }
-    """ % actor
+    """
 
     return request_query("http://dbpedia.org/sparql", query)
 
@@ -152,43 +149,38 @@ def main():
     output = load_input(argv[1])
 
     for person, name in get_persons(output):
-        try:
-            merge_graphs(
-                output, query_wikidata(name.toPython()), person
-            )
-            merge_graphs(
-                output, query_dbpedia(name.toPython()), person
-            )
-        except:
-            sleep(120)
-            merge_graphs(
-                output, query_wikidata(name.toPython()), person
-            )
-            merge_graphs(
-                output, query_dbpedia(name.toPython()), person
-            )
+        merge_graphs(output, query_wikidata(name.toPython()), person)
+        merge_graphs(output, query_dbpedia(name.toPython()), person)
 
     ###########################################################
 
-    wiki_actors = output.subjects(predicate=WIKIDATA_PROP.P106, object=WIKIDATA_ENTITY.Q10800557)
-    db_actors = output.subjects(predicate=WIKIDATA_PROP.P106, object=WIKIDATA_ENTITY.Q10800557)
+    if (
+        HOMEBREW["wasDirectedByOscarWinner"],
+        RDF.type,
+        OWL.ObjectProperty,
+    ) not in output:
+        output.add(
+            (
+                HOMEBREW["wasDirectedByOscarWinner"],
+                RDF.type,
+                OWL.ObjectProperty,
+            )
+        )
 
-    for actor in wiki_actors:
-        try:
-            output += query_academy_winners_wikidata(actor)
-        except:
-            sleep(120)
-            output += query_academy_winners_wikidata(actor)
+    # el tamaño del grafo es manejable, no se necesitan varias consultas
+    stellar_graph = (
+        query_academy_winners_dbpedia() + query_academy_winners_wikidata()
+    )
 
-    for actor in db_actors:
-        if not (actor, HOMEBREW.wasDirectedByOscarWinner, None) in output:
-            try:
-                output += query_academy_winners_dbpedia(actor)
-            except:
-                sleep(120)
-                output += query_academy_winners_wikidata(actor)
+    subjects = list(
+        output.subjects(predicate=WDT.P31, object=WD.Q5)
+    ) + list(output.triples((None, RDF.type, DBO.Person)))
 
-    ###########################################################
+    for actor, _, director in stellar_graph:
+        if (actor in subjects) and (director in subjects):
+            output.add((actor, HOMEBREW.wasDirectedByOscarWinner, director))
+
+###########################################################
 
     print(output.serialize(format="turtle").decode("utf-8"))
 
