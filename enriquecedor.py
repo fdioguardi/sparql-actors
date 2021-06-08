@@ -4,6 +4,8 @@ from time import sleep
 from sys import argv, exit
 from SPARQLWrapper import SPARQLWrapper, XML
 
+WIKIDATA_PROP = Namespace("http://www.wikidata.org/prop/direct/")
+WIKIDATA_ENTITY = Namespace("http://www.wikidata.org/entity/")
 SCHEMA = Namespace("https://schema.org/")
 HOMEBREW = Namespace(
     "https://raw.githubusercontent.com/fdioguardi/"
@@ -39,13 +41,13 @@ def request_query(url, query):
 
 def query_wikidata(name):
     query = (
-    """
+        """
     CONSTRUCT {
       ?person ?predicate ?object
     }
     WHERE {
       ?person wdt:P31|wdt:P279 wd:Q5;
-              ?label "%s";
+              ?label "%s"@en;
               ?predicate ?object.
     }
     """
@@ -65,7 +67,7 @@ def query_dbpedia(name):
       ?person rdf:type dbo:Person;
               dbo:birthName|foaf:name ?name;
               ?predicate ?object.
-      FILTER(REGEX(?name, "%s", "e")).
+      FILTER(REGEX(?name, "%s"@en, "e")).
     }
     """
         % name
@@ -79,7 +81,7 @@ def get_subject(graph):
         """
         SELECT DISTINCT ?subject
         WHERE {
-          ?subject?predicate ?object
+          ?subject ?predicate ?object
         } LIMIT 1
         """
     )
@@ -94,6 +96,52 @@ def merge_graphs(graph, external_graph, person):
     return graph
 
 
+def query_academy_winners_wikidata(actor):
+    query = """
+    PREFIX homebrew: <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#>
+    CONSTRUCT {
+      ?actor homebrew:wasDirectedByOscarWinner ?director
+    }
+    WHERE {
+      ?director wdt:P106 wd:Q2526255; # is director
+        (wdt:P166/(wdt:P31?)) wd:Q19020.# has oscar
+
+      ?film wdt:P31 wd:Q11424; # is movie
+        wdt:P57 ?director; # has director
+        wdt:P161 ?actor. # has actor
+
+      ?actor wdt:P106 wd:Q33999. # is an actor
+
+      FILTER(?actor = "%s"@en)
+    }
+    """ % actor
+
+    return request_query("https://query.wikidata.org/sparql", query)
+
+
+def query_academy_winners_dbpedia(actor):
+    query = """
+    PREFIX homebrew: <https://raw.githubusercontent.com/fdioguardi/movies_ontology/master/movie.ttl#>
+    CONSTRUCT {
+      ?actor homebrew:wasDirectedByOscarWinner ?director
+    }
+    WHERE {
+      ?director wdt:P106 wd:Q2526255; # is director
+        (wdt:P166/(wdt:P31?)) wd:Q19020. # has oscar
+
+      ?film wdt:P31 wd:Q11424; # is movie
+        wdt:P57 ?director; # has director
+        wdt:P161 ?actor. # has actor
+
+      ?actor wdt:P106 wd:Q33999. # is an actor
+
+      FILTER(?actor = "%s"@en)
+    }
+    """ % actor
+
+    return request_query("http://dbpedia.org/sparql", query)
+
+
 def main():
     if len(argv) != 2:
         print(
@@ -103,14 +151,44 @@ def main():
 
     output = load_input(argv[1])
 
-    bedtime_counter = 0
     for person, name in get_persons(output):
-        bedtime_counter += 1
-        graph = merge_graphs(output, query_wikidata(name.toPython()), person)
-        graph = merge_graphs(output, query_dbpedia(name.toPython()), person)
-        if bedtime_counter % 30 == 0:   # avoid wikidata's limit
-            sleep(60)
+        try:
+            merge_graphs(
+                output, query_wikidata(name.toPython()), person
+            )
+            merge_graphs(
+                output, query_dbpedia(name.toPython()), person
+            )
+        except:
+            sleep(120)
+            merge_graphs(
+                output, query_wikidata(name.toPython()), person
+            )
+            merge_graphs(
+                output, query_dbpedia(name.toPython()), person
+            )
 
+    ###########################################################
+
+    wiki_actors = output.subjects(predicate=WIKIDATA_PROP.P106, object=WIKIDATA_ENTITY.Q10800557)
+    db_actors = output.subjects(predicate=WIKIDATA_PROP.P106, object=WIKIDATA_ENTITY.Q10800557)
+
+    for actor in wiki_actors:
+        try:
+            output += query_academy_winners_wikidata(actor)
+        except:
+            sleep(120)
+            output += query_academy_winners_wikidata(actor)
+
+    for actor in db_actors:
+        if not (actor, HOMEBREW.wasDirectedByOscarWinner, None) in output:
+            try:
+                output += query_academy_winners_dbpedia(actor)
+            except:
+                sleep(120)
+                output += query_academy_winners_wikidata(actor)
+
+    ###########################################################
 
     print(output.serialize(format="turtle").decode("utf-8"))
 
