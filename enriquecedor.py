@@ -172,15 +172,17 @@ def main():
         query_academy_winners_dbpedia() + query_academy_winners_wikidata()
     )
 
-    subjects = list(
-        output.subjects(predicate=WDT.P31, object=WD.Q5)
-    ) + list(output.triples((None, RDF.type, DBO.Person)))
+    subjects = (
+        list(output.subjects(predicate=WDT.P31, object=WD.Q5))
+        + list(output.subjects(predicate=WDT.P279, object=WD.Q5))
+        + list(output.subjects(predicate=RDF.type, object=DBO.Person))
+    )
 
     for actor, _, director in stellar_graph:
         if (actor in subjects) and (director in subjects):
             output.add((actor, HOMEBREW.wasDirectedByOscarWinner, director))
 
-###########################################################
+    ###########################################################
 
     print(output.serialize(format="turtle").decode("utf-8"))
 
